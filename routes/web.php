@@ -3,25 +3,40 @@
 *【路由】
 *@author 普擎科技
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('foo', function () {
+Route::get('test', function () {
     return 'Hello World';
 });
 
-
-
-//前台目录
+/**
+ *[前台目录]
+ */
 Route::namespace('index')->group(function () {
+    /*=======================[首页]=============================*/
+    Route::get('/', 'IndexController@index');
 
-    
+    /*=======================[网站建设]=============================*/
+    Route::get('/web', 'WebController@index');
+
+    /*=======================[微信开发]=============================*/
+    Route::get('/wechat', 'WechatController@index');
+
+    /*=======================[软件定制]=============================*/
+    Route::get('/app', 'AppController@index');
+
+    /*=======================[成功案例]=============================*/
+    Route::get('/case', 'CaseController@index');
+
+    /*=======================[新闻资讯]=============================*/
+    Route::get('/news', 'NewsController@index');
+
+    /*=======================[关于普擎]=============================*/
+    Route::get('/about', 'AboutController@index');
 
 });
 
-//后台目录
+/**
+ *[后台目录]
+ */
 Route::namespace('pqadmin')->group(function () {
     //跳转提示页
     Route::resource('pqadmin/prompt','PromptController');
