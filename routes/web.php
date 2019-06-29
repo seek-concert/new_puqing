@@ -12,25 +12,25 @@ Route::get('test', function () {
  */
 Route::namespace('index')->group(function () {
     /*=======================[首页]=============================*/
-    Route::get('/', 'IndexController@index');
+    Route::any('/', 'IndexController@index');
 
     /*=======================[网站建设]=============================*/
-    Route::get('/web', 'WebController@index');
+    Route::any('/web', 'WebController@index');
 
     /*=======================[微信开发]=============================*/
-    Route::get('/wechat', 'WechatController@index');
+    Route::any('/wechat', 'WechatController@index');
 
     /*=======================[软件定制]=============================*/
-    Route::get('/app', 'AppController@index');
+    Route::any('/app', 'AppController@index');
 
     /*=======================[成功案例]=============================*/
-    Route::get('/case', 'CaseController@index');
+    Route::any('/case', 'CaseController@index');
 
     /*=======================[新闻资讯]=============================*/
-    Route::get('/news', 'NewsController@index');
+    Route::any('/news', 'NewsController@index');
 
     /*=======================[关于普擎]=============================*/
-    Route::get('/about', 'AboutController@index');
+    Route::any('/about', 'AboutController@index');
 
 });
 
