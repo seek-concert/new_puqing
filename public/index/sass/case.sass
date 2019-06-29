@@ -1,0 +1,175 @@
+@import './common'
+
+
+.main-body
+  max-width: 105rem /* 1680/16 */
+  width: 100%
+  position: relative
+  padding-top: 1.25rem /* 20/16 */
+  padding-bottom: 3.75rem /* 60/16 */
+
+.case-banner
+  min-height: 24.875rem /* 398/16 */
+  width: 100%
+  background: rgba(0,0,0,.51) url('../images/case/bannerbg.png') no-repeat center center
+  background-size: cover
+  &-content
+    min-height: 24.875rem /* 398/16 */
+    padding-top: 5rem /* 80/16 */
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    &__item
+      color: #ffffff
+      text-align: center
+      margin: 0 1.25rem /* 20/16 */
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      &:hover,&.active
+        color: #ffffff
+        text-decoration: none
+        .iconfont
+          background: #ffffff
+          color: $mainColor
+    &__icon
+      width: 6.5rem /* 104/16 */
+      height: 6.5rem /* 104/16 */
+      line-height: 6.25rem /* 100/16 */
+      font-size: 3.75rem /* 60/16 */
+      border: 1px solid #f8f8f8
+      border-radius: 50%
+      margin-bottom: .9375rem /* 15/16 */
+    &__title
+      font-size: 1.25rem /* 20/16 */
+      opacity: .8
+
+.case-title
+  width: 100%
+  height: 3.75rem /* 60/16 */
+  background: $defaultColor
+  font-size: 1.875rem /* 30/16 */
+  display: flex
+  align-items: center
+  margin-bottom: 1.5625rem /* 25/16 */
+  &-num
+    line-height: 3.75rem /* 60/16 */
+    font-size: 3.25rem /* 52/16 */
+    color: #c1bbaa
+  &-line
+    position: relative
+    display: block
+    height: 2.5rem /* 40/16 */
+    width: .1875rem /* 3/16 */
+    background: #c1bbaa
+    transform: rotate(20deg)
+    margin-left: .3125rem /* 5/16 */
+    top: .125rem /* 2/16 */
+  &-name
+    padding-left: .9375rem /* 15/16 */
+
+.case-content
+  box-sizing: border-box
+  width: 100%
+  overflow: hidden 
+  margin-bottom: 3.125rem /* 50/16 */
+  .news-case
+    color: #333333
+    text-decoration: none
+    border: 1px solid #ebebeb
+    transition: all .3s ease-in-out
+    margin-bottom: 1.25rem /* 20/16 */
+    &:hover
+      transform: translateY(- .25rem /* 4/16 */)
+      text-decoration: none
+      box-shadow: 1px 2px 5px #ebebeb
+
+.case-news
+  margin-top: 1.25rem /* 20/16 */
+  width: 100%
+  margin-left: 0
+  margin-right: 0
+  &-item
+    position: relative
+    margin-bottom: 1rem /* 16/16 */
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &:before
+      position: absolute  
+      content: ""
+      width:  .25rem /* 4/16 */
+      height: .25rem /* 4/16 */
+      border-radius: 50%
+      background: #000000
+      left: .375rem /* 6/16 */
+      top: .8125rem /* 13/16 */
+    &:after
+      position: absolute  
+      content: ""
+      width:  96%
+      height: .125rem /* 2/16 */
+      background: #eeeeee
+      bottom: 0
+      right: .9375rem /* 15/16 */
+    &:hover,&:hover a
+      color: $mainColor
+    a
+      line-height: 2rem /* 32/16 */
+      color: #707070
+      text-decoration: none
+      white-space: nowrap
+      overflow: hidden
+      text-overflow: ellipsis
+      flex: 1
+      padding-right: 1.25rem /* 20/16 */
+    span
+      width: 7.5rem /* 120/16 */
+
+@media (max-width: 1199.98px)
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px)
+ 
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px)
+  .main-body
+    padding-top: .625rem /* 10/16 */
+    padding-bottom: 1.25rem /* 20/16 */
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px)
+  .case-banner
+    &-content
+      &__item
+        margin: 0
+        width: 33.33%
+      &__icon
+        width: 3.75rem /* 60/16 */
+        height: 3.75rem /* 60/16 */
+        line-height: 3.75rem /* 60/16 */
+        font-size: 1.875rem /* 30/16 */ 
+      &__title
+        font-size: 1rem /* 16/16 */
+
+  .case-title
+    height: 2.5rem /* 40/16 */
+    font-size: 1.375rem /* 22/16 */
+    &-num
+      font-size: 1.625rem /* 26/16 */
+    &-line
+      height: 2.125rem /* 34/16 */
+      width: .0875rem /* 1.4/16 */
+  .case-content
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto
+      padding-right: 0
+      padding-left: 0
+    .card-body
+      padding: .8rem
+    .card-title
+      font-size: 1rem
+  .news-case
+    margin-left: .25rem /* 4/16 */
+    margin-right: .25rem /* 4/16 */

@@ -1,0 +1,386 @@
+@import './common'
+
+.bus-wrap,.case-wrap,.solu-wrap,.news-wrap,.about-wrap
+  height: 100%
+
+.banner
+  background: linear-gradient(to right, #41dace, #347ce1)
+  position: relative
+  height: 100%
+  width: 100%
+  overflow: hidden
+  img
+    width: 100%
+    height: auto
+  .swiper-pagination-h
+    .swiper-pagination-bullet
+      height: .5rem /* 8/16 */
+      width: 2.125rem /* 34/16 */
+      border-radius: .1875rem /* 3/16 */
+      cursor: pointer
+      background: #ffffff
+    .swiper-pagination-bullet-active
+      width: 3.5625rem /* 57/16 */
+      background: #ffffff
+.main-section
+  display: flex
+  flex-direction: column
+  align-items: center
+  padding: 5.5rem 0 2.5rem 0
+  &-line
+    position: relative
+    max-width: 31.25rem /* 500/16 */
+    width: 100%
+    height: .1875rem /* 3/16 */
+    background: #cfcfcf
+    margin-bottom: .5rem /* 8/16 */
+    span
+      position: absolute
+      width: 3.75rem /* 60/16 */
+      height: .25rem /* 4/16 */
+      top: -.0625rem /* 1/16 */
+      left: 50%
+      background: #027bee
+      transform: translateX(-50%)
+  &-title
+    font-size: 1.875rem /* 30/16 */ 
+/* 一般item */
+.wrap-item
+  position: relative
+  height: 18.25rem /* 292/16 */
+  max-width: 29rem /* 464/16 */
+  width: 100%
+  margin: 0 auto
+  color: #fff
+  transition: all .3s ease-in-out
+  cursor: pointer
+  overflow: hidden
+  border-radius: .375rem /* 6/16 */
+  &.bus-item-bg1
+    background: url('../images/bus1.jpg') no-repeat 100%
+  &.bus-item-bg2
+    background: url('../images/bus2.jpg') no-repeat 100%
+  &.bus-item-bg3
+    background: url('../images/bus3.jpg') no-repeat 100%
+  &.bus-item-bg4
+    background: url('../images/bus4.png') no-repeat 100%
+  &.bus-item-bg5
+    background: url('../images/bus5.png') no-repeat 100%
+  &.bus-item-bg6
+    background: url('../images/bus6.png') no-repeat 100%
+  &-content
+    width: 100%
+    height: 100%
+  .tags-line
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    font-size: 1rem /* 16/16 */
+    margin-bottom: .875rem /* 14/16 */
+    &:before
+      content: "—"
+      margin-right: .9375rem /* 15/16 */
+  &:hover
+    transform: translateY(-10px)
+    box-shadow: 0 6px 18px 0 rgba(232,237,250,.6)
+
+/* 开发业务 */
+.bus-wrap
+  // margin: 0 3.75rem /* 60/16 */ 11.25rem /* 180/16 */
+  background: #ffffff
+  .wrap-item 
+    &-content
+      padding: 3rem
+      overflow: hidden
+      p:first-child
+        margin-right: 3rem
+        margin-bottom: 0
+
+/* 成功案例 */
+.case-wrap
+  width: 100%
+  background: #e6f9ff
+  .wrap-item
+    height: 14.9375rem /* 239/16 */
+    max-width: 25.25rem /* 404/16 */
+  .case-box
+    position: absolute
+    width: 100%
+    height: 100%
+    &:hover>.case-a
+      z-index: 1
+      transform: scale(1)
+    .case-a
+      position: absolute
+      display: block
+      width: 100%
+      height: 100%
+      color: #ffffff
+      top: 0
+      left: 0
+      z-index: -1
+      transform: scale(1.2)
+      transition: all .3s
+      &:before
+        content: " "
+        display: block
+        width: 100%
+        height: 100%
+        background: rgba(30,106,213,.82) url('../images/search.png') no-repeat center
+      &:after
+        content: "查看详情"
+        position: absolute
+        font-size: 1.25rem /* 20/16 */
+        font-weight: 700
+        top: 72%
+        left: 50%
+        color: #ffffff
+        transform: translateX(-50%)
+  .wrap-next
+    width: 12.5rem /* 200/16 */
+    height: 3.25rem /* 52/16 */
+    background: url("../images/next.png") no-repeat center/100%
+    cursor: pointer
+    transition: all .2s
+    &:hover
+      transform: translateX(5px)
+
+/*  解决方案 */
+.solu-wrap
+  width: 100%
+  background: #f3f7ff
+  .card
+    width: 100%
+    max-width: 21.0625rem /* 337/16 */
+    height: 26.0625rem /* 417/16 */
+    border-radius: 1.875rem /* 30/16 */
+    border: none
+    margin: 0 auto
+    transition: all .3s ease-in-out
+    &:hover
+      transform: translateY(-10px)
+      box-shadow: 0 6px 18px 0 rgba(232,237,250,.6)
+    &-img-top
+      display: block
+      width: 9.4375rem /* 151/16 */
+      height: 9.9375rem /* 159/16 */
+      margin: 2.8125rem /* 45/16 */ auto 1.875rem /* 30/16 */
+    &-title
+      text-align: center
+    &-text
+      text-indent: 2em
+      color: #969696
+      overflow: hidden
+      text-overflow: ellipsis
+      display: -webkit-box
+      -webkit-line-clamp: 3
+      -webkit-box-orient: vertical
+
+/* 最新资讯 */
+.news-wrap
+  width: 100%
+  background: #ffffff
+  .news-nav
+    width: 16.75rem /* 268/16 */
+    height: 1.8125rem /* 29/16 */
+    line-height: 1.6875rem
+    border: solid 2px #195fbc
+    border-radius: 1.5625rem /* 25/16 */
+    text-align: center
+    overflow: hidden
+    .nav-item
+      flex: 1
+      a
+        line-height: 1.6875rem
+        padding: 0
+        color: #195fbc
+        &.active
+          background: #195fbc
+          color: #fff
+  .iconfont
+    font-size: 1.875rem /* 30/16 */
+    cursor: pointer
+    color: #e9e9e9
+    &:hover
+      color: #1d7ce6
+  .news-active
+      color: #1d7ce6
+  .news-content
+    display: flex
+    margin: 0 .625rem /* 10/16 */
+    align-items: center
+    justify-content: center
+    flex-wrap: nowrap
+    span
+      display: block
+      width: .375rem /* 6/16 */
+      height: .375rem /* 6/16 */
+      background: #e9e9e9
+      border-radius: 50%
+      margin: 0 .1875rem /* 3/16 */
+      &.active
+        background: #1d7ce6
+  .news-list
+    margin: 0 6.25rem
+  .card
+    width: 100%
+    max-width: 18rem /* 288/16 */
+    border-radius: .5rem /* 8/16 */
+    border: none
+    margin: 0 auto
+    transition: all .3s ease-in-out
+    &:hover
+      transform: translateY(-10px)
+      box-shadow: 0 6px 18px 0 rgba(232,237,250,.6)
+    &-title
+      text-align: center
+      overflow: hidden
+      white-space: nowrap
+      text-overflow: ellipsis
+    &-text
+      color: #969696
+      overflow: hidden
+      text-overflow: ellipsis
+      display: -webkit-box
+      -webkit-line-clamp: 3
+      -webkit-box-orient: vertical
+    &-img-top
+      height: 10.6875rem /* 171/16 */
+      overflow: hidden
+    &-img-top:hover>.news-a
+      z-index: 1
+    .news-a
+      position: absolute
+      display: block
+      width: 100%
+      height: 10.6875rem /* 171/16 */
+      color: #ffffff
+      top: 0
+      left: 0
+      z-index: -1
+      transition: all .3s
+      &:before
+        content: " "
+        display: block
+        width: 100%
+        height: 100%
+        border-top-right-radius: .5rem /* 8/16 */
+        border-top-left-radius: .5rem /* 8/16 */
+        background: rgba(30,106,213,.82) url('../images/search.png') no-repeat center
+      &:after
+        content: "查看详情"
+        position: absolute
+        font-size: 1.25rem /* 20/16 */
+        font-weight: 700
+        top: 72%
+        left: 50%
+        color: #ffffff
+        transform: translateX(-50%)
+
+/* 关于我们 */
+.about-wrap
+  width: 100%
+  background: rgb(241,254,245)  url('../images/aboutbg.jpg') no-repeat center
+  .about-left
+    width: 36.9375rem /* 591/16 */
+    padding: 1.25rem /* 20/16 */
+  .wrap-info
+    width: 12.5rem /* 200/16 */
+    height: 3.25rem /* 52/16 */
+    background: url("../images/next.png") no-repeat center/100%
+    cursor: pointer
+    transition: all .2s
+    &:hover
+      transform: translateX(5px)
+  .about-right
+    width: 34.375rem
+    overflow: hidden
+    img
+      width: 100%
+      height: 100%
+
+/* 合作伙伴 */
+.part-wrap
+  width: 100%
+  background: #ffffff
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px)
+  .bus-wrap,.case-wrap,.solu-wrap,.news-wrap,.about-wrap
+    padding-bottom: 6rem
+    .main-section
+      padding: 6.25rem 0 2.5rem 0
+  // 最新资讯
+  .news-wrap
+    .news-list
+      margin: 0 .625rem
+    .card
+      &-img-top
+        height: 9.375rem
+      .news-a
+        height: 9.375rem
+  .about-wrap
+    img
+      height: 21.875rem
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px)
+  .main-section
+    padding: 1.875rem /* 30/16 */ 0
+  .bus-wrap 
+    .wrap-item-content
+      padding: 2.5rem
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px)
+  h1
+    font-size: 2rem /* 32/16 */
+  h2
+    font-size: 1.75rem /* 28/16 */
+  .main-section
+    &-title
+      font-size: 1.625rem /* 26/16 */
+  .swiper-container 
+    width: 100%
+  .swiper-slide
+    height: auto
+    overflow: auto
+    -webkit-overflow-scrolling: touch
+  .main-section
+    padding: 1.25rem /* 20/16 */ 0
+  .bus-wrap 
+    .wrap-item-content
+      padding: 2rem
+  .main-body
+    background: #363737
+  .banner 
+    padding-top: 3.75rem
+  .bus-wrap,.case-wrap,.solu-wrap,.news-wrap,.about-wrap
+    padding-bottom: 2.25rem
+    .main-section
+      padding: 1.25rem /* 20/16 */ 0
+  .bus-wrap 
+    .wrap-item-content
+      padding: 1.5rem
+  .about-wrap
+    img
+      height: 18rem
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px)
+  h1
+    font-size: 1.75rem /* 28/16 */
+  h2
+    font-size: 1.5rem /* 24/16 */
+  .main-section
+    &-title
+      font-size: 1.5rem /* 24/16 */
+  .banner 
+    padding-top: 3.75rem
+  .bus-wrap,.case-wrap,.solu-wrap,.news-wrap,.about-wrap
+    padding-bottom: 2.25rem
+    .main-section
+      padding: 1.25rem /* 20/16 */ 0
+  .bus-wrap 
+    .wrap-item-content
+      padding: 1.5rem
+  .about-wrap
+    img
+      height: 18rem

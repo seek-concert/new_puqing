@@ -1,0 +1,283 @@
+@import './common'
+.soft-wrap
+  position: relative
+  height: 100%
+  .main-view
+    padding-top: 6.25rem /* 100/16 */
+  @for $i from 1 through 4
+    &-#{$i}
+      width: 100%
+      background: url('../images/softcreat/soft-bg#{$i}.png') no-repeat center center
+      background-size: cover
+      @if $i == 2
+        background: #ffffff
+        .soft-content
+          color: #333333
+          text-align: left
+          padding-right: 8.4375rem /* 135/16 */
+        .soft-btn-link
+          color: #333333
+          border-color: #010101
+          &:hover
+            color: #333333
+      @if $i == 3
+        background: #d7ebfb
+  // 解决方案
+  .soft-title
+    padding: 1.25rem /* 20/16 */ 0
+    text-align: center
+  .soft-soluwrap
+    padding-bottom: 6.25rem /* 100/16 */
+    &-item
+      text-align: center
+      padding: 1.875rem /* 30/16 */ 0
+      h5
+        padding-top: 1.5625rem /* 25/16 */
+      p
+        text-align: left
+        max-width: 15.625rem /* 250/16 */
+  // 项目流程
+  .soft-items
+    padding-bottom: 6.25rem /* 100/16 */
+    &-box
+      min-height: 36.25rem /* 580/16 */
+      background-image: linear-gradient(0deg,#071628 0%,rgba(7, 22, 40, 0.5) 24%, #071628 100%), linear-gradient(#09192d, #09192d)
+      background-blend-mode: normal, normal
+      opacity: .7
+      color: #ffffff
+      display: flex
+      flex-direction: column
+      align-items: center
+      margin-bottom: 1rem
+      img
+        padding: 1.875rem /* 30/16 */
+        width: 100%
+        height: 11rem
+        max-width: 12rem
+      h1
+        font-size: 2.625rem /* 42/16 */
+        padding-bottom: 1.25rem /* 20/16 */
+      p
+        font-size: 1.625rem /* 26/16 */
+        color: #b1b1b3
+        line-height: 1.75rem /* 28/16 */
+        padding-top: 1.25rem /* 20/16 */
+    
+.soft-content
+  padding: 11.625rem /* 186/16 */  0 11.625rem /* 186/16 */ 9rem /* 144/16 */
+  color: #ffffff
+  display: flex
+  flex-direction: column
+  &-text
+    font-size: 1.5rem /* 24/16 */
+    max-width: 28.75rem /* 460/16 */
+    line-height: 2.25rem /* 36/16 */
+    margin-bottom: 5.625rem /* 90/16 */
+  &-title
+    width: 100%
+    font-size: 3rem /* 48/16 */
+    margin-bottom: 1.875rem /* 30/16 */
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+  &-subtitle
+    position: relative
+    width: 100%
+    font-size: 2.8125rem /* 45/16 */
+    margin-bottom: 3.75rem /* 60/16 */
+    line-height: 1.5
+    overflow: hidden
+    text-overflow: ellipsis
+    padding-bottom: .625rem /* 10/16 */
+    &:before
+      content: ""
+      position: absolute
+      display: block
+      width: 11.8125rem /* 189/16 */
+      height: .1875rem /* 3/16 */
+      background-color: #00abd8
+      bottom: 0
+    @for $i from 1 through 5
+      &-#{$i}
+        &:before
+          @if $i == 1
+            background-color: #00abd8
+            left: 0
+          @if $i == 2
+            background-color: #cccccc
+            left: 0
+          @if $i == 3
+            background-color: #8ad0ff
+            left: 0
+          @if $i == 4
+            background-color: #cccccc
+            right: 0
+          @if $i == 5
+            background-color: #cccccc
+            left: 0
+
+.soft-pic
+  flex: 1
+  @for $i from 1 through 5
+    &-#{$i}
+      height: 44.375rem /* 710/16 */
+      max-height: 44.375rem /* 710/16 */
+      background: url('../images/softcreat/soft-img#{$i}.png') no-repeat center center
+      background-size: cover
+      @if $i == 1
+        height: 44.4375rem /* 711/16 */
+      @if $i == 2
+        background-size: auto 100%
+      @if $i == 3
+        height: 36.875rem /* 590/16 */
+        width: 36.125rem /* 578/16 */
+        background-size: auto 100%
+      @if $i == 4
+        background-position: bottom
+        background-size: 100% 75%
+      @if $i == 5
+        background-position: bottom
+        background-size: 100% 75%
+
+.soft-btn-link
+  display: block
+  box-sizing: border-box
+  width: 100%
+  height: 100%
+  max-width: 16.3125rem /* 261/16 */
+  height: 4.125rem /* 66/16 */
+  line-height: 4.125rem /* 66/16 */
+  color: #ffffff
+  font-size: 1.5rem /* 24/16 */
+  border: solid 1px #ffffff
+  text-align: center
+  border-radius: 2.0625rem /* 33/16 */
+  &:hover
+    text-decoration: none
+    color: #ffffff
+  
+@media (max-width: 1199.98px)
+  .soft-pic
+    @for $i from 1 through 5
+      &-#{$i}
+        height: 34.375rem /* 550/16 */
+        background: url('../images/softcreat/soft-img#{$i}.png') no-repeat center center
+        background-size: cover
+        @if $i == 1
+          background-size: 100% 85%
+        @if $i == 2
+          background-size: auto 85%
+        @if $i == 3
+          background-position: bottom 0
+          background-size: 100% 100%
+        @if $i == 4
+          background-position: bottom
+          background-size: 100% 85%
+        @if $i == 5
+          background-position: bottom
+          background-size: 100% 75%
+@media (max-width: 991.98px)
+  .soft-content
+    padding: 10rem /* 160/16 */  0 10rem /* 160/16 */ .625rem /* 10/16 */
+    &-text
+      font-size: 1.125rem /* 18/16 */
+    &-title
+      font-size: 2.5rem /* 40/16 */
+    &-subtitle
+      font-size: 2.5rem /* 40/16 */
+  .soft-pic
+    @for $i from 1 through 5
+      &-#{$i}
+        height: 30rem /* 480/16 */
+        background: url('../images/softcreat/soft-img#{$i}.png') no-repeat center center
+        background-size: cover
+        @if $i == 1
+          background-size: 100% 85%
+        @if $i == 2
+          background-position: bottom
+          background-size: auto 75%
+        @if $i == 3
+          background-position: bottom 0
+          background-size: 100% auto
+        @if $i == 4
+          background-position: bottom
+          background-size: 100% 85%
+        @if $i == 5
+          background-position: bottom
+          background-size: 100% 75%
+  .soft-btn-link
+    height: 3.625rem /* 58/16 */
+    line-height: 3.625rem /* 58/16 */
+    font-size: 1.375rem /* 22/16 */
+@media (max-width: 767.98px)
+  .soft-wrap-2,.soft-wrap-4
+    .soft-content
+      padding-right: .625rem /* 10/16 */
+
+  .soft-content
+    padding: 1.25rem /* 20/16 */  0  2.5rem /* 40/16 */ .625rem /* 10/16 */
+    &-text
+      font-size: 1.125rem /* 18/16 */
+    &-title
+      font-size: 2.5rem /* 40/16 */
+    &-subtitle
+      font-size: 2.5rem /* 40/16 */
+  .soft-pic
+    @for $i from 1 through 5
+      &-#{$i}
+        height: 30rem /* 480/16 */
+        background: url('../images/softcreat/soft-img#{$i}.png') no-repeat center center
+        background-size: cover
+        @if $i == 1
+          background-size: 100% 85%
+        @if $i == 2
+          background-size: 90% 75%
+        @if $i == 3
+          background-size: 90% 80%
+        @if $i == 4
+          background-position: bottom
+          background-size: 100% 85%
+        @if $i == 5
+          background-position: bottom
+          background-size: 90% 75%
+  .soft-btn-link
+    height: 3.625rem /* 58/16 */
+    line-height: 3.625rem /* 58/16 */
+    font-size: 1.375rem /* 22/16 */
+@media (max-width: 575.98px)
+  .soft-pic
+    @for $i from 1 through 5
+      &-#{$i}
+        height: 27.5rem /* 440/16 */
+  .soft-wrap
+    .main-view
+      padding-top: 1.25rem /* 20/16 */
+    .soft-title
+      font-size: 1.75rem /* 28/16 */
+    .soft-items-box
+      min-height: 33rem
+      margin-left: -.625rem /* 10/16 */
+      margin-right: -.625rem /* 10/16 */
+      h1
+        font-size: 1.75rem /* 28/16 */
+      h2
+        font-size: 1.5rem /* 24/16 */
+      p
+        font-size: 1rem /* 16/16 */
+
+  .soft-content
+    &-title
+      font-size: 1.75rem /* 28/16 */
+    &-subtitle
+      white-space: initial
+      font-size: 1.5rem /* 24/16 */
+      margin-bottom: 1.25rem /* 20/16 */
+    &-text
+      font-size: 1rem /* 16/16 */
+      margin-bottom: 1.875rem /* 30/16 */
+      max-width: 22.5rem /* 360/16 */
+  .soft-btn-link
+    height: 2.5rem /* 40/16 */
+    line-height: 2.5rem /* 40/16 */
+    font-size: 1rem /* 16/16 */
+    max-width: 9.375rem /* 150/16 */

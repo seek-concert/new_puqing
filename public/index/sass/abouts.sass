@@ -1,0 +1,203 @@
+@import './common'
+
+
+.main-body
+  max-width: 103.75rem /* 1660/16 */
+  width: 100%
+  position: relative
+  padding-top: 1.25rem /* 20/16 */
+  padding-bottom: 3.75rem /* 60/16 */
+
+.about-banner
+  height: 24.875rem /* 398/16 */
+  width: 100%
+  background: rgba(0,0,0,.51) url('../images/about/about-bannerbg.png') no-repeat center center
+  background-size: cover
+
+.about-tabs
+  padding: .625rem /* 10/16 */
+  min-height: 5.9375rem /* 95/16 */
+  background: #f5f5f5
+  border-bottom: 2px solid #eeeeee
+  display: flex
+  justify-content: center
+  align-items: center
+  .nav-pills
+    .nav-item
+      margin: 0 1.25rem /* 20/16 */
+    .nav-link
+      color: #333333
+      padding: .5rem 2.2rem
+      border-radius: 1.5625rem /* 25/16 */
+      border: 1px solid #888888
+      transition: all .2s
+      margin-bottom: .25rem /* 4/16 */
+      &.active, &.show, &:hover
+        color: #ffffff
+        background-color: #007bff
+        border: 1px solid #007bff
+      
+.about-title
+  position: relative
+  text-align: center
+  margin-bottom: 3.75rem /* 60/16 */
+  &-line
+    position: absolute
+    width: 10rem /* 160/16 */
+    height: .125rem /* 2/16 */
+    left: 50%
+    transform: translateX(-50%)
+    background: #333333
+
+.about-company,
+  background: #f5f5f5
+  &-bg
+    height: 27.6875rem /* 443/16 */
+    background: url('../images/about/about-bg1.png') no-repeat center center
+  &-content
+    font-size: 1.125rem /* 18/16 */
+    p
+      text-align: justify
+      text-indent: 2em
+      line-height: 1.8
+      margin-bottom: 1.875rem /* 30/16 */
+
+.about-team
+  &-item
+    display: flex
+    flex-direction: column
+    justify-content: center
+    h5
+      padding: 1rem
+      text-align: center
+  &-pic
+    height: 34.375rem /* 550/16 */
+    width: 21.875rem /* 350/16 */
+    overflow: hidden
+    margin: 0 auto
+    cursor: pointer
+    img
+      width: 100%
+      height: 100%
+      transition: all .5s ease-in-out
+    &:hover
+      img
+        transform: scale(1.15)
+
+.about-contact
+  &-map
+    height: 39.125rem /* 626/16 */
+  &-items
+    height: 39.125rem /* 626/16 */
+    background: rgba(179,179,179,1)
+    display: flex
+    flex-direction: column
+    padding-top: 1.25rem /* 20/16 */
+    padding-bottom: 1.25rem /* 20/16 */
+  &-item
+    flex: 1
+    display: flex
+    align-items: center
+    color: #ffffff
+    padding-left: 2.875rem /* 46/16 */
+    padding-right: 2.875rem /* 46/16 */
+    &:nth-child(2n)
+      background: #a09f9f
+    h4
+      margin-bottom: 1rem
+    p
+      margin-bottom: 0
+  &-icon
+    width: 8.75rem /* 140/16 */
+    height: 8.75rem /* 140/16 */
+    line-height: 8.75rem /* 140/16 */
+    text-align: center
+    font-size: 3.75rem /* 60/16 */
+    margin-right: .9375rem /* 15/16 */
+    border-radius: 50%
+    &.b-org
+      background: #f67516
+    &.b-blue
+      background: #218eef
+    &.b-gre
+      background: #28e396
+
+.about-pay
+  background: #f5f5f5
+  &-box
+    background: #ffffff
+    min-height: 18.75rem /* 300/16 */
+    padding: 2.8125rem /* 45/16 */
+    display: flex
+    align-items: center
+  &-pic
+    text-align: center
+  &-text
+    font-size: 2.25rem /* 36/16 */
+    padding-bottom: .625rem /* 10/16 */
+    .label
+      display: inline-block
+      width: 100%
+      max-width: 10rem /* 160/16 */
+      text-align: justify
+      text-align-last: justify
+    
+    
+@media (max-width: 1199.98px)
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px)
+ 
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px)
+  
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px)
+  .main-body
+    padding-bottom: 1.25rem /* 20/16 */
+  .about-banner
+    height: 12.5rem /* 200/16 */
+  .about-title
+    margin-bottom: 1.25rem /* 20/16 */
+    h1
+      font-size: 1.5rem /* 24/16 */
+    h5
+      font-size: 1rem /* 16/16 */
+    &-line
+      width: 7.5rem /* 120/16 */
+  .about-company,
+    &-bg
+      height: 12.5rem /* 200/16 */
+      background-size: cover
+    &-content
+      padding: .625rem /* 10/16 */
+      font-size: 1rem /* 16/16 */
+      p
+        margin-bottom: .9375rem /* 15/16 */
+  .about-contact
+    &-map
+      height: 18.75rem /* 300/16 */
+    &-items
+      height: 31.25rem /* 500/16 */
+      margin-right: -15px
+      margin-left: -15px
+      padding-top: .625rem /* 10/16 */
+      padding-bottom: .625rem /* 10/16 */
+    &-item
+      padding-left: 1.25rem /* 20/16 */
+      padding-right: 1.25rem /* 20/16 */
+    &-icon
+      width: 5.625rem /* 90/16 */
+      height: 5.625rem /* 90/16 */
+      line-height: 5.625rem /* 90/16 */
+      font-size: 2.25rem /* 36/16 */
+      margin-right: .9375rem /* 15/16 */
+  .about-pay
+    &-box
+      padding: .625rem /* 10/16 */
+    &-text
+      font-size: 1.25rem /* 20/16 */
+      padding-bottom: .625rem /* 10/16 */
+      .label
+        max-width: 6.25rem /* 100/16 */
+  

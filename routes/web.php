@@ -11,8 +11,13 @@ Route::get('/', function () {
 Route::get('foo', function () {
     return 'Hello World';
 });
+
+
+
 //前台目录
 Route::namespace('index')->group(function () {
+
+    
 
 });
 
