@@ -185,11 +185,15 @@
 </header>
 <!-- 导航栏end -->
 
+
 <!-- content -->
 <?php echo $__env->yieldContent('content'); ?>
 <!-- content end-->
 
+
+
 <!-- 右边导航 -->
+
 <div class="dual dual-right">
     <ul>
         <li class="easein" onclick="location.href='tel:15923774622'">
@@ -216,6 +220,8 @@
     </ul>
 </div>
 <!-- 右边导航end -->
+
+
 
 <!-- js -->
 <script type="text/javascript" src="<?php echo e(asset('index/js/lib/jquery-1.9.0.min.js')); ?>"></script>

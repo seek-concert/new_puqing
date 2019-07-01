@@ -1,7 +1,7 @@
 @font-face 
-  font-family: 'iconfont'
-  src: url('//at.alicdn.com/t/font_1245505_q7n74t4vdbb.eot')
-  src: url('//at.alicdn.com/t/font_1245505_q7n74t4vdbb.eot?#iefix') format('embedded-opentype'),url('//at.alicdn.com/t/font_1245505_q7n74t4vdbb.woff2') format('woff2'),url('//at.alicdn.com/t/font_1245505_q7n74t4vdbb.woff') format('woff'),url('//at.alicdn.com/t/font_1245505_q7n74t4vdbb.ttf') format('truetype'),url('//at.alicdn.com/t/font_1245505_q7n74t4vdbb.svg#iconfont') format('svg')
+  font-family: 'iconfont'  /* project id 1245505 */
+  src: url('//at.alicdn.com/t/font_1245505_snnltrlma4h.eot')
+  src: url('//at.alicdn.com/t/font_1245505_snnltrlma4h.eot?#iefix') format('embedded-opentype'),url('//at.alicdn.com/t/font_1245505_snnltrlma4h.woff2') format('woff2'),url('//at.alicdn.com/t/font_1245505_snnltrlma4h.woff') format('woff'),url('//at.alicdn.com/t/font_1245505_snnltrlma4h.ttf') format('truetype'),url('//at.alicdn.com/t/font_1245505_snnltrlma4h.svg#iconfont') format('svg')
 
 
 .iconfont
@@ -31,6 +31,7 @@ html,body
   position: relative
   height: 100%
   font-size: .9375rem /* 15/16 */
+  outline: none
 .swiper-container
   width: 100%
   height: 100%
@@ -45,6 +46,8 @@ html,body
 /* 颜色值 */
 .text-96
   color: #969696
+.text-qblue
+  color: #20b7f4
 .top-bar
   width: 100%
   line-height: 2.25rem /* 36/16 */
@@ -203,6 +206,8 @@ html,body
   height: 100%
   max-width: 103.5rem /* 1656/16 */
   margin: 0 auto 
+
+
 .wrap-row
   height: 100%
   display: flex
@@ -499,6 +504,101 @@ html,body
       &:after
         border-left-color: $activeColor
 
+/** 新闻详情页面 */
+.news-info
+  padding-top: 1.25rem /* 20/16 */
+  &-body
+    padding-bottom: 1.875rem /* 30/16 */
+  &-content
+    padding: .625rem /* 10/16 */
+    font-size: 1rem
+    line-height: 1.8
+    text-indent: 2em
+    text-align: justify
+  &-title
+    text-align: center
+    padding-bottom: .9375rem /* 15/16 */
+    border-bottom: 1px solid #eeeeee
+  &-time
+    font-size: .8125rem /* 13/16 */
+    color: #999
+    padding: .625rem /* 10/16 */
+    span
+      padding-top: .3125rem /* 5/16 */
+      padding-bottom: .3125rem /* 5/16 */
+  &-desc
+    padding: .625rem /* 10/16 */
+    text-align: center
+    p
+      text-align: left
+      text-indent: 2em
+      font-size: .875rem /* 14/16 */
+      color: #666666
+      margin: 0
+      padding-top: .625rem /* 10/16 */
+  &-footer
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 0 15px
+  &-card
+    padding: 0
+    h5
+      width: 100%
+      position: absolute
+      background: rgba(0,0,0,.9)
+      color: #ffffff
+      overflow: hidden
+      white-space: nowrap
+      text-overflow: ellipsis
+      bottom: 0
+      padding: .5rem .25rem /* 4/16 */
+      text-align: center
+
+/** 不变的banner */
+.commom-banner
+  height: 24.6875rem /* 395/16 */
+  background: url('../images/news-info/banner.jpg') no-repeat center center
+
+.commom-navs
+  min-height: 8.75rem /* 140/16 */
+  padding-top: 1.25rem /* 20/16 */
+  padding-bottom: .625rem /* 10/16 */
+  width: 100%
+  background: #f4f7fa
+  &-content
+    min-height: 8.75rem /* 140/16 */
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-wrap: wrap
+    &__item
+      color: #444
+      text-align: center
+      margin: 0 1.25rem /* 20/16 */
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      &:hover,&.active
+        color: $mainColor
+        text-decoration: none
+        .iconfont
+          background: #ffffff
+          color: $mainColor
+    &__icon
+      width: 6.5rem /* 104/16 */
+      height: 6.5rem /* 104/16 */
+      line-height: 6.25rem /* 100/16 */
+      font-size: 3.75rem /* 60/16 */
+      border: 1px solid #eeeeee
+      border-radius: 50%
+      margin-bottom: .9375rem /* 15/16 */
+    &__title
+      font-size: 1.25rem /* 20/16 */
+      opacity: .8
+
+
 // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px)
   .main-header
@@ -571,6 +671,7 @@ html,body
       font-size: 1.125rem /* 18/16 */
       padding: .5rem 9rem
   .main-subtitle
+    flex-wrap: nowrap
     padding-bottom: .625rem /* 10/16 */
     a
       height: 1.875rem /* 30/16 */
@@ -587,3 +688,35 @@ html,body
         border-left: .9375rem /* 15/16 */ solid $titleColor
         border-bottom: .9375rem /* 15/16 */ solid transparent
         right:  -.9375rem /* 15/16 */
+  .news-info
+    padding-top: .625rem /* 10/16 */
+    &-body
+      margin-right: -15px
+      margin-left: -15px
+    &-content
+      padding: .625rem /* 10/16 */
+    &-title
+      font-size: 1.375rem /* 22/16 */
+  .commom-banner
+    height: 15.625rem /* 250/16 */
+    background-size: cover  
+  .commom-navs
+    &-content
+      &__item
+        flex: 0 0 25%
+        margin: 0
+        max-width: 25%
+      &__icon
+        width: 5rem /* 80/16 */
+        height: 5rem /* 80/16 */
+        line-height: 5rem /* 80/16 */
+        font-size: 2.5rem /* 40/16 */
+        margin-bottom: .9375rem /* 15/16 */
+      &__title
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        max-width: 100%
+        font-size: .875rem /* 14/16 */
+
+
