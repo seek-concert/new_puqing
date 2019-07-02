@@ -21,6 +21,8 @@ Route::namespace('index')->group(function () {
     /*=======================[微信开发]=============================*/
     Route::any('/wechat', 'WechatController@index');
 
+    Route::any('/wechat_dev_public', 'WechatController@wechat_dev_public');
+
     /*=======================[软件定制]=============================*/
     Route::any('/app', 'AppController@index');
 
