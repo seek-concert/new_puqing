@@ -10,10 +10,10 @@
 
 {{-- Content --}}
 @section('content')
-<!-- 主体 -->
-<!-- banner -->
+{{-- 主体 --}}
+{{-- banner --}}
 <section class="about-banner"></section>
-  <!-- tabs -->
+  {{-- tabs --}}
   <section class="about-tabs">
     <ul class="nav nav-pills" id="pills-tab" role="tablist">
       <li class="nav-item">
@@ -34,9 +34,9 @@
       </li>
     </ul>
   </section>
-  <!-- content -->
+  {{-- content --}}
   <section class="tab-content" id="pills-tabContent">
-    <!-- 公司简介 -->
+    {{-- 公司简介 --}}
     <div class="tab-pane fade show active about-company" id="pills-company" role="tabpanel"
       aria-labelledby="pills-company-tab">
       <div class="main-body container">
@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <!-- 团队介绍 -->
+    {{-- 团队介绍 --}}
     <div class="tab-pane fade about-team" id="pills-team" role="tabpanel" aria-labelledby="pills-team-tab">
       <div class="main-body container">
         <div class="about-title">
@@ -93,7 +93,7 @@
         </div>
       </div>
     </div>
-    <!-- 联系我们 -->
+    {{-- 联系我们 --}}
     <div class="tab-pane fade about-contact" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
       <div class="main-body container">
         <div class="about-title">
@@ -131,7 +131,7 @@
         </div>
       </div>
     </div>
-    <!-- 付款方式 -->
+    {{-- 付款方式 --}}
     <div class="tab-pane fade about-pay" id="pills-pay" role="tabpanel" aria-labelledby="pills-pay-tab">
       <div class="main-body container">
         <div class="about-title">
@@ -154,11 +154,11 @@
       </div>
     </div>
   </section>
-  <!-- 联系我们 -->
+  {{-- 联系我们 --}}
     @include('index.public.contact_us')
-  <!-- footer -->
+  {{-- footer --}}
     @include('index.public.footer')
-  <!-- footer end -->
+  {{-- footer end --}}
 @endsection
 
 {{-- js --}}

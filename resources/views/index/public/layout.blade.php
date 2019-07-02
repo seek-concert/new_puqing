@@ -18,7 +18,7 @@
 </head>
 
 <body>
-<!-- 导航栏 -->
+{{-- 导航栏 --}}
 <header class="main-header">
     <div class="main-view">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -183,17 +183,13 @@
         </nav>
     </div>
 </header>
-<!-- 导航栏end -->
+{{-- 导航栏end --}}
 
-
-<!-- content -->
+{{-- content --}}
 @yield('content')
-<!-- content end-->
+{{-- content end--}}
 
-
-
-<!-- 右边导航 -->
-
+{{-- 右边导航 --}}
 <div class="dual dual-right">
     <ul>
         <li class="easein" onclick="location.href='tel:15923774622'">
@@ -219,15 +215,18 @@
         </li>
     </ul>
 </div>
-<!-- 右边导航end -->
+{{-- 右边导航end --}}
 
-
-
-<!-- js -->
+{{-- js --}}
 <script type="text/javascript" src="{{asset('index/js/lib/jquery-1.9.0.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('index/js/lib/bootstrap.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('index/js/config.js')}}"></script>
+<script>
+    {{-- 导航选中 --}}
+    var type = '{{$type}}';
+    $('.navbar-nav li').eq(type-1).addClass('active').siblings().removeClass('active');
+</script>
 @yield('js')
-<!-- js end -->
+{{-- js end --}}
 </body>
 </html>

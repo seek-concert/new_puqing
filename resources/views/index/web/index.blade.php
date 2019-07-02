@@ -12,7 +12,7 @@
 @section('content')
     <main class="mian-body swiper-container swiper-container-v">
         <div class="swiper-wrapper">
-            <!-- 网站商城 -->
+            {{-- 网站商城 --}}
             <div class="swiper-slide">
                 <section class="site-wrap site-wrap-1">
                     <div class="container main-view">
@@ -33,7 +33,7 @@
                     </div>
                 </section>
             </div>
-            <!-- 企业官网 -->
+            {{-- 企业官网 --}}
             <div class="swiper-slide">
                 <section class="site-wrap site-wrap-2">
                     <div class="container main-view">
@@ -54,7 +54,7 @@
                     </div>
                 </section>
             </div>
-            <!-- 手机网站 -->
+            {{-- 手机网站 --}}
             <div class="swiper-slide">
                 <section class="site-wrap site-wrap-3">
                     <div class="container main-view">
@@ -75,7 +75,7 @@
                     </div>
                 </section>
             </div>
-            <!-- 门户网站 -->
+            {{-- 门户网站 --}}
             <div class="swiper-slide">
                 <section class="site-wrap site-wrap-4">
                     <div class="container main-view">
@@ -96,7 +96,7 @@
                     </div>
                 </section>
             </div>
-            <!-- 后台管理系统 -->
+            {{-- 后台管理系统 --}}
             <div class="swiper-slide">
                 <section class="site-wrap site-wrap-5">
                     <div class="container main-view">
@@ -117,14 +117,14 @@
                     </div>
                 </section>
             </div>
-            <!-- 联系我们 -->
+            {{-- 联系我们 --}}
                 @include('index.public.contact_us')
-             <!-- footer -->
+             {{-- footer --}}
                 @include('index.public.footer')
-             <!-- footer end -->
+             {{-- footer end --}}
         </div>
     </main>
-    <!-- 左边导航 -->
+    {{-- 左边导航 --}}
     <div class="dual dual-left d-none d-md-block">
         <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(0)">
             <span>商城网站</span>

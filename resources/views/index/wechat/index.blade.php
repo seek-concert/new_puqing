@@ -12,7 +12,7 @@
 @section('content')
 <main class="mian-body swiper-container swiper-container-v">
     <div class="swiper-wrapper">
-        <!-- 公众号 -->
+        {{-- 公众号 --}}
       <div class="swiper-slide">
         <section class="wechat-wrap wechat-wrap-1">
           <div class="container main-view">
@@ -33,7 +33,7 @@
           </div>
         </section>
       </div>
-        <!--微信小程序   专属定制开发 -->
+        {{--微信小程序   专属定制开发 --}}
       <div class="swiper-slide">
         <section class="wechat-wrap wechat-wrap-2">
           <div class="container main-view">
@@ -54,7 +54,7 @@
           </div>
         </section>
       </div>
-        <!-- 微商城 -->
+        {{-- 微商城 --}}
       <div class="swiper-slide">
         <section class="wechat-wrap wechat-wrap-3">
           <div class="container main-view">
@@ -75,7 +75,7 @@
           </div>
         </section>
       </div>
-        <!-- 微服务 -->
+        {{-- 微服务 --}}
       <div class="swiper-slide">
         <section class="wechat-wrap wechat-wrap-4">
           <div class="container main-view wechat-serve">
@@ -90,14 +90,14 @@
           </div>
         </section>
       </div>
-      <!-- 联系我们 -->
+      {{-- 联系我们 --}}
         @include('index.public.contact_us')
-      <!-- footer -->
+      {{-- footer --}}
         @include('index.public.footer')
-      <!-- footer end -->
+      {{-- footer end --}}
     </div>
   </main>
-  <!-- 左边导航 -->
+  {{-- 左边导航 --}}
   <div class="dual dual-left d-none d-md-block">
     <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(0)">
       <span>公众号</span>

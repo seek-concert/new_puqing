@@ -16,15 +16,19 @@ $(function () {
                 slideChangeTransitionEnd: function () {
                     swiperAnimate(this); //每个slide切换结束时运行当前slide动画
                     this.slides.eq(this.activeIndex).find('.ani').removeClass('ani'); //动画只展示一次
+                },
+                slideChange: function () {
+                    goToSwiperPage(this.activeIndex)
                 }
             }
         });
-        if (Conf.getQueryString('index')) {
-            swiperV.slideTo(Conf.getQueryString('index'), 1000, true)
-        }
+
         goToSwiperPage = function (index) {
+            $('.dual-left-item').eq(index).addClass("active").siblings().removeClass('active')
             swiperV.slideTo(index, 1000, true)
         }
+        // 默认第一个
+        goToSwiperPage(0)
     } else {
         console.log("wap")
         var swiperV = new Swiper('.swiper-container-v', {

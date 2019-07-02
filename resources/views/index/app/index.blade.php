@@ -10,10 +10,10 @@
 
 {{-- Content --}}
 @section('content')
-<!-- 主体 -->
+{{-- 主体 --}}
 <main class="mian-body swiper-container swiper-container-v">
     <div class="swiper-wrapper">
-        <!-- 原生APP -->
+        {{-- 原生APP --}}
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-1">
           <div class="container main-view">
@@ -35,7 +35,7 @@
           </div>
         </section>
       </div>
-        <!-- WEB APP -->
+        {{-- WEB APP --}}
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-2">
           <div class="container main-view">
@@ -56,7 +56,7 @@
           </div>
         </section>
       </div>
-        <!-- 解决方案 -->
+        {{-- 解决方案 --}}
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-3">
           <div class="container main-view">
@@ -97,7 +97,7 @@
           </div>
         </section>
       </div>
-        <!-- 项目流程 -->
+        {{-- 项目流程 --}}
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-4">
           <div class="container main-view">
@@ -174,14 +174,14 @@
           </div>
         </section>
       </div>
-      <!-- 联系我们 -->
+      {{-- 联系我们 --}}
          @include('index.public.contact_us')
-       <!-- footer -->
+       {{-- footer --}}
          @include('index.public.footer')
-       <!-- footer end -->
+       {{-- footer end --}}
     </div>
   </main>
-  <!-- 左边导航 -->
+  {{-- 左边导航 --}}
   <div class="dual dual-left d-none d-md-block">
     <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(0)">
       <span>原生APP</span>

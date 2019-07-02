@@ -9,9 +9,9 @@
 
 {{-- Content --}}
 @section('content')
-<!-- 主体 -->
+{{-- 主体 --}}
 <main class="main-body container">
-    <!-- 企业动态 -->
+    {{-- 企业动态 --}}
     <section class="row">
       <div class="main-subtitle">
         <a href="/" class="active">首页</a>
@@ -238,14 +238,14 @@
                 </div>
               </div>
             </div>
-            <!-- 如果需要导航按钮 -->
+            {{-- 如果需要导航按钮 --}}
             <div class="swiper-button-prev swiper-newslist-button-prev d-none d-sm-block"></div>
             <div class="swiper-button-next swiper-newslist-button-next d-none d-sm-block"></div>
           </div>
         </div>
       </div>
     </section>
-    <!-- 行业新闻 -->
+    {{-- 行业新闻 --}}
     <section class="row">
       <div class="news-title">
         <span class="news-title-num">02</span>
@@ -306,7 +306,7 @@
                 </div>
               </a>
             </div>
-            <!-- 分页 -->
+            {{-- 分页 --}}
             <nav aria-label="navigation">
               <ul class="pagination justify-content-center pt-md-5 pt-3">
                 <li class="page-item">
@@ -371,7 +371,7 @@
         </div>
       </div>
     </section>
-    <!-- 最新案例 -->
+    {{-- 最新案例 --}}
     <section class="row">
       <div class="news-title">
         <span class="news-title-name">最新案例</span>
@@ -418,9 +418,9 @@
       </div>
     </section>
   </main>
-<!-- footer -->
+{{-- footer --}}
   @include('index.public.footer')
-<!-- footer end -->
+{{-- footer end --}}
 @endsection
 
 {{-- js --}}

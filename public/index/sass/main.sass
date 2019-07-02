@@ -190,6 +190,9 @@
     overflow: hidden
     .nav-item
       flex: 1
+      border-right: 2px solid #195fbc
+      &:last-child
+        border-right: none
       a
         line-height: 1.6875rem
         padding: 0
@@ -197,6 +200,13 @@
         &.active
           background: #195fbc
           color: #fff
+    .nav-more
+      flex: none
+      a
+        padding-right: .25rem /* 4/16 */
+        padding-left: .25rem /* 4/16 */
+        
+        
   .iconfont
     font-size: 1.875rem /* 30/16 */
     cursor: pointer

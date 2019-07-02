@@ -13,7 +13,7 @@
 <main class="main-body swiper-container swiper-container-v">
     <div class="swiper-wrapper">
         <div class="swiper-slide">
-            <!--  banner-->
+            {{--  banner--}}
             <section class="banner swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -26,16 +26,16 @@
                         <img src="{{asset('index/images/banner.jpg')}}" alt="banner3">
                     </div>
                 </div>
-                <!-- Add Pagination -->
+                {{-- Add Pagination --}}
                 <div class="swiper-pagination swiper-pagination-h"></div>
-                <!-- Add Arrows -->
-                <!-- <div class="swiper-button-next swiper-button-next-h"></div>
-                <div class="swiper-button-prev swiper-button-prev-h"></div> -->
+                {{-- Add Arrows --}}
+                {{-- <div class="swiper-button-next swiper-button-next-h"></div>
+                <div class="swiper-button-prev swiper-button-prev-h"></div> --}}
             </section>
 
         </div>
         <div class="swiper-slide">
-            <!--    开发业务-->
+            {{--    开发业务--}}
             <section class="bus-wrap main-view">
                 <div class="main-section">
                     <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
@@ -166,7 +166,7 @@
             </section>
         </div>
         <div class="swiper-slide">
-            <!--    成功案例-->
+            {{--    成功案例--}}
             <section class="case-wrap">
                 <div class="main-view">
                     <div class="main-section">
@@ -284,7 +284,7 @@
             </section>
         </div>
         <div class="swiper-slide">
-            <!--    解决方案-->
+            {{--    解决方案--}}
             <section class="solu-wrap">
                 <div class="main-view">
                     <div class="main-section">
@@ -344,7 +344,7 @@
         </div>
         <div class="swiper-slide">
 
-            <!--    新闻资讯-->
+            {{--    新闻资讯--}}
             <section class="news-wrap">
                 <div class="main-view">
                     <div class="main-section">
@@ -354,7 +354,7 @@
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                            swiper-animate-delay="0.2s">最新资讯</p>
-                        <!-- tabs-->
+                        {{-- tabs--}}
                         <ul class="nav news-nav mb-3" id="news-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="company-news-tab" data-toggle="pill" href="#company-news-content"
@@ -365,7 +365,7 @@
                                    role="tab" aria-controls="industry-trends-content" aria-selected="false">行业动态</a>
                             </li>
                         </ul>
-                        <!-- 下一页 上一页-->
+                        {{-- 下一页 上一页--}}
                         <div class="w-75 d-flex justify-content-md-end justify-content-center mt-2">
                             <div class="news-prev iconfont">&#xe764;</div>
                             <div class="news-content"><span></span><span class="active"></span><span></span><span></span></div>
@@ -373,7 +373,7 @@
                         </div>
                     </div>
                     <div class="tab-content" id="news-tabContent">
-                        <!-- 公司新闻-->
+                        {{-- 公司新闻--}}
                         <div class="tab-pane fade show active" id="company-news-content" role="tabpanel"
                              aria-labelledby="ompany-news-tab">
                             <div class="container-fluid">
@@ -457,7 +457,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- 行业动态-->
+                        {{-- 行业动态--}}
                         <div class="tab-pane fade" id="industry-trends-content" role="tabpanel"
                              aria-labelledby="industry-trends-tab">
                             <div class="comtainer">
@@ -547,7 +547,7 @@
 
         </div>
         <div class="swiper-slide">
-            <!--  关于我们  -->
+            {{--  关于我们  --}}
             <section class="about-wrap">
                 <div class="main-view">
                     <div class="main-section">
@@ -598,7 +598,7 @@
             </section>
         </div>
         <div class="swiper-slide">
-            <!--  合作伙伴  -->
+            {{--  合作伙伴  --}}
             <section class="part-wrap">
                 <div class="main-view">
                     <div class="main-section">
@@ -640,12 +640,12 @@
                 </div>
             </section>
         </div>
-        <!-- footer -->
+        {{-- footer --}}
             @include('index.public.footer')
-        <!-- footer end -->
+        {{-- footer end --}}
     </div>
-    <!-- Add Pagination -->
-    <!-- <div class="swiper-pagination"></div> -->
+    {{-- Add Pagination --}}
+    {{-- <div class="swiper-pagination"></div> --}}
 </main>
 @endsection
 

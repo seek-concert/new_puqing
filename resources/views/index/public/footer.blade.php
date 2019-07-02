@@ -1,4 +1,4 @@
-<footer class="main-footer">
+<footer class="swiper-slide main-footer">
     <div class="main-view">
         <div class="container-fluid">
             <div class="row">

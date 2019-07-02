@@ -50,9 +50,9 @@
       </a>
     </div>
   </section>
-<!-- 主体 -->
+{{-- 主体 --}}
 <main class="main-body container">
-    <!-- 企业动态 -->
+    {{-- 企业动态 --}}
     <section class="row">
       <div class="main-subtitle">
         <a href="/">首页</a>
@@ -169,7 +169,7 @@
 
           </div>
         </div>
-        <!-- 分页 -->
+        {{-- 分页 --}}
         <nav aria-label="navigation">
           <ul class="pagination justify-content-center pt-md-5 pt-3">
             <li class="page-item">
@@ -191,7 +191,7 @@
         </nav>
       </div>
     </section>
-    <!-- 热门新闻 -->
+    {{-- 热门新闻 --}}
     <section class="row">
       <div class="case-title">
         <span class="case-title-name">热门新闻</span>
@@ -213,9 +213,9 @@
       </div>
     </section>
   </main>
-  <!-- footer -->
+  {{-- footer --}}
     @include('index.public.footer')
-  <!-- footer end -->
+  {{-- footer end --}}
 @endsection
 
 {{-- js --}}
