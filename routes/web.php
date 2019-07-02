@@ -16,6 +16,7 @@ Route::namespace('index')->group(function () {
 
     /*=======================[网站建设]=============================*/
     Route::any('/web', 'WebController@index');
+    Route::any('/web_site_html5', 'WebController@web_site_html5');
 
     /*=======================[微信开发]=============================*/
     Route::any('/wechat', 'WechatController@index');
@@ -25,9 +26,11 @@ Route::namespace('index')->group(function () {
 
     /*=======================[成功案例]=============================*/
     Route::any('/case', 'CaseController@index');
+    Route::any('/case_info', 'CaseController@case_info');
 
     /*=======================[新闻资讯]=============================*/
     Route::any('/news', 'NewsController@index');
+    Route::any('/news_info', 'NewsController@news_info');
 
     /*=======================[关于普擎]=============================*/
     Route::any('/about', 'AboutController@index');

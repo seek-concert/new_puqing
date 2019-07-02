@@ -26,4 +26,12 @@ class CaseController extends BaseController
         return $this->show(5,'',$data);
     }
 
+    /*=======================[成功案例详情]=============================*/
+    public function case_info()
+    {
+        $data = [];
+
+        return $this->show(5,'',$data);
+    }
+
 }

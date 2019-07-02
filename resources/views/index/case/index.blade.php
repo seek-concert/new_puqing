@@ -12,39 +12,39 @@
 @section('content')
   <section class="case-banner">
     <div class="case-banner-content">
-      <a href="./case.html?type=1" class="case-banner-content__item active">
+      <a href="{{url('/case')}}?type=1" class="case-banner-content__item active">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">企业网站</p>
       </a>
-      <a href="./case.html?type=2" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=2" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">营销型网站</p>
       </a>
-      <a href="./case.html?type=3" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=3" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">自适应网站</p>
       </a>
-      <a href="./case.html?type=4" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=4" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">手机网站</p>
       </a>
-      <a href="./case.html?type=5" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=5" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">微信小程序</p>
       </a>
-      <a href="./case.html?type=6" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=6" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">APP开发</p>
       </a>
-      <a href="./case.html?type=7" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=7" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">电商网站</p>
       </a>
-      <a href="./case.html?type=8" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=8" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">门户网站</p>
       </a>
-      <a href="./case.html?type=9" class="case-banner-content__item">
+      <a href="{{url('/case')}}?type=9" class="case-banner-content__item">
         <div class="case-banner-content__icon iconfont"></div>
         <p class="case-banner-content__title">管理系统</p>
       </a>
@@ -55,9 +55,9 @@
     {{-- 企业动态 --}}
     <section class="row">
       <div class="main-subtitle">
-        <a href="/">首页</a>
-        <a href="/case.html">成功案例</a>
-        <a href="" class="active">企业网站</a>
+        <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+        <a href="{{url('/case')}}" title="网站成功案例">成功案例</a>
+        <a href="{{url('/case')}}" class="active" title="网站案例列表">企业网站</a>
       </div>
       <div class="case-content col-12">
         <div class="row">

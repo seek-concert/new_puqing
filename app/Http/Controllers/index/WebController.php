@@ -26,4 +26,12 @@ class WebController extends BaseController
         return $this->show(2,'',$data);
     }
 
+    /*=======================[手机网站]=============================*/
+    public function web_site_html5()
+    {
+        $data = [];
+
+        return $this->show(2,'',$data);
+    }
+
 }

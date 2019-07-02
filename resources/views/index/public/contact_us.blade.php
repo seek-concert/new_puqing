@@ -31,7 +31,7 @@
             <div class="contact-text-group">
                 <label>合 作 需 求： </label>
                 <div class="contact-textarea">
-                    <textarea placeholder="textarea"></textarea>
+                    <textarea placeholder="请简单阐述一下您的合作需求"></textarea>
                 </div>
             </div>
         </form>

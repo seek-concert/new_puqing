@@ -14,8 +14,8 @@
     {{-- 企业动态 --}}
     <section class="row">
       <div class="main-subtitle">
-        <a href="/" class="active">首页</a>
-        <a href="#">企业动态</a>
+        <a href="https://www.p7ing.com" class="active" title="普擎官网">首页</a>
+        <a href="#" title="网站建设行业新闻">企业动态</a>
       </div>
     </section>
     <section class="row">
@@ -33,7 +33,7 @@
                   <div class="swiper-entreprice-img">
                     <img src="./images/news/slide1.png" alt="">
                   </div>
-                  <div class="swiper-entreprice-title">这是新闻标题：论百万级服务器反入侵场景的混沌工程实践</div>
+                  <div class="swiper-entreprice-title">这是新闻标题：论百万级服务器</div>
                 </div>
                 <div class="swiper-slide">
                   <div class="swiper-entreprice-img">
@@ -52,10 +52,10 @@
           </div>
           <div class="col-md-6 col-12 news-items">
             <div class="news-item">
-              <a href="/#">
+              <a href="{{url('news_info')}}">
                 <img src="./images/news/img3.png" alt="" class="news-item-pic">
                 <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
+                  <h5 class="news-item-title">这是新闻标题：论百万级</h5>
                   <P class="news-item-info">
                     ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
                   </P>

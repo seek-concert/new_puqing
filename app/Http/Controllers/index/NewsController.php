@@ -26,4 +26,12 @@ class NewsController extends BaseController
         return $this->show(6,'',$data);
     }
 
+    /*=======================[新闻资讯详情]=============================*/
+    public function news_info()
+    {
+        $data = [];
+
+        return $this->show(6,'',$data);
+    }
+
 }
