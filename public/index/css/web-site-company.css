@@ -78,6 +78,7 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 .main-footer .footer-list { padding-top: 0.75rem; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 .main-footer .footer-list a { width: 50%; font-size: 0.875rem; color: #999999; line-height: 2.5; text-decoration: none; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .main-footer .footer-text { padding-top: 0.75rem; padding-bottom: 1rem; color: #999999; line-height: 2; font-size: 0.875rem; margin-bottom: 0; }
+.main-footer .footer-text a { text-decoration: none; color: #999999; }
 .main-footer .footer-link { padding: 1.25rem 0; border-top: 1px solid #505052; border-bottom: 1px solid #505052; }
 .main-footer .footer-link .link-list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
 .main-footer .footer-link .link-list a { color: #999999; line-height: 2.5; margin-right: 0.9375rem; }

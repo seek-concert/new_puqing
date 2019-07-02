@@ -6,17 +6,17 @@
                     <div class="footer-box">
                         <div class="footer-title">
                             <h5>解决方案</h5>
-                            <a href="#">更多+</a>
+                            <a href="{{url('/app')}}" title="网站建设解决方案">更多+</a>
                         </div>
                         <div class="footer-list">
-                            <a href="">企业网站建设解决方案</a>
-                            <a href="">移动电商行业解决方案</a>
-                            <a href="">数字金融行业解决方案</a>
-                            <a href="">网络营销行业解决方案</a>
-                            <a href="">智能硬件行业解决方案</a>
-                            <a href="">医疗行业解决方案</a>
-                            <a href="">教学行业解决方案</a>
-                            <a href="">建筑装饰行业解决方案</a>
+                            <a href="{{url('/web')}}" title="企业网站建设解决方案">企业网站建设解决方案</a>
+                            <a href="{{url('/web')}}" title="移动电商行业解决方案">移动电商行业解决方案</a>
+                            <a href="{{url('/web')}}" title="数字金融行业解决方案">数字金融行业解决方案</a>
+                            <a href="{{url('/web')}}" title="网络营销行业解决方案">网络营销行业解决方案</a>
+                            <a href="{{url('/web')}}" title="智能硬件行业解决方案">智能硬件行业解决方案</a>
+                            <a href="{{url('/web')}}" title="医疗行业解决方案">医疗行业解决方案</a>
+                            <a href="{{url('/web')}}" title="教学行业解决方案">教学行业解决方案</a>
+                            <a href="{{url('/web')}}" title="建筑装饰行业解决方案">建筑装饰行业解决方案</a>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@
                     <div class="footer-box">
                         <div class="footer-title">
                             <h5>我们的服务</h5>
-                            <a href="#">更多+</a>
+                            <a href="{{url('/web')}}" title="普擎科技提供服务">更多+</a>
                         </div>
                         <p class="footer-text">
                             <strong>网站建设</strong>
@@ -61,7 +61,7 @@
                     <div class="footer-box">
                         <div class="footer-title">
                             <h5>关于我们</h5>
-                            <a href="#">更多+</a>
+                            <a href="{{url('/about')}}" title="普擎公司文化">更多+</a>
                         </div>
                         <p class="footer-text">
                             普擎网站设计，为客户量身定制各类网站建设业务，包括企业型、电子商务型、行业门户型、品牌建立型等各类网站，实战经验丰富，成功案例众多。以客户利益为出发点，普擎网站制作为客户规划、定制符合企业需求、带有营销价值的网络建站方案，提供从网站前期定位分析策划、技术架构，到网站界面设计...
@@ -72,12 +72,17 @@
             <div class="footer-link">
                 <h5>友情链接</h5>
                 <div class="link-list">
-                    <a href="">重庆普擎科技</a>
-                    <a href="">重庆网站设计</a>
-                    <a href="">重庆网站建设</a>
+                    <a href="https://www.p7ing.com" title="重庆普擎科技">重庆普擎科技</a>
+                    <a href="{{url('/web')}}" title="重庆网站设计">重庆网站设计</a>
+                    <a href="{{url('/web')}}" title="重庆网站建设">重庆网站建设</a>
+                    <a href="{{url('/web')}}" title="重庆网站外包">重庆网站外包</a>
+                    <a href="{{url('/web')}}" title="重庆网站开发">重庆网站开发</a>
+                    <a href="{{url('/web')}}" title="重庆网站制作">重庆网站制作</a>
+                    <a href="{{url('/wechat')}}" title="重庆微信开发">重庆微信开发</a>
+                    <a href="{{url('/app')}}" title="重庆软件定制">重庆软件定制</a>
                 </div>
             </div>
-            <p class="footer-text">重庆普擎科技官网©2019 重庆市普擎科技有限公司 版权所有 | 渝ICP备19004069号</p>
+            <p class="footer-text">重庆普擎科技官网©2019 重庆市普擎科技有限公司 版权所有 | <a href="http://beian.miit.gov.cn" title="重庆普擎科技网站备案号">渝ICP备19004069号</a></p>
         </div>
     </div>
 </footer>
