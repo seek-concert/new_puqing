@@ -34,4 +34,12 @@ class WebController extends BaseController
         return $this->show(2,'',$data);
     }
 
+    /*=======================[门户网站]=============================*/
+    public function web_site_portal_web()
+    {
+        $data = [];
+
+        return $this->show(2,'',$data);
+    }
+
 }

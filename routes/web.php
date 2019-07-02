@@ -17,6 +17,7 @@ Route::namespace('index')->group(function () {
     /*=======================[网站建设]=============================*/
     Route::any('/web', 'WebController@index');
     Route::any('/web_site_html5', 'WebController@web_site_html5');
+    Route::any('/web_site_portal_web', 'WebController@web_site_portal_web');
 
     /*=======================[微信开发]=============================*/
     Route::any('/wechat', 'WechatController@index');
