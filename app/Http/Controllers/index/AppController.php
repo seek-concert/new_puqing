@@ -26,4 +26,15 @@ class AppController extends BaseController
         return $this->show(4,'',$data);
     }
 
+    /*=======================[原生APP/WEB APP]=============================*/
+    public function soft_creat_app()
+    {
+        $data = [];
+
+        return $this->show(4,'',$data);
+    }
+
+    /*=======================[项目流程]=============================*/
+       
+
 }

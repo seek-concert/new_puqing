@@ -21,11 +21,17 @@ Route::namespace('index')->group(function () {
 
     /*=======================[微信开发]=============================*/
     Route::any('/wechat', 'WechatController@index');
-
     Route::any('/wechat_dev_public', 'WechatController@wechat_dev_public');
+    Route::any('/wechat_dev_small', 'WechatController@wechat_dev_small');
+    Route::any('/web_site_shop_web', 'WechatController@web_site_shop_web');
+    Route::any('/wechat_dev_service', 'WechatController@wechat_dev_service');
+    Route::any('/web_site_shop_b2b2c', 'WechatController@web_site_shop_b2b2c');
+    Route::any('/web_site_shop_sale', 'WechatController@web_site_shop_sale');
 
     /*=======================[软件定制]=============================*/
     Route::any('/app', 'AppController@index');
+    Route::any('/soft_creat_app', 'AppController@soft_creat_app');
+    Route::any('/soft_creat_app', 'AppController@soft_creat_app');
 
     /*=======================[成功案例]=============================*/
     Route::any('/case', 'CaseController@index');
