@@ -25,33 +25,5 @@ class IndexController extends BaseController
 
         return $this->show(1,'',$data);
     }
-    /*=======================[公众号]=============================*/
-    public function wechat_dev_public()
-    {
-        $data = [];
-
-        return $this->show(1,'',$data);
-    }
-    /*=======================[小程序]=============================*/
-    public function wechat_dev_small()
-    {
-        $data = [];
-
-        return $this->show(1,'',$data);
-    }
-    /*=======================[微商城]=============================*/
-    public function web_site_shop_web()
-    {
-        $data = [];
-
-        return $this->show(1,'',$data);
-    }
-    /*=======================[微服务]=============================*/
-    public function wechat_dev_service()
-    {
-        $data = [];
-
-        return $this->show(1,'',$data);
-    }
 
 }
