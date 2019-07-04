@@ -15,15 +15,15 @@
 
     <section class="commom-navs">
         <div class="commom-navs-content">
-            <a href="./web_site_shop_web" class="commom-navs-content__item">
+            <a href="{{url('/web_site_shop_web')}}" class="commom-navs-content__item">
                 <div class="commom-navs-content__icon iconfont">&#xe806;</div>
                 <p class="commom-navs-content__title">B2B商城</p>
             </a>
-            <a href="./web_site_shop_b2b2c" class="commom-navs-content__item">
+            <a href="{{url('/web_site_shop_b2b2c')}}" class="commom-navs-content__item">
                 <div class="commom-navs-content__icon iconfont">&#xe807;</div>
                 <p class="commom-navs-content__title">B2B2C商城</p>
             </a>
-            <a href="./web_site_shop_sale" class="commom-navs-content__item active">
+            <a href="{{url('/web_site_shop_sale')}}" class="commom-navs-content__item active">
                 <div class="commom-navs-content__icon iconfont">&#xe612;</div>
                 <p class="commom-navs-content__title">分销商城</p>
             </a>
@@ -33,9 +33,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/web-site.html">网站建设</a>
-                <a href="" class="active">B2B2C商城</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/web')}}" title="重庆网站建设">网站建设</a>
+                <a href="#" class="active" title="重庆分销商城">分销商城</a>
             </div>
         </div>
     </section>
@@ -64,7 +64,7 @@
                 <div class="col-12">
                     <h1>多终端展现 玩赚分销</h1>
                     <div class="w-100">
-                        <img src="{{asset('index/images/website/shopsale-img2.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('index/images/website/shopsale-img2.png')}}" alt="分销商城建设外包" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@
                 <div class="col-12 col-md-10">
                     <h1 class="pl-md-5"> 强大的<span class="text-warning">促销模块</span>，刺激购物<br> 转化率的强力保障 </h1>
                     <p class="pl-md-5">多样化的促销功能，满足日常促销活动和大型特卖，灵活简易的的设置轻松搞定。</p>
-                    <div class="w-100"><img src="{{asset('index/images/website/shopsale-img7.png')}}" alt=""
+                    <div class="w-100"><img src="{{asset('index/images/website/shopsale-img7.png')}}" alt="分销商城促销"
                                             class="img-fluid"></div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
             <div class="w-100"></div>
             <div class="col-12 mt-md-5">
                 <div class="w-100 m-auto d-none d-lg-block"><img
-                            src="{{asset('index/images/website/shopsale-img8.jpg')}}" alt=""></div>
+                            src="{{asset('index/images/website/shopsale-img8.jpg')}}" alt="分销网站建设"></div>
                 <div class="wrap-step">
                     <div class="wrap-step-item">
                         <h6>1.正确使用标题</h6>

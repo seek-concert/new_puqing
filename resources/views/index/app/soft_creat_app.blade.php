@@ -19,9 +19,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/wechat-dev.html">软件定制</a>
-                <a href="" class="active">APP定制开发</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/app')}}" title="软件定制">软件定制</a>
+                <a href="#" class="active" title="APP软件定制开发详情">APP软件定制开发</a>
             </div>
         </div>
     </section>
@@ -49,7 +49,7 @@
                 <div class="col-12 col-md-4">
                     <div class="softapp-wrap-card">
                         <div class="softapp-wrap-card__img">
-                            <img src="{{asset('index/images/softcreat/app/uIOS_img1.png')}}" alt="">
+                            <img src="{{asset('index/images/softcreat/app/uIOS_img1.png')}}" alt="原生软件开发优势">
                         </div>
                         <div class="softapp-wrap-card__cont">
                             <h5>IOS APP营收更容易</h5>
@@ -62,7 +62,7 @@
                 <div class="col-12 col-md-4">
                     <div class="softapp-wrap-card">
                         <div class="softapp-wrap-card__img">
-                            <img src="{{asset('index/images/softcreat/app/uIOS_img2.png')}}" alt="">
+                            <img src="{{asset('index/images/softcreat/app/uIOS_img2.png')}}" alt="IOS系统机型少、适配性高">
                         </div>
                         <div class="softapp-wrap-card__cont">
                             <h5>IOS系统机型少、适配性高</h5>
@@ -73,7 +73,7 @@
                 <div class="col-12 col-md-4">
                     <div class="softapp-wrap-card">
                         <div class="softapp-wrap-card__img">
-                            <img src="{{asset('index/images/softcreat/app/uIOS_img3.png')}}" alt="">
+                            <img src="{{asset('index/images/softcreat/app/uIOS_img3.png')}}" alt="IOS应用发布统一且唯一">
                         </div>
                         <div class="softapp-wrap-card__cont">
                             <h5>IOS应用发布统一且唯一</h5>
@@ -98,7 +98,7 @@
                 <div class="col-12 col-md-4">
                     <div class="softapp-wrap-card">
                         <div class="softapp-wrap-card__img">
-                            <img src="{{asset('index/images/softcreat/app/uAndroid_img1.png')}}" alt="">
+                            <img src="{{asset('index/images/softcreat/app/uAndroid_img1.png')}}" alt="Android系统用户数量多">
                         </div>
                         <div class="softapp-wrap-card__cont">
                             <h5>Android系统用户数量多</h5>
@@ -111,7 +111,7 @@
                 <div class="col-12 col-md-4">
                     <div class="softapp-wrap-card">
                         <div class="softapp-wrap-card__img">
-                            <img src="{{asset('index/images/softcreat/app/uAndroid_img2.png')}}" alt="">
+                            <img src="{{asset('index/images/softcreat/app/uAndroid_img2.png')}}" alt="Android系统开放性高">
                         </div>
                         <div class="softapp-wrap-card__cont">
                             <h5>Android系统开放性高</h5>
@@ -122,7 +122,7 @@
                 <div class="col-12 col-md-4">
                     <div class="softapp-wrap-card">
                         <div class="softapp-wrap-card__img">
-                            <img src="{{asset('index/images/softcreat/app/uAndroid_img3.png')}}" alt="">
+                            <img src="{{asset('index/images/softcreat/app/uAndroid_img3.png')}}" alt="Android硬件条件丰富">
                         </div>
                         <div class="softapp-wrap-card__cont">
                             <h5>Android硬件条件丰富</h5>
@@ -146,61 +146,61 @@
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">1</div>
                                 <h5>IOS APP开发一般用什么编程语言?</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">2</div>
                                 <h5>IOS开发一定要MAC苹果电脑吗</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">3</div>
                                 <h5>IOS个人/企业开发者账号怎么申请？</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">4</div>
                                 <h5>企业如何选择靠谱的APP外包公司？</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">5</div>
                                 <h5>APP开发外包公司有什么优势？</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">6</div>
                                 <h5>开发一款APP究竟需要多少钱？</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">7</div>
                                 <h5>Mac OS上IOS开发环境如何搭建？</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">8</div>
                                 <h5>IOS开发者账号（个人、公司、企业）之间有什么区别？</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">9</div>
                                 <h5>史上最全的ios app开发者账号问题汇总</h5>
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="softapp-wrap-item">
-                                <div class="softapp-wrap-item__time">26</div>
+                                <div class="softapp-wrap-item__time">10</div>
                                 <h5>APP开发公司开发一个APP的成本是多少</h5>
                             </div>
                         </div>

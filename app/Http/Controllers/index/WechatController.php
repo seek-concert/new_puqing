@@ -31,7 +31,7 @@ class WechatController extends BaseController
     {
         $data = [];
 
-        return $this->show(1,'',$data);
+        return $this->show(3,'',$data);
     }
 
     /*=======================[小程序]=============================*/
@@ -39,29 +39,30 @@ class WechatController extends BaseController
     {
         $data = [];
 
-        return $this->show(1,'',$data);
+        return $this->show(3,'',$data);
     }
 
     /*=======================[微商城]=============================*/
-    public function web_site_shop_web()
+    /*==[B2B商城]==*/
+    public function wechat_site_shop_web()
     {
         $data = [];
 
-        return $this->show(1,'',$data);
+        return $this->show(3,'',$data);
     }
     /*==[B2B2C商城]==*/
-    public function web_site_shop_b2b2c()
+    public function wechat_site_shop_b2b2c()
     {
         $data = [];
 
-        return $this->show(1,'',$data);
+        return $this->show(3,'',$data);
     }
     /*==[分销商城]==*/
-    public function web_site_shop_sale()
+    public function wechat_site_shop_sale()
     {
         $data = [];
 
-        return $this->show(1,'',$data);
+        return $this->show(3,'',$data);
     }
 
 
@@ -71,7 +72,7 @@ class WechatController extends BaseController
     {
         $data = [];
 
-        return $this->show(1,'',$data);
+        return $this->show(3,'',$data);
     }
     
 

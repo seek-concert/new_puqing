@@ -3,8 +3,6 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/wechat-dev-small.css')}}">
 @endsection
 
@@ -18,9 +16,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/wechat-dev.html">微信开发</a>
-                <a href="" class="active">小程序</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/wechat')}}" title="微信开发">微信开发</a>
+                <a href="#" class="active" title="微信公众平台开发详情">微信公众平台开发</a>
             </div>
         </div>
     </section>
@@ -49,43 +47,43 @@
                     <div class="w-100"></div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img1.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img1.png')}}" alt="移动互联网趋势">
                             <h6>移动互联网趋势</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img2.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img2.png')}}" alt="巨大流量入口">
                             <h6>巨大流量入口</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img3.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img3.png')}}" alt="强大的用户粘性和使用惯性">
                             <h6>强大的用户粘性和使用惯性</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img4.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img4.png')}}" alt="差异化服务">
                             <h6>差异化服务</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img5.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img5.png')}}" alt="时尚的产品销售渠道">
                             <h6>时尚的产品销售渠道</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img6.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img6.png')}}" alt="高效CRM管理">
                             <h6>高效CRM管理</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/nopublic/we_img7.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/we_img7.png')}}" alt="低成本营销">
                             <h6>低成本营销</h6>
                         </div>
                     </div>
@@ -105,7 +103,7 @@
                 <div class="col-12 col-md-6">
                     <div class="small-wrap-service">
                         <div class="small-wrap-service__img">
-                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img1.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img1.png')}}" alt="微信服务号开发">
                         </div>
                         <div class="small-wrap-service__cont">
                             <h5>微信服务号开发</h5>
@@ -116,7 +114,7 @@
                 <div class="col-12 col-md-6">
                     <div class="small-wrap-service">
                         <div class="small-wrap-service__img">
-                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img2.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img2.png')}}" alt="微信订阅号开发">
                         </div>
                         <div class="small-wrap-service__cont">
                             <h5>微信订阅号开发</h5>
@@ -127,7 +125,7 @@
                 <div class="col-12 col-md-6">
                     <div class="small-wrap-service">
                         <div class="small-wrap-service__img">
-                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img3.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img3.png')}}" alt="微信企业号开发">
                         </div>
                         <div class="small-wrap-service__cont">
                             <h5>微信企业号开发</h5>
@@ -138,7 +136,7 @@
                 <div class="col-12 col-md-6">
                     <div class="small-wrap-service">
                         <div class="small-wrap-service__img">
-                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img1.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/nopublic/sp_img1.png')}}" alt="微信小程序开发">
                         </div>
                         <div class="small-wrap-service__cont">
                             <h5>微信小程序开发</h5>
@@ -160,23 +158,23 @@
                 </div>
                 <div class="small-wrap-feature">
                     <div class="small-wrap-feature__box small-wrap-feature__box1">
-                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img1.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img1.png')}}" alt="微信H5页面制作">
                         <h5>微信H5页面制作</h5>
                     </div>
                     <div class="small-wrap-feature__box small-wrap-feature__box2">
-                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img2.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img2.png')}}" alt="微官网开发">
                         <h5>微官网开发</h5>
                     </div>
                     <div class="small-wrap-feature__box small-wrap-feature__box3">
-                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img3.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img3.png')}}" alt="微信支付功能开发">
                         <h5>微信支付功能开发</h5>
                     </div>
                     <div class="small-wrap-feature__box small-wrap-feature__box4">
-                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img4.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img4.png')}}" alt="微信预约功能开发">
                         <h5>微信预约功能开发</h5>
                     </div>
                     <div class="small-wrap-feature__box small-wrap-feature__box5">
-                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img5.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/nopublic/fea_img5.png')}}" alt="微分销系统开发">
                         <h5>微分销系统开发</h5>
                     </div>
                 </div>
@@ -191,7 +189,5 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/lib/jquery-1.9.0.min.js')}}"></script>
-    <script src="{{asset('index/js/lib/bootstrap.min.js')}}"></script>
-    <script src="{{asset('index/js/config.js')}}"></script>
+
 @endsection

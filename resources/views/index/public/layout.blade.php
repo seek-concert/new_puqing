@@ -21,8 +21,8 @@
 {{-- 导航栏 --}}
 <header class="main-header">
     <div class="main-view">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="/" title="首页跳转"><img src="{{asset('index/images/logo.png')}}" alt="普擎科技 LOGO"></a>
+        <nav class="navbar navbar-expand-lg navbar-light" title="普擎专注网站建设开发外包">
+            <a class="navbar-brand" href="/" title="普擎科技LOGO"><img src="{{asset('index/images/logo.png')}}" alt="普擎科技LOGO image"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,32 +33,32 @@
                         <a class="nav-link" href="/" title="重庆普擎科技官网">首页 <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/web')}}">网站建设</a>
+                        <a class="nav-link" href="{{url('/web')}}" title="普擎网站建设开发外包栏目">网站建设</a>
                         <span class="hot iconfont">&#xe7a8;</span>
                         <div class="childnav">
                             <div class="main-view d-flex align-items-center">
                                 <div class="childnav-left">
-                                    <img src="{{asset('index/images/website/Laptosss.png')}}" alt="">
+                                    <img src="{{asset('index/images/website/Laptosss.png')}}" alt="普擎科技提供网站建设外包开发服务">
                                 </div>
                                 <div class="childnav-right">
-                                    <a href="{{url('/web')}}?index=0" class="childnav-link">
-                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Bag.png')}}" alt=""></div>
+                                    <a href="{{url('/web_site_shop_web')}}" class="childnav-link" title="商城网站外包">
+                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Bag.png')}}" alt="商城网站外包"></div>
                                         <div class="childnav-link-name"><span>——</span> 商城网站 </div>
                                     </a>
-                                    <a href="{{url('/web')}}?index=1" class="childnav-link">
-                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Laptop.png')}}" alt=""></div>
+                                    <a href="{{url('/web_site_company_web')}}" class="childnav-link" title="企业官网建设">
+                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Laptop.png')}}" alt="企业官网建设"></div>
                                         <div class="childnav-link-name"><span>——</span> 企业官网 </div>
                                     </a>
-                                    <a href="{{url('/web')}}?index=2" class="childnav-link">
-                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/mobilephole.png')}}" alt=""></div>
+                                    <a href="{{url('/web_site_html5')}}" class="childnav-link" title="手机网站开发">
+                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/mobilephole.png')}}" alt="手机网站开发"></div>
                                         <div class="childnav-link-name"><span>——</span> 手机网站 </div>
                                     </a>
-                                    <a href="{{url('/web')}}?index=3" class="childnav-link">
-                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Home.png')}}" alt=""></div>
+                                    <a href="{{url('/web_site_portal_web')}}" class="childnav-link" title="门户网站制作">
+                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Home.png')}}" alt="门户网站制作"></div>
                                         <div class="childnav-link-name"><span>——</span> 门户网站 </div>
                                     </a>
-                                    <a href="{{url('/web')}}?index=4" class="childnav-link">
-                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Monitor.png')}}" alt=""></div>
+                                    <a href="{{url('/web_site_admin')}}" class="childnav-link" title="后台管理系统定制开发">
+                                        <div class="childnav-link-icon"><img src="{{asset('index/images/website/Monitor.png')}}" alt="后台管理系统定制开发"></div>
                                         <div class="childnav-link-name"><span>——</span> 后台管理系统 </div>
                                     </a>
 
@@ -67,29 +67,29 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/wechat')}}">微信开发</a>
+                        <a class="nav-link" href="{{url('/wechat')}}" title="普擎专注微信开发定制服务">微信开发</a>
                         <span class="hot iconfont">&#xe7a8;</span>
                         <div class="childnav wechatnav">
                             <div class="main-view d-flex text-center">
-                                <a href="{{url('/wechat')}}?index=0" class="wechatnav-item border-right">
+                                <a href="{{url('/wechat_dev_public')}}" class="wechatnav-item border-right" title="公众号开发">
                                     <div class="p-5">
                                         <i class="iconfont">&#xe600;</i>
                                         <h3>公众号</h3>
                                     </div>
                                 </a>
-                                <a href="{{url('/wechat')}}?index=1" class="wechatnav-item border-right">
+                                <a href="{{url('/wechat_dev_small')}}" class="wechatnav-item border-right" title="小程序开发">
                                     <div class="p-5">
                                         <i class="iconfont">&#xe611;</i>
                                         <h3>小程序</h3>
                                     </div>
                                 </a>
-                                <a href="{{url('/wechat')}}?index=2" class="wechatnav-item border-right">
+                                <a href="{{url('/wechat_site_shop_web')}}" class="wechatnav-item border-right" title="微商城开发">
                                     <div class="p-5">
                                         <i class="iconfont">&#xe650;</i>
                                         <h3>微商城</h3>
                                     </div>
                                 </a>
-                                <a href="{{url('/wechat')}}?index=3" class="wechatnav-item">
+                                <a href="{{url('/wechat_dev_service')}}" class="wechatnav-item" title="微服务开发">
                                     <div class="p-5">
                                         <i class="iconfont">&#xe6f3;</i>
                                         <h3>微服务</h3>
@@ -100,7 +100,7 @@
 
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/app')}}">软件定制</a>
+                        <a class="nav-link" href="{{url('/app')}}" title="普擎软件定制栏目">软件定制</a>
                         <span class="hot iconfont">&#xe7a8;</span>
                         <div class="childnav softnav">
                             <div class="main-view d-flex">
@@ -108,28 +108,28 @@
                                     <h3>解决方案</h3>
                                     <div class="softnav-left">
                                         <div class="softnav-left-item">
-                                            <img src="{{asset('index/images/solu1.png')}}" alt="">
+                                            <img src="{{asset('index/images/solu1.png')}}" alt="智能硬件行业软件定制">
                                             <div class="softnav-left-cont">
                                                 <h5>智能硬件行业</h5>
                                                 <p>智能硬件应用设计开发方案是 WiFi/4G 无线控制管理平台，通过移动终端，监控各种智能设备，并实现设备之间的互联互通，为用户提供多元的情景生活体验。</p>
                                             </div>
                                         </div>
                                         <div class="softnav-left-item">
-                                            <img src="{{asset('index/images/solu2.png')}}" alt="">
+                                            <img src="{{asset('index/images/solu2.png')}}" alt="移动电商行业软件定制">
                                             <div class="softnav-left-cont">
                                                 <h5>移动电商行业</h5>
                                                 <p>提供移动电商/商城APP及小程序设计开发解决方案，为企业定制个性化电子商务平台，拥有多个电商小程序、微分销商城、电商APP定制成功案例。</p>
                                             </div>
                                         </div>
                                         <div class="softnav-left-item">
-                                            <img src="{{asset('index/images/solu3.png')}}" alt="">
+                                            <img src="{{asset('index/images/solu3.png')}}" alt="数字金融行业软件定制">
                                             <div class="softnav-left-cont">
                                                 <h5>数字金融行业</h5>
                                                 <p>提供网上支付、移动支付、网上银行、金融服务外包及网上贷款、网上保险、网上基金等互联网金融产品的设计开发解决方案。</p>
                                             </div>
                                         </div>
                                         <div class="softnav-left-item">
-                                            <img src="{{asset('index/images/solu4.png')}}" alt="">
+                                            <img src="{{asset('index/images/solu4.png')}}" alt="网络营销行业软件定制">
                                             <div class="softnav-left-cont">
                                                 <h5>网络营销行业</h5>
                                                 <p>基于互联网络及社会关系网络连接企业、用户及公众，向用户及公众传递有价值的信息和服务，为实现顾客价值及企业营销目标所进行的规划、实施及运营管理活动。</p>
@@ -155,14 +155,14 @@
                                     <div class="tab-content" id="v-pills-tabContent">
                                         <div class="tab-pane fade show active" id="v-pills-oriapp" role="tabpanel"
                                              aria-labelledby="v-pills-oriapp-tab">
-                                            <img src="{{asset('index/images/softcreat/soft-img1.png')}}" alt="">
+                                            <img src="{{asset('index/images/softcreat/soft-img1.png')}}" alt="原生APP软件定制">
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-webapp" role="tabpanel"
                                              aria-labelledby="v-pills-webapp-tab">
-                                            <img src="{{asset('index/images/softcreat/soft-img1.png')}}" alt="">
+                                            <img src="{{asset('index/images/softcreat/soft-img1.png')}}" alt="WEB APP软件开发">
                                         </div>
                                         <div class="tab-pane fade" id="v-pills-items" role="tabpanel" aria-labelledby="v-pills-items-tab">
-                                            <img src="{{asset('index/images/softcreat/soft-img3.png')}}" alt="">
+                                            <img src="{{asset('index/images/softcreat/soft-img3.png')}}" alt="软件定制项目流程">
                                         </div>
                                     </div>
                                 </div>
@@ -170,13 +170,13 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/case')}}">成功案例</a>
+                        <a class="nav-link" href="{{url('/case')}}" title="普擎科技成功案例栏目">成功案例</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{url('/news')}}">新闻资讯</a>
+                        <a class="nav-link" href="{{url('/news')}}" title="普擎科技网站建设开发外包行业新闻资讯">新闻资讯</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="{{url('/about')}}">关于普擎</a>
+                        <a class="nav-link" href="{{url('/about')}}" title="普擎科技公司简介,团队介绍，联系方式">关于普擎</a>
                     </li>
                 </ul>
             </div>
@@ -192,25 +192,25 @@
 {{-- 右边导航 --}}
 <div class="dual dual-right">
     <ul>
-        <li class="easein" onclick="location.href='tel:15923774622'">
+        <li class="easein" onclick="location.href='tel:15923774622'" title="普擎欢迎您来电">
             <div class="dual-info">电话咨询</div>
             <em class="iconfont">&#xeb98;</em>
         </li>
-        <li class="easein" onclick="location.href='http://wpa.qq.com/msgrd?v=3&amp;uin=6230200&amp;site=qq&amp;menu=yes'">
+        <li class="easein" onclick="location.href='http://wpa.qq.com/msgrd?v=3&amp;uin=6230200&amp;site=qq&amp;menu=yes'" title="普擎QQ咨询">
             <div class="dual-info">QQ咨询</div>
             <em class="iconfont">&#xeb9b;</em>
         </li>
-        <li class="easein" onclick="alert(111)">
+        <li class="easein" onclick="alert('暂未开通在线咨询服务')">
             <div class="dual-info">在线咨询</div>
             <em class="iconfont">&#xeba0;</em>
         </li>
         <li>
             <div class="dual-ewm">
-                <img src="{{asset('index/images/wx.jpg')}}" alt="">
+                <img src="{{asset('index/images/wx.jpg')}}" alt="普擎科技微信公众号二维码，欢迎您关注">
             </div>
             <em class="iconfont">&#xeba1;</em>
         </li>
-        <li id="sTop">
+        <li id="sTop" title="点击我置顶栏目">
             <em class="iconfont">&#xeb94;</em>
         </li>
     </ul>

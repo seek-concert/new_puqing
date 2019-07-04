@@ -15,15 +15,15 @@
 
     <section class="commom-navs">
         <div class="commom-navs-content">
-            <a href="./web_site_shop_web" class="commom-navs-content__item">
+            <a href="{{url('/web_site_shop_web')}}" class="commom-navs-content__item">
                 <div class="commom-navs-content__icon iconfont">&#xe806;</div>
                 <p class="commom-navs-content__title">B2B商城</p>
             </a>
-            <a href="./web_site_shop_b2b2c" class="commom-navs-content__item active">
+            <a href="{{url('/web_site_shop_b2b2c')}}" class="commom-navs-content__item active">
                 <div class="commom-navs-content__icon iconfont">&#xe807;</div>
                 <p class="commom-navs-content__title">B2B2C商城</p>
             </a>
-            <a href="./web_site_shop_sale" class="commom-navs-content__item">
+            <a href="{{url('/web_site_shop_sale')}}" class="commom-navs-content__item">
                 <div class="commom-navs-content__icon iconfont">&#xe612;</div>
                 <p class="commom-navs-content__title">分销商城</p>
             </a>
@@ -33,9 +33,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/web-site.html">网站建设</a>
-                <a href="" class="active">B2B2C商城</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/web')}}" title="重庆网站建设">网站建设</a>
+                <a href="#" class="active" title="重庆B2B2C商城">B2B2C商城</a>
             </div>
         </div>
     </section>
@@ -151,7 +151,7 @@
                         融入电商：电子商务势不可挡，必须更加深刻的了解电子商务给传统行业带来的冲击和机会
                     </p>
                     <div class="w-100 pt-3">
-                        <img src="{{asset('index/images/website/b2b2c-img3.jpg')}}" alt="" class="img-fluid">
+                        <img src="{{asset('index/images/website/b2b2c-img3.jpg')}}" alt="B2B2C商城外包" class="img-fluid">
                     </div>
                 </div>
             </div>

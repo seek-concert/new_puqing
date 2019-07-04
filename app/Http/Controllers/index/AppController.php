@@ -34,7 +34,4 @@ class AppController extends BaseController
         return $this->show(4,'',$data);
     }
 
-    /*=======================[项目流程]=============================*/
-       
-
 }

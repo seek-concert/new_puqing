@@ -3,8 +3,6 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/wechat-dev-service.css')}}">
 @endsection
 
@@ -16,9 +14,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/web-site.html">微信开发</a>
-                <a href="" class="active">微服务</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/wechat')}}" title="微信开发">微信开发</a>
+                <a href="#" class="active" title="微服务开发详情">微服务开发</a>
             </div>
         </div>
     </section>
@@ -32,7 +30,7 @@
                 <div class="service-wrap-content">
                     <h1>微信网站 轻松打造</h1>
                     <p>通过微信公众号或服务号与手机网站进行对接，轻松打造和手机网站一样的微信营销网站，数据和手机网站同步，轻松实现微信营销。</p>
-                    <img class="mt-5" src="{{asset('index/images/wechatdev/service/ser-img1_1.jpg')}}" alt="">
+                    <img class="mt-5" src="{{asset('index/images/wechatdev/service/ser-img1_1.jpg')}}" alt="微信网站建设">
                 </div>
             </div>
         </div>
@@ -64,7 +62,7 @@
                     <div class="service-wrap-content text-center">
                         <h1>微信营销 无“微”不至</h1>
                         <p>微信网站将为您的客户带来从售前到售后的全流程服务，让企业与客户的关系更加紧密</p>
-                        <img src="{{asset('index/images/wechatdev/service/ser-img2.png')}}" alt=""
+                        <img src="{{asset('index/images/wechatdev/service/ser-img2.png')}}" alt="微信网站营销"
                              class="mt-5 img-fluid">
                     </div>
                 </div>
@@ -79,7 +77,7 @@
                     <div class="service-wrap-content text-center text-white">
                         <h1>8大解决方案，直击行业痛点</h1>
                         <p>解决不同行业深度需求，落地多行业“互联网+”成熟方案</p>
-                        <img src="{{asset('index/images/wechatdev/service/ser-img3.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('index/images/wechatdev/service/ser-img3.png')}}" alt="微信网站解决方案" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -100,7 +98,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_1.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_1.jpg')}}" alt="快速建立微信分销渠道"></div>
                         <h5>全民店</h5>
                         <p class="text-muted">快速建立微信分销渠道</p>
                     </div>
@@ -108,7 +106,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_2.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_2.jpg')}}" alt="史上最强大的微信吸粉游戏"></div>
                         <h5>转发有礼</h5>
                         <p class="text-muted">史上最强大的微信吸粉游戏</p>
                     </div>
@@ -116,7 +114,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_3.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_3.jpg')}}" alt="在微信之中建立的商城"></div>
                         <h5>微商城</h5>
                         <p class="text-muted">在微信之中建立的商城</p>
                     </div>
@@ -124,7 +122,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_4.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_4.jpg')}}" alt="微信竞拍新方式"></div>
                         <h5>超级秒杀</h5>
                         <p class="text-muted">微信竞拍新方式</p>
                     </div>
@@ -132,7 +130,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_5.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_5.jpg')}}" alt="微信投票"></div>
                         <h5>新版投票</h5>
                         <p class="text-muted">同粉丝互动，刺激涨粉最有效</p>
                     </div>
@@ -140,7 +138,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_6.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_6.jpg')}}" alt="微信微社区"></div>
                         <h5>微社区</h5>
                         <p class="text-muted">“用户与用户”、“用户与平台”双向交流模式</p>
                     </div>
@@ -148,7 +146,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_7.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_7.jpg')}}" alt="微信智能订房系统"></div>
                         <h5>酒店预订</h5>
                         <p class="text-muted">微信智能订房系统</p>
                     </div>
@@ -156,7 +154,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_8.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_8.jpg')}}" alt="微信经纪人"></div>
                         <h5>全民经纪人</h5>
                         <p class="text-muted">全新的拓客渠道</p>
                     </div>
@@ -164,7 +162,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_9.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_9.jpg')}}" alt="微信支付 全新微信收款通道"></div>
                         <h5>微信支付</h5>
                         <p class="text-muted">全新微信收款通道</p>
                     </div>
@@ -172,7 +170,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_10.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_10.jpg')}}" alt="基于微信广泛传播的商务邀请函"></div>
                         <h5>微请柬</h5>
                         <p class="text-muted">基于微信广泛传播的商务邀请函</p>
                     </div>
@@ -180,7 +178,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_11.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_11.jpg')}}" alt="最热最IN微信互动"></div>
                         <h5>微现场</h5>
                         <p class="text-muted">最热最IN微信互动</p>
                     </div>
@@ -188,7 +186,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_12.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_12.jpg')}}" alt="微会员"></div>
                         <h5>微会员</h5>
                         <p class="text-muted">商家只要用原有实体卡扫，描枪扫描，即可验证会员卡信息</p>
                     </div>
@@ -196,7 +194,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_13.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_13.jpg')}}" alt="微贺卡"></div>
                         <h5>微贺卡</h5>
                         <p class="text-muted">用微贺卡在微信中传情</p>
                     </div>
@@ -204,7 +202,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_14.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_14.jpg')}}" alt="微游戏"></div>
                         <h5>微游戏</h5>
                         <p class="text-muted">互动营销小游戏</p>
                     </div>
@@ -212,7 +210,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_15.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_15.jpg')}}" alt="微相册"></div>
                         <h5>微相册</h5>
                         <p class="text-muted">专属精美动态相册</p>
                     </div>
@@ -220,7 +218,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_16.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_16.jpg')}}" alt="微官网"></div>
                         <h5>微官网</h5>
                         <p class="text-muted">让你的微网站与众不同</p>
                     </div>
@@ -228,7 +226,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_17.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_17.jpg')}}" alt="微外卖"></div>
                         <h5>微外卖</h5>
                         <p class="text-muted">微信版“淘点点”，操作简单，管理方便</p>
                     </div>
@@ -236,7 +234,7 @@
                 <div class="col-6 col-md-4 col-lg-2">
                     <div class="service-wrap-item">
                         <div class="service-wrap-item__img"><img
-                                    src="{{asset('index/images/wechatdev/service/ser-img4_18.jpg')}}" alt=""></div>
+                                    src="{{asset('index/images/wechatdev/service/ser-img4_18.jpg')}}" alt="微名片"></div>
                         <h5>微名片</h5>
                         <p class="text-muted">普擎科技为您打造属于您的独一无二微名片</p>
                     </div>
@@ -251,7 +249,5 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/lib/jquery-1.9.0.min.js')}}"></script>
-    <script src="{{asset('index/js/lib/bootstrap.min.js')}}"></script>
-    <script src="{{asset('index/js/config.js')}}"></script>
+
 @endsection

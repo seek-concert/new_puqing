@@ -88,8 +88,8 @@
                             APP就可以了，不再需要大花价钱去分别制作IOS APP和Android APP。</p>
                         <div class="w-100 pt-3">
                             <div class=""></div>
-                            <img src="{{asset('index/images/website/html5-img2_1.jpg')}}" alt="" class="img-fluid">
-                            <img src="{{asset('index/images/website/html5-img2_2.jpg')}}" alt="" class="img-fluid">
+                            <img src="{{asset('index/images/website/html5-img2_1.jpg')}}" alt="手机网站建设" class="img-fluid">
+                            <img src="{{asset('index/images/website/html5-img2_2.jpg')}}" alt="手机网站外包" class="img-fluid">
                         </div>
                     </div>
                 </div>

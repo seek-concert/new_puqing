@@ -29,7 +29,7 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 .main-header .navbar-nav li.active > .nav-link, .main-header .navbar-nav li:hover > .nav-link { color: #0091ff; }
 .main-header .childnav { -webkit-box-sizing: border-box; box-sizing: border-box; position: fixed; width: 100%; height: auto; padding: 2.25rem 0; background: #f5f5f5; z-index: 1030; left: 0; top: 5rem; opacity: 0; visibility: hidden; -webkit-transform: translateY(-0.625rem); transform: translateY(-0.625rem); -webkit-transition: all 0.3s; transition: all 0.3s; }
 .main-header .childnav-left { width: 50%; border-right: 1px solid #eee; text-align: right; padding-right: 5rem; }
-.main-header .childnav-right { width: 50%; padding: 1.875rem 9.75rem; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+.main-header .childnav-right { width: 50%; padding-left: 6.25rem; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 .main-header .childnav-right .childnav-link { width: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; color: #080808; margin-bottom: 2.1875rem; }
 .main-header .childnav-right .childnav-link-icon { position: relative; -webkit-box-sizing: border-box; box-sizing: border-box; width: 2.875rem; height: 2.875rem; background: #989898; border-radius: 50%; padding: 0.625rem; }
 .main-header .childnav-right .childnav-link-icon img { position: absolute; display: block; width: 100%/2; height: 100%/2; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
@@ -139,7 +139,9 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 @media (max-width: 1199.98px) { .main-header .navbar-nav li { white-space: nowrap; margin: 0 1.125rem; }
   .main-header .navbar-nav li .nav-link { padding: 0.5rem; }
   .main-header .navbar-nav li:last-child { margin-right: 0; }
-  .main-header .navbar-nav li.active .nav-link, .main-header .navbar-nav li:hover .nav-link { color: #0091ff; } }
+  .main-header .navbar-nav li.active .nav-link, .main-header .navbar-nav li:hover .nav-link { color: #0091ff; }
+  .main-header .childnav-left { padding-right: 3.125rem; }
+  .main-header .childnav-right { padding-left: 5rem; } }
 @media (max-width: 767.98px) { .main-header .navbar-brand img { height: 2.1875rem; }
   .main-header .navbar-toggler { padding: 0.15rem 0.25rem; }
   .dual { right: 0.3125rem; }

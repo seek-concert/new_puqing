@@ -108,9 +108,10 @@ html,body
       padding-right: 5rem /* 80/16 */
     &-right
       width: 50%
-      padding: 1.875rem /* 30/16 */ 9.75rem /* 156/16 */
+      padding-left: 6.25rem /* 100/16 */
       display: flex
       flex-wrap: wrap
+      align-items: center
       .childnav-link
         width: 50%
         display: flex
@@ -624,6 +625,12 @@ html,body
         &.active, &:hover
           .nav-link
             color: #0091ff
+    .childnav
+      &-left
+        padding-right: 3.125rem /* 50/16 */
+      &-right
+        padding-left: 5rem /* 80/16 */
+
 
 // Large devices (desktops, less than 768px)
 @media (max-width: 767.98px)

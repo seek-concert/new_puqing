@@ -15,17 +15,17 @@
 
     <section class="commom-navs">
         <div class="commom-navs-content">
-            <a href="./web_site_shop_web" class="commom-navs-content__item active">
+            <a href="{{asset('/wechat_site_shop_web')}}" class="commom-navs-content__item active">
                 <div class="commom-navs-content__icon iconfont">&#xe806;</div>
-                <p class="commom-navs-content__title">B2B商城</p>
+                <p class="commom-navs-content__title">微B2B商城</p>
             </a>
-            <a href="./web_site_shop_b2b2c" class="commom-navs-content__item">
+            <a href="{{asset('/wechat_site_shop_b2b2c')}}" class="commom-navs-content__item">
                 <div class="commom-navs-content__icon iconfont">&#xe807;</div>
-                <p class="commom-navs-content__title">B2B2C商城</p>
+                <p class="commom-navs-content__title">微B2B2C商城</p>
             </a>
-            <a href="./web_site_shop_sale" class="commom-navs-content__item">
+            <a href="{{asset('/wechat_site_shop_sale')}}" class="commom-navs-content__item">
                 <div class="commom-navs-content__icon iconfont">&#xe612;</div>
-                <p class="commom-navs-content__title">分销商城</p>
+                <p class="commom-navs-content__title">微分销商城</p>
             </a>
         </div>
     </section>
@@ -33,9 +33,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/web-site.html">网站建设</a>
-                <a href="" class="active">B2B商城</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/wechat')}}" title="微信开发">微信开发</a>
+                <a href="#" class="active" title="微B2B商城详情">微B2B商城</a>
             </div>
         </div>
     </section>
@@ -67,7 +67,7 @@
                 B2B电子商务网站是指同为商家(或企业、公司)的供需双方使用互联网技术或各种商务网络平台，完成整个商务交易过程的网络平台。B2B电子商务网站为企业与企业之间有力地搭建起一座贸易桥梁，将企业内网与客户紧密结合起来，并通过互联网的快速反应，为客户提供更快更好的服务，促进企业业务发展。
             </p>
             <div class="w-100 pt-3">
-                <img src="{{asset('index/images/website/b2b-img2.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('index/images/website/b2b-img2.png')}}" alt="B2B电子商务网站核心功能" class="img-fluid">
             </div>
         </div>
     </section>
@@ -80,7 +80,7 @@
                 普擎充分利用互联网根据企业的不同类型、规模、产品类型、发展战略等，进行专业化的电商平台开发，帮助传统企业进入电子化市场，让企业获得更多信息资源和商机；实现多种信息沟通渠道的集成，协助企业实现与客户直接对接与交流，在企业与客户之间建立良性交互渠道，提升企业客户服务水平、客户满意度和忠实度，实现企业网络形象的提升和网络市场的开拓与扩展。
             </p>
             <div class="w-100 pt-3">
-                <img src="{{asset('index/images/website/b2b-img3.jpg')}}" alt="" class="img-fluid">
+                <img src="{{asset('index/images/website/b2b-img3.jpg')}}" alt="普擎B2B电子商务网站业务流程图" class="img-fluid">
             </div>
         </div>
     </section>
@@ -93,7 +93,7 @@
                 普擎充分利用互联网根据企业的不同类型、规模、产品类型、发展战略等，进行专业化的电子商务网站开发，帮助传统企业进入电子化市场，让企业获得更多信息资源和商机；实现多种信息沟通渠道的集成，协助企业实现与客户直接对接与交流，在企业与客户之间建立良性交互渠道，提升企业客户服务水平、客户满意度和忠实度，实现企业网络形象的提升和网络市场的开拓与扩展。
             </p>
             <div class="w-100">
-                <img src="{{asset('index/images/website/b2b-img4.jpg')}}" alt="" class="img-fluid">
+                <img src="{{asset('index/images/website/b2b-img4.jpg')}}" alt="B2B电子商务网站特点" class="img-fluid">
             </div>
         </div>
     </section>
@@ -107,7 +107,7 @@
                 而B2B电子商务网站建设将逐渐摆脱低水平竞争状态，逐步实现合作、整合，构建“互为平台”的电子商务服务新模式，充分发挥各自的优势，实现共同发展与提升。
             </p>
             <div class="w-100 pt-3">
-                <img src="{{asset('index/images/website/b2b-img5.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('index/images/website/b2b-img5.png')}}" alt="B2B电子商务网站发展趋势" class="img-fluid">
             </div>
         </div>
     </section>
@@ -125,7 +125,7 @@
                         普擎强大的电子商务平台研发实力以及定制开发服务着眼，即可知其在面向集团、跨国公司、大型企业时，能够打造出适合各种规模、各个行业中企业发展壮大的B2B电子商务平台。普擎B2B电子商务平台支持集团和跨国公司实现产品销售与企业协作，并为集团用户实现电子商务化发展提供解决方案。普擎B2B电子商务网站应用行业广泛，从日化行业到汽车制造行业等均有成功案例。
                     </p>
                     <div class="w-100">
-                        <img src="{{asset('index/images/website/b2b-img7.jpg')}}" alt="" class="img-fluid">
+                        <img src="{{asset('index/images/website/b2b-img7.jpg')}}" alt="普擎B2B电子商务网站的行业应用" class="img-fluid">
                     </div>
                 </div>
             </div>

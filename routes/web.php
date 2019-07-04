@@ -15,33 +15,58 @@ Route::namespace('index')->group(function () {
     Route::any('/', 'IndexController@index');
 
     /*=======================[网站建设]=============================*/
+    /*------ [首页] -----*/
     Route::any('/web', 'WebController@index');
+    /*------ [商城网站] -----*/
+    Route::any('/web_site_shop_web', 'WebController@web_site_shop_web');//B2B
+    Route::any('/web_site_shop_b2b2c', 'WebController@web_site_shop_b2b2c');//B2B2C
+    Route::any('/web_site_shop_sale', 'WebController@web_site_shop_sale');//分销
+    /*------ [企业官网] -----*/
+    Route::any('/web_site_company_web', 'WebController@web_site_company_web');//企业官网
+    Route::any('/web_site_company_view', 'WebController@web_site_company_view');//视觉形象展示网站
+    Route::any('/web_site_company_sale', 'WebController@web_site_company_sale');//营销型
+    Route::any('/web_site_company_all', 'WebController@web_site_company_all');//响应式
+    /*------ [手机网站] -----*/
     Route::any('/web_site_html5', 'WebController@web_site_html5');
+    /*------ [门户网站] -----*/
     Route::any('/web_site_portal_web', 'WebController@web_site_portal_web');
+    /*------ [后台管理系统] -----*/
+    Route::any('/web_site_admin', 'WebController@web_site_admin');
 
     /*=======================[微信开发]=============================*/
+    /*------ [首页] -----*/
     Route::any('/wechat', 'WechatController@index');
-    Route::any('/wechat_dev_public', 'WechatController@wechat_dev_public');
+    /*------ [公众号] -----*/
+    Route::any('/wechat_dev_public', 'WechatController@wechat_dev_public');//公众号
+    /*------ [小程序] -----*/
     Route::any('/wechat_dev_small', 'WechatController@wechat_dev_small');
-    Route::any('/web_site_shop_web', 'WechatController@web_site_shop_web');
+    /*------ [微商城] -----*/
+    Route::any('/wechat_site_shop_web', 'WechatController@wechat_site_shop_web');//B2B
+    Route::any('/wechat_site_shop_b2b2c', 'WechatController@wechat_site_shop_b2b2c');//B2B2C
+    Route::any('/wechat_site_shop_sale', 'WechatController@wechat_site_shop_sale');//分销
+    /*------ [微服务] -----*/
     Route::any('/wechat_dev_service', 'WechatController@wechat_dev_service');
-    Route::any('/web_site_shop_b2b2c', 'WechatController@web_site_shop_b2b2c');
-    Route::any('/web_site_shop_sale', 'WechatController@web_site_shop_sale');
 
     /*=======================[软件定制]=============================*/
+    /*------ [首页] -----*/
     Route::any('/app', 'AppController@index');
-    Route::any('/soft_creat_app', 'AppController@soft_creat_app');
+    /*------ [软件定制] -----*/
     Route::any('/soft_creat_app', 'AppController@soft_creat_app');
 
     /*=======================[成功案例]=============================*/
+    /*------ [首页] -----*/
     Route::any('/case', 'CaseController@index');
+    /*------ [成功案例详情] -----*/
     Route::any('/case_info', 'CaseController@case_info');
 
     /*=======================[新闻资讯]=============================*/
+    /*------ [首页] -----*/
     Route::any('/news', 'NewsController@index');
+    /*------ [新闻资讯详情] -----*/
     Route::any('/news_info', 'NewsController@news_info');
 
     /*=======================[关于普擎]=============================*/
+    /*------ [首页] -----*/
     Route::any('/about', 'AboutController@index');
 
 });

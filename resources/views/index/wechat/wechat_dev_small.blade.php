@@ -3,8 +3,6 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('index/css/wechat-dev-small.css')}}">
 @endsection
 
@@ -19,9 +17,9 @@
     <section class="main-wrap">
         <div class="container-fluid">
             <div class="main-subtitle row pt-3">
-                <a href="/">首页</a>
-                <a href="/wechat-dev.html">微信开发</a>
-                <a href="" class="active">小程序</a>
+                <a href="https://www.p7ing.com" title="普擎官网">首页</a>
+                <a href="{{url('/wechat')}}" title="微信开发">微信开发</a>
+                <a href="#" class="active" title="微信小程序开发详情">微信小程序开发</a>
             </div>
         </div>
     </section>
@@ -49,43 +47,43 @@
                     <div class="w-100"></div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/liuliang.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/liuliang.png')}}" alt="为企业获得更多流量">
                             <h6>为企业获得更多流量</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/yhty.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/yhty.png')}}" alt="优秀的用户体验">
                             <h6>优秀的用户体验</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/qypp.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/qypp.png')}}" alt="突出企业品牌">
                             <h6>突出企业品牌</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/kfcb.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/kfcb.png')}}" alt="降低企业开发成本">
                             <h6>降低企业开发成本</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/sytx.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/sytx.png')}}" alt="搭建新的商业体系">
                             <h6>搭建新的商业体系</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/jszy.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/jszy.png')}}" alt="节省企业资源">
                             <h6>节省企业资源</h6>
                         </div>
                     </div>
                     <div class="small-wrap-count__col">
                         <div class="small-wrap-count__item">
-                            <img src="{{asset('index/images/wechatdev/small/yycj.png')}}" alt="">
+                            <img src="{{asset('index/images/wechatdev/small/yycj.png')}}" alt="应用场景丰富">
                             <h6>应用场景丰富</h6>
                         </div>
                     </div>
@@ -104,56 +102,56 @@
                 <div class="w-100"></div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/xiaochenxu.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/xiaochenxu.png')}}" alt="附近小程序">
                         <h5>附近小程序</h5>
                         <p>可以帮助商户快速、低门槛地在指定地点展示小程序，以方便被周围的用户找到并使用，增加商家曝光度。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/saoma.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/saoma.png')}}" alt="线下扫码">
                         <h5>线下扫码</h5>
                         <p>小程序不需要安装，用户通过微信扫一扫线下二维码即可进入小程序。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/gongzhonghao.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/gongzhonghao.png')}}" alt="公众号关联">
                         <h5>公众号关联</h5>
                         <p>同一主体的微信公众号可以和小程序相互关联，并在公众号图文消息、自定义菜单、模板消息等场景中使用已关联的小程序。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/share.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/share.png')}}" alt="好友分享">
                         <h5>好友分享</h5>
                         <p>可以分享小程序的任何一个页面给微信好友或微信群，让小程序获得更多流量入口。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/shejiao.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/shejiao.png')}}" alt="多种社交功能">
                         <h5>多种社交功能</h5>
                         <p>交友、社交/论坛、直播、问答等功能，丰富商家和用户之间沟通渠道。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/info.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/info.png')}}" alt="消息通知">
                         <h5>消息通知</h5>
                         <p>商户可将模板消息发送给与小程序互动过的用户，用户可通过消息进入小程序进行再次交流，互动性大大提高。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/zujian.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/zujian.png')}}" alt="丰富的组件和API">
                         <h5>丰富的组件和API</h5>
                         <p>导航、多媒体、位置、视频等原生APP一样的功能支持，实现商家各种需求。</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
                     <div class="small-wrap-card">
-                        <img src="{{asset('index/images/wechatdev/small/xitong.png')}}" alt="">
+                        <img src="{{asset('index/images/wechatdev/small/xitong.png')}}" alt="完善的用户系统">
                         <h5>完善的用户系统</h5>
                         <p>小程序可直接采用微信账号，极大降低用户首次使用门槛。</p>
                     </div>
@@ -352,7 +350,5 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/lib/jquery-1.9.0.min.js')}}"></script>
-    <script src="{{asset('index/js/lib/bootstrap.min.js')}}"></script>
-    <script src="{{asset('index/js/config.js')}}"></script>
+
 @endsection
