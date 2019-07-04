@@ -22,7 +22,7 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 .top-bar img { width: 1.375rem; height: 1.375rem; }
 .top-bar span { cursor: pointer; color: #0091ff; }
 
-.main-header { position: fixed; width: 100%; z-index: 1030; background: rgba(192, 192, 192, 0.88); font-size: 1.125rem; }
+.main-header { position: fixed; width: 100%; z-index: 1030; background: rgba(192, 192, 192, 0.5); font-size: 1.125rem; }
 .main-header .navbar-nav li { position: relative; white-space: nowrap; margin: 0 1.875rem; }
 .main-header .navbar-nav li .nav-link { padding: 1rem; }
 .main-header .navbar-nav li:last-child { margin-right: 0; }
