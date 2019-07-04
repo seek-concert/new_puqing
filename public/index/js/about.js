@@ -35,12 +35,12 @@ $(function () {
   });
   marker.setMap(map);
   // 设置鼠标划过点标记显示的文字提示
-  marker.setTitle('重庆市普擎科技有限公司');
+  marker.setTitle('重庆普擎科技有限公司');
   // 设置label标签
   // label默认蓝框白底左上角显示，样式className为：amap-marker-label
   marker.setLabel({
     offset: new AMap.Pixel(-60, -40),  //设置文本标注偏移量
-    content: "<div class='map-logo'><img src='../images/logo.png'></div>", //设置文本标注内容
+    content: "<div class='map-logo'><img src='/index/images/logo.png'></div>", //设置文本标注内容
     direction: 'top' //设置文本标注方位
   });
 

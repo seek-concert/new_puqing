@@ -3,7 +3,7 @@ var baseUrl = "http://www.api.com"; // 更改自己的API地址
 // 地址管理
 var interfaceApi = {
   login: baseUrl + '/user/login',
-}
+};
 
 // 请求方法
 var ajaxApi = {

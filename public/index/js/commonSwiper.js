@@ -1,7 +1,7 @@
 var goToSwiperPage = new Function();
 $(function () {
     if (!mobilecheck()) {
-        console.log("pc")
+        console.log("pc");
         var swiperV = new Swiper('.swiper-container-v', {
             direction: 'vertical',
             slidesPerView: 'auto',
@@ -24,13 +24,17 @@ $(function () {
         });
 
         goToSwiperPage = function (index) {
-            $('.dual-left-item').eq(index).addClass("active").siblings().removeClass('active')
+            var file_url = window.location.pathname;
+            if((file_url=='/web'&&index==5)||(file_url=='/wechat'&&index==4)||(file_url=='/app'&&index==4)){
+                $('.dual-left-item').siblings().removeClass('active');
+            }
+            $('.dual-left-item').eq(index).addClass("active").siblings().removeClass('active');
             swiperV.slideTo(index, 1000, true)
-        }
+        };
         // 默认第一个
         goToSwiperPage(0)
     } else {
-        console.log("wap")
+        console.log("wap");
         var swiperV = new Swiper('.swiper-container-v', {
             direction: 'vertical',
             slidesPerView: 'auto',

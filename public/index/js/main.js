@@ -12,7 +12,7 @@ window.isScrollEnd = function (t2) {
         });
 
     }
-}
+};
 $(function () {
     $(".main-header").hover(function () {
         // over
@@ -41,7 +41,7 @@ $(function () {
     });
 
     if (!mobilecheck()) {
-        console.log('pc')
+        console.log('pc');
         var swiperV = new Swiper('.swiper-container-v', {
             direction: 'vertical',
             slidesPerView: 'auto',
@@ -74,7 +74,7 @@ $(function () {
             }
         });
     } else {
-        console.log('wap')
+        console.log('wap');
         var swiperV = new Swiper('.swiper-container-v', {
             direction: 'vertical',
             slidesPerView: 'auto',
@@ -120,7 +120,7 @@ $(function () {
 
     $("#sTop").click(function (e) {
         e.preventDefault();
-        swiperV.slideTo(0, 1000, false)
+        swiperV.slideTo(0, 1000, false);
         $(".main-header").css({
             "display": "block"
         });

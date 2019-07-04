@@ -14,8 +14,8 @@ $(function () {
 
     $(".swiper-slide .case-info-card").click(function (e) { 
         e.preventDefault();
-        $('.swiper-slide .case-info-card').removeClass("active")
-        $(this).addClass('active')
+        $('.swiper-slide .case-info-card').removeClass("active");
+        $(this).addClass('active');
         console.log($(this).data('id'))
         // TODO 这里写点击左边导航事件跳转
 

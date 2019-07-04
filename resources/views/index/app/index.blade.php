@@ -66,13 +66,13 @@
               <div class=" col-md-3 col-12 order-md-1 order-2 d-flex flex-column align-items-center">
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" >
-                  <img src="./images/solu1.png" alt="">
+                  <img src="{{asset('index/images/solu1.png')}}" alt="">
                   <h5>智能硬件行业</h5>
                   <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
                 </div>
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
-                  <img src="./images/solu2.png" alt="">
+                  <img src="{{asset('index/images/solu2.png')}}" alt="">
                   <h5>智能硬件行业</h5>
                   <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
                 </div>
@@ -82,13 +82,13 @@
               <div class="soft-pic col-md-3 col-12 order-md-3 order-3 d-flex flex-column align-items-center">
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
-                  <img src="./images/solu3.png" alt="">
+                  <img src="{{asset('index/images/solu3.png')}}" alt="">
                   <h5>智能硬件行业</h5>
                   <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
                 </div>
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
-                  <img src="./images/solu4.png" alt="">
+                  <img src="{{asset('index/images/solu4.png')}}" alt="">
                   <h5>智能硬件行业</h5>
                   <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
                 </div>
@@ -107,7 +107,7 @@
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
                 <div class="soft-items-box">
-                  <img src="./images/softcreat/item-1.png" alt="">
+                  <img src="{{asset('index/images/softcreat/item-1.png')}}" alt="">
                   <h1>01</h1>
                   <h2>用户访谈</h2>
                   <p>需求分析</p>
@@ -118,7 +118,7 @@
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">
                 <div class="soft-items-box">
-                  <img src="./images/softcreat/item-2.png" alt="">
+                  <img src="{{asset('index/images/softcreat/item-2.png')}}" alt="">
                   <h1>02</h1>
                   <h2>产品原型</h2>
                   <p>提供方案</p>
@@ -129,7 +129,7 @@
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                 <div class="soft-items-box">
-                  <img src="./images/softcreat/item-3.png" alt="">
+                  <img src="{{asset('index/images/softcreat/item-3.png')}}" alt="">
                   <h1>03</h1>
                   <h2>界面设计</h2>
                   <p>页面风格</p>
@@ -139,7 +139,7 @@
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
                 <div class="soft-items-box">
-                  <img src="./images/softcreat/item-4.png" alt="">
+                  <img src="{{asset('index/images/softcreat/item-4.png')}}" alt="">
                   <h1>04</h1>
                   <h2>前端开发</h2>
                   <p>页面制作</p>
@@ -151,7 +151,7 @@
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
                 <div class="soft-items-box">
-                  <img src="./images/softcreat/item-5.png" alt="">
+                  <img src="{{asset('index/images/softcreat/item-5.png')}}" alt="">
                   <h1>05</h1>
                   <h2>后端开发</h2>
                   <p>功能分解</p>
@@ -162,7 +162,7 @@
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
                 <div class="soft-items-box">
-                  <img src="./images/softcreat/item-6.png" alt="">
+                  <img src="{{asset('index/images/softcreat/item-6.png')}}" alt="">
                   <h1>06</h1>
                   <h2>测试报告</h2>
                   <p>运营推广</p>

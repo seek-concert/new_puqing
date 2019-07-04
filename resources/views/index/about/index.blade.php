@@ -142,7 +142,7 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-11 col-lg-11 col-xl-9">
             <div class="about-pay-box row">
-              <div class="col-lg-4 col-md-12 col-12 about-pay-pic"><img src="index/images/about/icbc.png" alt=""></div>
+              <div class="col-lg-4 col-md-12 col-12 about-pay-pic"><img src="{{asset('index/images/about/icbc.png')}}" alt=""></div>
               <div class="col-lg-8 col-md-12 col-12">
                 <div class="about-pay-text"><span class="label">公司名称</span>：<span>重庆市普擎科技有限公司</span></div>
                 <div class="about-pay-text"><span class="label">开 户 行</span>：<span>渝北龙溪支行</span></div>
