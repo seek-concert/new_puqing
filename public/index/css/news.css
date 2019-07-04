@@ -242,6 +242,8 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 .news-case { color: #333333; text-decoration: none; border: 1px solid #ebebeb; -webkit-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; margin-bottom: 0.9375rem; }
 .news-case:hover { -webkit-transform: translateY(-0.625rem); transform: translateY(-0.625rem); text-decoration: none; -webkit-box-shadow: 1px 2px 5px #ebebeb; box-shadow: 1px 2px 5px #ebebeb; }
 
+.case-list-img { height: 12.625rem; }
+
 @media (max-width: 767.98px) { .main-body { padding-top: 4.25rem; padding-bottom: 1.25rem; }
   .news-subtitle { padding-bottom: 0.9375rem; }
   .news-title { margin-bottom: 0.3125rem; }

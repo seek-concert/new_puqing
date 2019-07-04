@@ -28,213 +28,119 @@
         <div class="row pb-md-5 pd-3">
           <div class="col-md-6 col-12 border-md-right">
             <div class="swiper-container swiper-entreprice" id="swiperEntreprice">
+              {{-- 大图 --}}
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="swiper-entreprice-img">
-                    <img src="./images/news/slide1.png" alt="">
-                  </div>
-                  <div class="swiper-entreprice-title">这是新闻标题：论百万级服务器</div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swiper-entreprice-img">
-                    <img src="./images/news/slide1.png" alt="">
-                  </div>
-                  <div class="swiper-entreprice-title">这是新闻标题：论百万级服务器反入侵场景的混沌工程实践</div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="swiper-entreprice-img">
-                    <img src="./images/news/slide1.png" alt="">
-                  </div>
-                  <div class="swiper-entreprice-title">这是新闻标题：论百万级服务器反入侵场景的混沌工程实践</div>
-                </div>
+                @if(!empty($company_news))
+                  @foreach($company_news as $k=>$v)
+                    @if($k==0)
+                      <div class="swiper-slide">
+                        <div class="swiper-entreprice-img">
+                          <img src="{{$v->thumbnail?:'index/images/news/slide1.png'}}" alt="普擎新闻大图">
+                        </div>
+                        <div class="swiper-entreprice-title">{{$v->title}}</div>
+                      </div>
+                    @endif
+                  @endforeach
+                @endif
               </div>
             </div>
           </div>
+          {{-- 大图右侧 --}}
           <div class="col-md-6 col-12 news-items">
-            <div class="news-item">
-              <a href="{{url('news_info')}}">
-                <img src="./images/news/img3.png" alt="" class="news-item-pic">
-                <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级</h5>
-                  <P class="news-item-info">
-                    ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                  </P>
-                </div>
-              </a>
-            </div>
-            <div class="news-item">
-              <a href="/#">
-                <img src="./images/news/img2.png" alt="" class="news-item-pic">
-                <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                  <P class="news-item-info">
-                    ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                  </P>
-                </div>
-              </a>
-            </div>
-            <div class="news-item">
-              <a href="/#">
-                <img src="./images/news/img1.png" alt="" class="news-item-pic">
-                <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                  <P class="news-item-info">
-                    ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                  </P>
-                </div>
-              </a>
-            </div>
+            @if(!empty($company_news))
+              @foreach($company_news as $k=>$v)
+                @if(in_array($k,[1,2,3]))
+                  <div class="news-item">
+                    <a href="{{url('news_info',['id'=>$v->id])}}">
+                      <img src="{{$v->thumbnail?:'index/images/news/img3.png'}}" alt="" class="news-item-pic">
+                      <div class="news-item-content">
+                        <h5 class="news-item-title">{{$v->title}}</h5>
+                        <P class="news-item-info">{{$v->description}}</P>
+                      </div>
+                    </a>
+                  </div>
+                @endif
+              @endforeach
+            @endif
           </div>
         </div>
         <div class="row">
           <div class="swiper-container" id="swiperNewsList">
+            {{-- 大图下方列表内容 --}}
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="news-items swiper-news-items">
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
+                  @if(!empty($industry_news))
+                    @foreach($industry_news as $k=>$v)
+                      @if(in_array($k,[0,1,2]))
+                        <div class="news-item">
+                          <a href="{{url('/news_info',['id'=>$v->id])}}">
+                            <img src="{{$v->thumbnail?:'index/images/news/img3.png'}}" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}" class="news-item-pic">
+                            <div class="news-item-content">
+                              <h5 class="news-item-title">{{$v->title}}</h5>
+                              <P class="news-item-info">{{$v->description}}</P>
+                              <div class="news-item-times">
+                                <span class="iconfont">&#xe6e0;</span>
+                                <span>{{date('Y-m-d',$v->input_time)}}</span>
+                                <span class="iconfont text-success">&#xec1e;</span>
+                                <span>网络</span>
+                              </div>
+                            </div>
+                          </a>
                         </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                      @endif
+                    @endforeach
+                  @endif
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="news-items swiper-news-items">
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
+                  @if(!empty($industry_news))
+                    @foreach($industry_news as $k=>$v)
+                      @if(in_array($k,[3,4,5]))
+                        <div class="news-item">
+                          <a href="{{url('/news_info',['id'=>$v->id])}}">
+                            <img src="{{$v->thumbnail?:'index/images/news/img3.png'}}" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}" class="news-item-pic">
+                            <div class="news-item-content">
+                              <h5 class="news-item-title">{{$v->title}}</h5>
+                              <P class="news-item-info">{{$v->description}}</P>
+                              <div class="news-item-times">
+                                <span class="iconfont">&#xe6e0;</span>
+                                <span>{{date('Y-m-d',$v->input_time)}}</span>
+                                <span class="iconfont text-success">&#xec1e;</span>
+                                <span>网络</span>
+                              </div>
+                            </div>
+                          </a>
                         </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                      @endif
+                    @endforeach
+                  @endif
                 </div>
               </div>
               <div class="swiper-slide">
                 <div class="news-items swiper-news-items">
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
+                  @if(!empty($industry_news))
+                    @foreach($industry_news as $k=>$v)
+                      @if(in_array($k,[6,7,8]))
+                        <div class="news-item">
+                          <a href="{{url('/news_info',['id'=>$v->id])}}">
+                            <img src="{{$v->thumbnail?:'index/images/news/img3.png'}}" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}" class="news-item-pic">
+                            <div class="news-item-content">
+                              <h5 class="news-item-title">{{$v->title}}</h5>
+                              <P class="news-item-info">{{$v->description}}</P>
+                              <div class="news-item-times">
+                                <span class="iconfont">&#xe6e0;</span>
+                                <span>{{date('Y-m-d',$v->input_time)}}</span>
+                                <span class="iconfont text-success">&#xec1e;</span>
+                                <span>网络</span>
+                              </div>
+                            </div>
+                          </a>
                         </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="news-item">
-                    <a href="/#">
-                      <img src="./images/news/img4.png" alt="" class="news-item-pic">
-                      <div class="news-item-content">
-                        <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                        <P class="news-item-info">
-                          ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                        </P>
-                        <div class="news-item-times">
-                          <span class="iconfont">&#xe6e0;</span>
-                          <span>2019/5/1</span>
-                          <span class="iconfont text-success">&#xec1e;</span>
-                          <span>龙华网</span>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
+                      @endif
+                    @endforeach
+                  @endif
                 </div>
               </div>
             </div>
@@ -255,110 +161,61 @@
       <div class="news-content">
         <div class="row">
           <div class="col-md-9 col-12 news-items news-industry-items border-md-right">
-            <div class="news-item">
-              <a href="/#">
-                <img src="./images/news/img5.png" alt="" class="news-item-pic">
-                <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                  <div class="news-item-times">
-                    <span>2019/5/1</span>
-                    <span class="iconfont text-success">&#xec1e;</span>
-                    <span>龙华网</span>
-                  </div>
-                  <P class="news-item-info">
-                    ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                  </P>
-                  <span class="news-item-more"><em class="iconfont">&#xe636;</em> 更多</span>
-                </div>
-              </a>
-            </div>
-            <div class="news-item">
-              <a href="/#">
-                <img src="./images/news/img6.png" alt="" class="news-item-pic">
-                <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                  <div class="news-item-times">
-                    <span>2019/5/1</span>
-                    <span class="iconfont text-success">&#xec1e;</span>
-                    <span>龙华网</span>
-                  </div>
-                  <P class="news-item-info">
-                    ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                  </P>
-                  <span class="news-item-more"><em class="iconfont">&#xe636;</em> 更多</span>
-                </div>
-              </a>
-            </div>
-            <div class="news-item">
-              <a href="/#">
-                <img src="./images/news/img7.png" alt="" class="news-item-pic">
-                <div class="news-item-content">
-                  <h5 class="news-item-title">这是新闻标题：论百万级服务器反入侵场...</h5>
-                  <div class="news-item-times">
-                    <span>2019/5/1</span>
-                    <span class="iconfont text-success">&#xec1e;</span>
-                    <span>龙华网</span>
-                  </div>
-                  <P class="news-item-info">
-                    ​首先我们讲新的网站如何被收录。我们刚注册了一个域名。一个网站从来没有被搜索引擎抓取到。显然这个网站肯定不会被收录，新的网站被搜索引擎收录，短的需要2~3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是3天，长的需要大概15天或者是长的需要大概15天或者是长的需要大概15天或者是
-                  </P>
-                  <span class="news-item-more"><em class="iconfont">&#xe636;</em> 更多</span>
-                </div>
-              </a>
-            </div>
+            @if(!empty($industry_news))
+              @foreach($industry_news as $k=>$v)
+                @if(in_array($k,[9,10,11,12,13,14]))
+                  <div class="news-item">
+                    <a href="{{url('/news_info',['id'=>$v->id])}}">
+                      <img src="{{$v->thumbnail?:'index/images/news/img5.png'}}" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}" class="news-item-pic">
+                      <div class="news-item-content">
+                        <h5 class="news-item-title">{{$v->title}}</h5>
+                        <div class="news-item-times">
+                          <span>{{date('Y-m-d',$v->input_time)}}</span>
+                          <span class="iconfont text-success">&#xec1e;</span>
+                          <span>网络</span>
+                        </div>
+                        <P class="news-item-info">{{$v->description}}</P>
+                        <span class="news-item-more"><em class="iconfont">&#xe636;</em> 更多</span>
+                      </div>
+                    </a>
+                   </div>
+                @endif
+              @endforeach
+            @endif
             {{-- 分页 --}}
             <nav aria-label="navigation">
-              <ul class="pagination justify-content-center pt-md-5 pt-3">
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item active"><span class="page-link">2</span></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </li>
-              </ul>
+              {{--<ul class="pagination justify-content-center pt-md-5 pt-3">--}}
+              {{ $industry_news->links() }}
+              {{--</ul>--}}
             </nav>
           </div>
           <div class="col-md-3 d-none d-md-block news-aside">
             <div class="news-aside-tags">
               <h4 class="news-aside-title">标签</h4>
               <div class="news-aside-tags__list">
-                <a href=""><strong>网站</strong></a>
-                <a href=""><strong>安全</strong></a>
+                <a href=""><strong>重庆网站建设</strong></a>
+                <a href=""><strong>网站开发</strong></a>
                 <a href=""><strong>网站外包</strong></a>
-                <a href=""><strong>网站外包2</strong></a>
-                <a href=""><strong>网站外包22</strong></a>
-                <a href=""><strong>网站外包222</strong></a>
-                <a href=""><strong>网站外包2223</strong></a>
+                <a href=""><strong>网站制作</strong></a>
+                <a href=""><strong>网站安全</strong></a>
+                <a href=""><strong>网站维护</strong></a>
+                <a href=""><strong>微信公众号开发</strong></a>
+                <a href=""><strong>软件定制</strong></a>
               </div>
             </div>
             <div class="news-aside-list">
               <h4 class="news-aside-title">热推新闻</h4>
               <ul class="news-aside-list__link">
-                <li><a href="">
-                    <h5>企业建设网站有什么好处和作用</h5>
-                    <p>2019-06-03</p>
-                  </a></li>
-                <li><a href="">
-                    <h5>企业建设网站有什么好处和作用</h5>
-                    <p>2019-06-03</p>
-                  </a></li>
-                <li><a href="">
-                    <h5>企业建设网站有什么好处和作用</h5>
-                    <p>2019-06-03</p>
-                  </a></li>
-                <li><a href="">
-                    <h5>企业建设网站有什么好处和作用</h5>
-                    <p>2019-06-03</p>
-                  </a></li>
+                @if(!empty($industry_news))
+                  @foreach($industry_news as $k=>$v)
+                    @if(in_array($k,[3,4,5,6,7,8]))
+                    <li><a href="{{url('/news_info',['id'=>$v->id])}}" title="{{$v->title}}">
+                        <h5>{{$v->title}}</h5>
+                        <p>{{date('Y-m-d',$v->input_time)}}</p>
+                      </a></li>
+                    @endif
+                  @endforeach
+                @endif
               </ul>
             </div>
             <div class="news-aside-call">
@@ -378,42 +235,18 @@
       </div>
       <div class="news-content">
         <div class="row">
-          <div class="col-md-3 col-sm-6 col-12">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="./images/news/img10.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
+          @if(!empty($case_lists))
+            @foreach($case_lists as $k=>$v)
+              <div class="col-md-3 col-sm-6 col-12">
+                <a href="{{url('case_info',[$v->id])}}" class="card news-case">
+                  <img class="card-img-top case-list-img" src="{{$v->thumbnail?:'index/images/news/img12.png'}}" alt="{{$v->keywords}}">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">{{$v->title}}</h5>
+                  </div>
+                </a>
               </div>
-            </a>
-
-          </div>
-          <div class="col-md-3 col-sm-6 col-12">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="./images/news/img11.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-md-3 col-sm-6 col-12">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="./images/news/img12.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-md-3 col-sm-6 col-12">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="./images/news/img13.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
+            @endforeach
+          @endif
         </div>
       </div>
     </section>
@@ -427,4 +260,10 @@
 @section('js')
     <script src="{{asset('index/js/lib/swiper.min.js')}}"></script>
     <script src="{{asset('index/js/news.js')}}"></script>
+    <script>
+      $('.pagination').addClass('justify-content-center pt-md-5 pt-3');
+      $('.pagination li').addClass('page-item');
+      $('.pagination li span').addClass('page-link');
+      $('.pagination li a').addClass('page-link');
+    </script>
 @endsection

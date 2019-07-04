@@ -57,13 +57,13 @@ Route::namespace('index')->group(function () {
     /*------ [首页] -----*/
     Route::any('/case', 'CaseController@index');
     /*------ [成功案例详情] -----*/
-    Route::any('/case_info', 'CaseController@case_info');
+    Route::any('/case_info/{id}', 'CaseController@case_info');
 
     /*=======================[新闻资讯]=============================*/
     /*------ [首页] -----*/
     Route::any('/news', 'NewsController@index');
     /*------ [新闻资讯详情] -----*/
-    Route::any('/news_info', 'NewsController@news_info');
+    Route::any('/news_info/{id}', 'NewsController@news_info');
 
     /*=======================[关于普擎]=============================*/
     /*------ [首页] -----*/

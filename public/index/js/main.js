@@ -28,7 +28,8 @@ $(function () {
     });
 
     var swiperH = new Swiper('.swiper-container-h', {
-        spaceBetween: 50,
+        spaceBetween: 0,
+        resistanceRatio: false,
         pagination: {
             el: '.swiper-pagination-h',
             clickable: true,
@@ -39,6 +40,36 @@ $(function () {
             prevEl: '.swiper-button-prev-h',
         },
     });
+
+    var swiperNews = new Swiper('.swiper-container-news', {
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination-news',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next-news',
+            prevEl: '.swiper-button-prev-news',
+        },
+    });
+
+    $('#industry-trends-tab').click(function (e) {
+        e.preventDefault();
+        setTimeout(() => {
+            var swiperIndustry = new Swiper('.swiper-container-industry', {
+                spaceBetween: 10,
+                pagination: {
+                    el: '.swiper-pagination-industry',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next-industry',
+                    prevEl: '.swiper-button-prev-industry',
+                },
+            })
+        }, 600);
+    });
+
 
     if (!mobilecheck()) {
         console.log('pc');

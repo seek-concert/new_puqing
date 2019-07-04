@@ -61,133 +61,24 @@
       </div>
       <div class="case-content col-12">
         <div class="row">
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img10.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
+          @if(!empty($case_lists))
+            @foreach ($case_lists as $value)
+              <div class="col-xl-3 col-lg-4 col-md-4 col-6">
+                <a href="#" class="card news-case">
+                  <img class="card-img-top" src="{{$value->thumbnail?:'index/images/news/img10.png'}}" alt="{{$value->keywords?:'重庆网站建设案例'}}">
+                  <div class="card-body">
+                    <h5 class="card-title text-center">{{$value->title}}</h5>
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img11.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img12.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img13.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img10.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img11.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img12.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img13.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img10.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img11.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img12.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-            <a href="#" class="card news-case">
-              <img class="card-img-top" src="index/images/news/img13.png" alt="">
-              <div class="card-body">
-                <h5 class="card-title text-center">深圳懮意科技有限公司</h5>
-              </div>
-            </a>
-
-          </div>
+            @endforeach
+          @endif
         </div>
         {{-- 分页 --}}
         <nav aria-label="navigation">
-          <ul class="pagination justify-content-center pt-md-5 pt-3">
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-              </a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item active"><span class="page-link">2</span></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-              </a>
-            </li>
-          </ul>
+          {{--<ul class="pagination justify-content-center pt-md-5 pt-3">--}}
+            {{ $case_lists->links() }}
+          {{--</ul>--}}
         </nav>
       </div>
     </section>
@@ -197,19 +88,11 @@
         <span class="case-title-name">热门新闻</span>
       </div>
       <div class="row case-news">
-        <div class="case-news-item col-lg-6 col-12"><a href="">
-            企业建设网站有什么好处和作用企业建设网站有什么好处和作用企业建设网站有什么好处和作用企业建设网站有什么好处和作用企业建设网站有什么好处和作用企业建设网站有什么好处和作用</a><span>2019-06-03</span>
-        </div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
-        <div class="case-news-item col-lg-6 col-12"><a href=""> 企业建设网站有什么好处和作用</a><span>2019-06-03</span></div>
+        @if(!empty($industry_news))
+          @foreach ($industry_news as $value)
+            <div class="case-news-item col-lg-6 col-12"><a href="{{url('/news_info',['id'=>$value->id])}}"> {{$value->title}}</a><span>{{date('Y-m-d',$value->input_time)}}</span></div>
+          @endforeach
+        @endif
       </div>
     </section>
   </main>
@@ -221,4 +104,10 @@
 {{-- js --}}
 @section('js')
     <script src="{{asset('index/js/case.js')}}"></script>
+    <script>
+        $('.pagination').addClass('justify-content-center pt-md-5 pt-3');
+        $('.pagination li').addClass('page-item');
+        $('.pagination li span').addClass('page-link');
+        $('.pagination li a').addClass('page-link');
+    </script>
 @endsection

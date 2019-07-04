@@ -16,15 +16,13 @@
             {{--  banner--}}
             <section class="banner swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{asset('index/images/banner.jpg')}}" alt="banner1">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{asset('index/images/banner.jpg')}}" alt="banner2">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="{{asset('index/images/banner.jpg')}}" alt="banner3">
-                    </div>
+                    @if(!empty($banner_lists))
+                        @foreach ($banner_lists as $value)
+                            <div class="swiper-slide" onclick="location.href='{{$value->url}}'">
+                                <img src="{{$value->img?:'index/images/banner.jpg'}}" alt="banner1">
+                            </div>
+                        @endforeach
+                    @endif
                 </div>
                 {{-- Add Pagination --}}
                 <div class="swiper-pagination swiper-pagination-h"></div>
@@ -47,7 +45,7 @@
                 </div>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12 pb-3">
+                        <div class="col-lg-4 col-md-6 col-12 pb-3" onclick="location.href='{{url('/web')}}'">
                             <div class="wrap-item bus-item-bg1 ani" swiper-animate-effect="fadeInLeft"
                                  swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">
                                 <div class="wrap-item-content">
@@ -67,7 +65,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-12 pb-3">
+                        <div class="col-lg-4 col-md-6 col-12 pb-3" onclick="location.href='{{url('/wechat')}}'">
                             <div class="wrap-item bus-item-bg2 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
                                  swiper-animate-delay="0.2s">
                                 <div class="wrap-item-content">
@@ -87,7 +85,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 col-12 pb-3">
+                        <div class="col-lg-4 col-md-12 col-12 pb-3" onclick="location.href='{{url('/app')}}'">
                             <div class="wrap-item bus-item-bg3 ani" swiper-animate-effect="fadeInRight"
                                  swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">
                                 <div class="wrap-item-content">
@@ -179,106 +177,26 @@
                     </div>
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="0.2s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case1.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
+                            @if(!empty($case_lists))
+                                @foreach ($case_lists as $value)
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                        <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+                                             swiper-animate-delay="0.2s">
+                                            <div class="wrap-item-content">
+                                                <div class="text-hide case-box"
+                                                     style="background: url('{{$value->thumbnail}}') no-repeat center center; background-size: cover;">
+                                                    重庆网站建设外包案例-{{$value->title}}
+                                                    <a href="{{url('case_info',[$value->id])}}" class="case-a"  title="{{ $value->keywords}}"></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="0.4s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case2.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="0.6s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case3.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="0.8s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case4.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="1s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case5.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="1.2s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case6.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="1.4s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case7.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                <div class="wrap-item ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                     swiper-animate-delay="1.6s">
-                                    <div class="wrap-item-content">
-                                        <div class="text-hide case-box"
-                                             style="background: url('./images/case8.jpg') no-repeat center center; background-size: cover;">
-                                            利于SEO优化
-                                            <a href="./404.html" class="case-a"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                @endforeach
+                             @endif
                         </div>
                     </div>
-                    <div class="d-flex pt-3 pt-md-5 justify-content-center">
-                        <div class="wrap-next text-hide">下一页</div>
+                    <div class="d-flex pt-3 pt-md-5 justify-content-center"  onclick="location.href='{{url('/case')}}'" title="查看更多网站建设成功案例">
+                        <div class="wrap-next text-hide">more</div>
                     </div>
                 </div>
             </section>
@@ -300,7 +218,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
                                 <div class="card ani" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s"
                                      swiper-animate-delay="0.2s">
-                                    <img class="card-img-top" src="{{asset('index/images/solu1.png')}}" alt="">
+                                    <img class="card-img-top" src="{{asset('index/images/solu1.png')}}" alt="智能硬件行业">
                                     <div class="card-body">
                                         <h5 class="card-title">智能硬件行业</h5>
                                         <p class="card-text">智能硬件应用设计开发方案是 WiFi/4G 无线控制管理平台，通过移动终端，监控各种智能设备，并实现设备之间的互联互通，为用户提供多元的情景生活体验。</p>
@@ -310,7 +228,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
                                 <div class="card ani" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s"
                                      swiper-animate-delay="0.4s">
-                                    <img class="card-img-top" src="{{asset('index/images/solu2.png')}}" alt="">
+                                    <img class="card-img-top" src="{{asset('index/images/solu2.png')}}" alt="移动电商行业">
                                     <div class="card-body">
                                         <h5 class="card-title">移动电商行业</h5>
                                         <p class="card-text">提供移动电商/商城APP及小程序设计开发解决方案，为企业定制个性化电子商务平台，拥有多个电商小程序、微分销商城、电商APP定制成功案例。</p>
@@ -320,7 +238,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
                                 <div class="card ani" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s"
                                      swiper-animate-delay="0.6s">
-                                    <img class="card-img-top" src="{{asset('index/images/solu3.png')}}" alt="">
+                                    <img class="card-img-top" src="{{asset('index/images/solu3.png')}}" alt="数字金融行业">
                                     <div class="card-body">
                                         <h5 class="card-title">数字金融行业</h5>
                                         <p class="card-text">提供网上支付、移动支付、网上银行、金融服务外包及网上贷款、网上保险、网上基金等互联网金融产品的设计开发解决方案。</p>
@@ -330,7 +248,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
                                 <div class="card ani" swiper-animate-effect="slideInUp" swiper-animate-duration="0.5s"
                                      swiper-animate-delay="0.8s">
-                                    <img class="card-img-top" src="{{asset('index/images/solu4.png')}}" alt="">
+                                    <img class="card-img-top" src="{{asset('index/images/solu4.png')}}" alt="网络营销行业">
                                     <div class="card-body">
                                         <h5 class="card-title">网络营销行业</h5>
                                         <p class="card-text">基于互联网络及社会关系网络连接企业、用户及公众，向用户及公众传递有价值的信息和服务，为实现顾客价值及企业营销目标所进行的规划、实施及运营管理活动。</p>
@@ -354,187 +272,199 @@
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                            swiper-animate-delay="0.2s">最新资讯</p>
-                        {{-- tabs--}}
+                        <!-- tabs-->
                         <ul class="nav news-nav mb-3" id="news-tab" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" id="company-news-tab" data-toggle="pill" href="#company-news-content"
-                                   role="tab" aria-controls="company-news-content" aria-selected="true">公司新闻</a>
+                                   role="tab" aria-controls="company-news-content" aria-selected="true">行业动态</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="industry-trends-tab" data-toggle="pill" href="#industry-trends-content"
-                                   role="tab" aria-controls="industry-trends-content" aria-selected="false">行业动态</a>
+                                   role="tab" aria-controls="industry-trends-content" aria-selected="false">公司新闻</a>
                             </li>
                         </ul>
-                        {{-- 下一页 上一页--}}
-                        <div class="w-75 d-flex justify-content-md-end justify-content-center mt-2">
-                            <div class="news-prev iconfont">&#xe764;</div>
-                            <div class="news-content"><span></span><span class="active"></span><span></span><span></span></div>
-                            <div class="news-next iconfont">&#xe765;</div>
-                        </div>
                     </div>
                     <div class="tab-content" id="news-tabContent">
-                        {{-- 公司新闻--}}
+                        <!-- 行业动态-->
                         <div class="tab-pane fade show active" id="company-news-content" role="tabpanel"
                              aria-labelledby="ompany-news-tab">
-                            <div class="container-fluid">
-                                <div class="row news-list">
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.2s">
-                                            <div class="card-img-top">
-                                                <img class="" src="{{asset('index/images/case8.jpg')}}" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.4s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case8.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
+                            <!-- 滑动容器 -->
+                            <div class="swiper-container swiper-container-news">
+                                <!-- 下一页 上一页-->
+                                <div class="d-flex justify-content-md-end justify-content-center mb-2">
+                                    <div class="iconfont swiper-button-prev-news">&#xe764;</div>
+                                    <div class="news-content swiper-pagination-news"></div>
+                                    <div class="iconfont swiper-button-next-news">&#xe765;</div>
+                                </div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="container-fluid">
+                                            <div class="row news-list">
+                                                @if(!empty($industry_news))
+                                                    @foreach($industry_news as $k=>$v)
+                                                        @if(in_array($k,[0,1,2,3]))
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                                                <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                                                     swiper-animate-delay="0.2s">
+                                                                    <div class="card-img-top">
+                                                                        <img class="" src="{{$v->thumbnail?:'index/images/case8.jpg'}}" width="100%" height="100%" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}">
+                                                                        <a href="{{url('/news_info',['id'=>$v->id])}}" class="news-a" title="{{$v->keywords?:'重庆网站建设外包服务img'}}"></a>
+                                                                    </div>
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-center">{{$v->title}}</h5>
+                                                                        <p class="card-subtitle text-center text-96">{{date('Y-m-d',$v->input_time)}}</p>
+                                                                        <p class="card-text">{{$v->description}}</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        @endif
+                                                    @endforeach
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.6s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case8.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
+                                    <div class="swiper-slide">
+                                        <div class="container-fluid">
+                                            <div class="row news-list">
+                                                @if(!empty($industry_news))
+                                                    @foreach($industry_news as $k=>$v)
+                                                        @if(in_array($k,[4,5,6,7]))
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                                                <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                                                     swiper-animate-delay="0.2s">
+                                                                    <div class="card-img-top">
+                                                                        <img class="" src="{{$v->thumbnail?:'index/images/case8.jpg'}}" width="100%" height="100%" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}">
+                                                                        <a href="{{url('/news_info',['id'=>$v->id])}}" class="news-a" title="{{$v->keywords?:'重庆网站建设外包服务img'}}"></a>
+                                                                    </div>
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-center">{{$v->title}}</h5>
+                                                                        <p class="card-subtitle text-center text-96">{{date('Y-m-d',$v->input_time)}}</p>
+                                                                        <p class="card-text">{{$v->description}}</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        @endif
+                                                    @endforeach
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.8s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case8.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
+                                    <div class="swiper-slide">
+                                        <div class="container-fluid">
+                                            <div class="row news-list">
+                                                @if(!empty($industry_news))
+                                                    @foreach($industry_news as $k=>$v)
+                                                        @if(in_array($k,[8,9,10,11]))
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                                                <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                                                     swiper-animate-delay="0.2s">
+                                                                    <div class="card-img-top">
+                                                                        <img class="" src="{{$v->thumbnail?:'index/images/case8.jpg'}}" width="100%" height="100%" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}">
+                                                                        <a href="{{url('/news_info',['id'=>$v->id])}}" class="news-a" title="{{$v->keywords?:'重庆网站建设外包服务img'}}"></a>
+                                                                    </div>
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-center">{{$v->title}}</h5>
+                                                                        <p class="card-subtitle text-center text-96">{{date('Y-m-d',$v->input_time)}}</p>
+                                                                        <p class="card-text">{{$v->description}}</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        @endif
+                                                    @endforeach
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        {{-- 行业动态--}}
+                        <!-- 公司新闻-->
                         <div class="tab-pane fade" id="industry-trends-content" role="tabpanel"
                              aria-labelledby="industry-trends-tab">
-                            <div class="comtainer">
-                                <div class="row news-list">
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.2s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case7.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.4s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case7.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
+                            <!-- 滑动容器 -->
+                            <div class="swiper-container swiper-container-industry">
+                                <!-- 下一页 上一页-->
+                                <div class="d-flex justify-content-md-end justify-content-center mb-2 ">
+                                    <div class="iconfont swiper-button-prev-industry">&#xe764;</div>
+                                    <div class="news-content swiper-pagination-industry"></div>
+                                    <div class="iconfont swiper-button-next-industry">&#xe765;</div>
+                                </div>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="container-fluid">
+                                            <div class="row news-list">
+                                                @if(!empty($company_news))
+                                                    @foreach($company_news as $k=>$v)
+                                                        @if(in_array($k,[0,1,2,3]))
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                                                <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                                                     swiper-animate-delay="0.2s">
+                                                                    <div class="card-img-top">
+                                                                        <img class="" src="{{$v->thumbnail?:'index/images/case8.jpg'}}" width="100%" height="100%" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}">
+                                                                        <a href="{{url('/news_info',['id'=>$v->id])}}" class="news-a" title="{{$v->keywords?:'重庆网站建设外包服务img'}}"></a>
+                                                                    </div>
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-center">{{$v->title}}</h5>
+                                                                        <p class="card-subtitle text-center text-96">{{date('Y-m-d',$v->input_time)}}</p>
+                                                                        <p class="card-text">{{$v->description}}</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        @endif
+                                                    @endforeach
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.6s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case7.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
+                                    <div class="swiper-slide">
+                                        <div class="container-fluid">
+                                            <div class="row news-list">
+                                                @if(!empty($company_news))
+                                                    @foreach($company_news as $k=>$v)
+                                                        @if(in_array($k,[4,5,6,7]))
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                                                <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                                                     swiper-animate-delay="0.2s">
+                                                                    <div class="card-img-top">
+                                                                        <img class="" src="{{$v->thumbnail?:'index/images/case8.jpg'}}" width="100%" height="100%" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}">
+                                                                        <a href="{{url('/news_info',['id'=>$v->id])}}" class="news-a" title="{{$v->keywords?:'重庆网站建设外包服务img'}}"></a>
+                                                                    </div>
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-center">{{$v->title}}</h5>
+                                                                        <p class="card-subtitle text-center text-96">{{date('Y-m-d',$v->input_time)}}</p>
+                                                                        <p class="card-text">{{$v->description}}</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        @endif
+                                                    @endforeach
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                                        <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
-                                             swiper-animate-delay="0.8s">
-                                            <div class="card-img-top">
-                                                <img class="" src="./images/case7.jpg" width="100%" height="100%" alt="Card image cap">
-                                                <a href="/404.html" class="news-a"></a>
-                                            </div>
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">Card titleCard titleCard titleCard titleCard titleCard
-                                                    title
-                                                </h5>
-                                                <p class="card-subtitle text-center text-96">2019/03/03</p>
-                                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                                    of
-                                                    the
-                                                    card's content.</p>
+                                    <div class="swiper-slide">
+                                        <div class="container-fluid">
+                                            <div class="row news-list">
+                                                @if(!empty($company_news))
+                                                    @foreach($company_news as $k=>$v)
+                                                        @if(in_array($k,[8,9,10,11]))
+                                                            <div class="col-lg-3 col-md-6 col-sm-6 col-12 pb-3">
+                                                                <div class="card ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="0.5s"
+                                                                     swiper-animate-delay="0.2s">
+                                                                    <div class="card-img-top">
+                                                                        <img class="" src="{{$v->thumbnail?:'index/images/case8.jpg'}}" width="100%" height="100%" alt="{{$v->keywords?:'重庆网站建设外包服务img'}}">
+                                                                        <a href="{{url('/news_info',['id'=>$v->id])}}" class="news-a" title="{{$v->keywords?:'重庆网站建设外包服务img'}}"></a>
+                                                                    </div>
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title text-center">{{$v->title}}</h5>
+                                                                        <p class="card-subtitle text-center text-96">{{date('Y-m-d',$v->input_time)}}</p>
+                                                                        <p class="card-text">{{$v->description}}</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        @endif
+                                                    @endforeach
+                                                @endif
                                             </div>
                                         </div>
                                     </div>
