@@ -193,14 +193,16 @@
             <div class="news-aside-tags">
               <h4 class="news-aside-title">标签</h4>
               <div class="news-aside-tags__list">
-                <a href=""><strong>重庆网站建设</strong></a>
-                <a href=""><strong>网站开发</strong></a>
-                <a href=""><strong>网站外包</strong></a>
-                <a href=""><strong>网站制作</strong></a>
-                <a href=""><strong>网站安全</strong></a>
-                <a href=""><strong>网站维护</strong></a>
-                <a href=""><strong>微信公众号开发</strong></a>
-                <a href=""><strong>软件定制</strong></a>
+                <a href="{{url('/web')}}"><strong>重庆网站建设</strong></a>
+                <a href="{{url('/web')}}"><strong>网站开发</strong></a>
+                <a href="{{url('/web')}}"><strong>重庆网站外包</strong></a>
+                <a href="{{url('/web')}}"><strong>网站制作</strong></a>
+                <a href="{{url('/wechat')}}"><strong>微信小程序开发</strong></a>
+                <a href="{{url('/news')}}"><strong>网站安全</strong></a>
+                <a href="{{url('/web')}}"><strong>网站维护</strong></a>
+                <a href="{{url('/wechat')}}"><strong>微信公众号开发</strong></a>
+                <a href="{{url('/app')}}"><strong>软件定制</strong></a>
+                <a href="{{url('/web')}}"><strong>网站设计</strong></a>
               </div>
             </div>
             <div class="news-aside-list">

@@ -28,7 +28,7 @@
               @if(!empty($case_list))
                 @foreach ($case_list as $v)
                   <div class="swiper-slide">
-                    <div class="card case-info-card" data-id="1">
+                    <div class="card case-info-card @if(($infos->id)==($v->id)) active @endif" data-id="{{$v->id}}">
                       <img class="card-img-top" src="{{$v->thumbnail}}" alt="">
                       <div class="card-img-orverlay">
                         <h5 class="card-title">{{$v->title}}</h5>
@@ -51,8 +51,8 @@
             <h1 class="news-info-title">{{$infos->title}}</h1>
             <div class="news-info-time">
               <span>发布人: 管理员</span>
-              <span>发布时间：{{date('Y-m-d H:i:s',$infos->input_time)}}</span>
-              <span>浏览量： 1w+</span>
+              <span> 发布时间：{{date('Y-m-d H:i',$infos->input_time)}}</span>
+              <span> 浏览量：{{rand(12354,99999)}}</span>
             </div>
             <div class="news-info-desc">
               <p>{{$infos->description}}</p>

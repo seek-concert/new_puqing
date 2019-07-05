@@ -143,7 +143,7 @@
   &-body
     width: 100%
     margin-top: 3.75rem /* 60/16 */
-    margin-bottom: 3.75rem /* 60/16 */
+    margin-bottom: 6.25rem /* 100/16 */
     display: flex
     &__left
       position: relative
@@ -151,14 +151,23 @@
       max-width: 25%
       height: 60.625rem /* 970/16 */
       padding-top: .625rem /* 10/16 */
+      padding-right: .9375rem /* 15/16 */
+      padding-left: .9375rem /* 15/16 */
     &__right
       position: relative
       flex: 0 0 75%
       max-width: 75%
       .news-info-body
+        position: relative
         margin: 0
+        overflow: hidden
+        img
+          height: auto
+          max-width: 100%
   &-card
     padding: 0
+    img
+      height: 15rem /* 240/16 */
     h5
       width: 100%
       position: absolute
@@ -172,6 +181,7 @@
       text-align: center
       margin-bottom: 0
     &.active
+      border: .15rem solid rgba(24,172,244,.8)
       box-shadow: 0px 0px 5px 2px rgba(24,172,244,.8)
 
 
@@ -233,9 +243,11 @@
       padding: .8rem
     .card-title
       font-size: 1rem
-  .news-case
-    margin-left: .25rem /* 4/16 */
-    margin-right: .25rem /* 4/16 */
+    .news-case
+      margin-left: .25rem /* 4/16 */
+      margin-right: .25rem /* 4/16 */
+      img
+        height: 8.75rem /* 140/16 */
   .case-info
     &-body
       width: 100%

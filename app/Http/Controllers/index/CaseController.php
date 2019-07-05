@@ -4,6 +4,7 @@
  * @author 普擎科技
  */
 namespace App\Http\Controllers\index;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
 class CaseController extends BaseController
@@ -37,12 +38,12 @@ class CaseController extends BaseController
     }
 
     /*=======================[成功案例详情]=============================*/
-    public function case_info($id = 0)
+    public function case_info(Request $request,$id = 0)
     {
         $data = [];
         /*------详情-------*/
         $info = DB::table('case')
-            ->select('title','description', 'content', 'url','input_time')
+            ->select('id','title','description', 'content', 'url','input_time')
             ->where([
                 'id' => $id
             ])
@@ -84,7 +85,18 @@ class CaseController extends BaseController
 
         /*----- [最新资讯] -----*/
         $data['industry_news'] = DB::table('news')->limit(12)->select('id','thumbnail','title','description','input_time','keywords')->whereIn('category_id',[1,2,3,4])->orderBy('input_time', 'desc')->get()?:[];
-
+        if($request->isMethod('post')){
+            unset($data['case_list']);
+            unset($data['industry_news']);
+            $data['infos']= $info = DB::table('case')
+                ->select('id','title','description', 'content', 'url','input_time')
+                ->where([
+                    'id' => $request->input('type_id')
+                ])
+                ->first();;
+            $result=['code'=>'success','message'=>'请求成功','data'=>$data];
+            return response()->json($result);
+        }
         return $this->show(5,'',$data);
     }
 

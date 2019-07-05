@@ -48,7 +48,7 @@ class NewsController extends BaseController
         if (empty($info)) {
             return redirect('/');
         }
-        $data['info'] = $info;
+        $data['infos'] = $info;
         /*------上下新闻-------*/
         $previous = DB::table('news')
             ->select('id', 'title')

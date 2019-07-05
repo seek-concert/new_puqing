@@ -1,0 +1,319 @@
+@import './common'
+
+
+.main-body
+  max-width: 91.25rem /* 1460/16 */
+  width: 100%
+  position: relative
+  padding-top: 6.25rem /* 100/16 */
+  padding-bottom: 3.75rem /* 60/16 */
+
+.news-title
+  width: 100%
+  height: 3.75rem /* 60/16 */
+  background: $defaultColor
+  font-size: 1.875rem /* 30/16 */
+  display: flex
+  align-items: center
+  margin-bottom: 1.5625rem /* 25/16 */
+  justify-content: space-between
+  &-num
+    line-height: 3.75rem /* 60/16 */
+    font-size: 3.25rem /* 52/16 */
+    color: #c1bbaa
+  &-line
+    position: relative
+    display: block
+    height: 2.5rem /* 40/16 */
+    width: .1875rem /* 3/16 */
+    background: #c1bbaa
+    transform: rotate(20deg)
+    margin-left: .3125rem /* 5/16 */
+    top: .125rem /* 2/16 */
+  &-name
+    padding-left: .9375rem /* 15/16 */
+  &-case-more
+    padding-right: .625rem /* 10/16 */
+    font-size: 1rem
+    color: #666666
+    text-decoration: none
+
+.news-content
+  box-sizing: border-box
+  width: 100%
+  overflow: hidden 
+  border: 1px solid rgba(75,69,50,.26)
+  padding: 1.875rem /* 30/16 */ 1.25rem /* 20/16 */
+  margin-bottom: 3.125rem /* 50/16 */
+
+
+.swiper-entreprice
+  height: 28.125rem /* 450/16 */
+  &-img
+    width: 100%
+    height: 100%
+    img
+      width: 100%
+      height: 100%
+
+  &-title
+    position: absolute
+    height: 4.5rem /* 72/16 */
+    background: rgba(0,0,0,.38)
+    font-size: 1.125rem /* 18/16 */
+    color: #ffffff
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    text-align: center
+    line-height: 4.5rem /* 72/16 */
+    bottom: 0
+    left: 0
+    right: 0
+.swiper-button-next,.swiper-button-prev
+  height: 100%
+  width: 2.5rem /* 40/16 */
+  top: .625rem /* 10/16 */
+  &:after
+    content: ""
+    width: 2.5rem /* 40/16 */
+    height: 100%
+    position: absolute
+    top: 0
+    background: rgba(0,0,0,.05)
+    visibility: hidden
+
+.swiper-button-next
+  background: url('../images/icon-right.png') no-repeat center center
+.swiper-button-prev
+  background: url('../images/icon-left.png')  no-repeat center center
+.swiper-button-next.swiper-button-disabled:hover, .swiper-button-prev.swiper-button-disabled:hover
+  &:after
+    visibility: hidden
+.swiper-button-next:hover,.swiper-button-prev:hover
+  &:after
+    visibility: visible 
+    
+    
+
+.news-items
+  .news-item
+    &:not(:last-child)
+      margin-bottom: .875rem /* 14/16 */
+    
+    &:last-child
+      .news-item-content
+        border: none
+    a
+      color: #444444
+      display: flex
+      text-decoration: none
+      &:hover
+        color: #007bff
+    &-pic
+      display: block
+      width: 9.75rem /* 156/16 */
+      height: 8.8125rem /* 141/16 */
+      padding-left: .3125rem /* 5/16 */
+    &-content
+      display: flex
+      flex-direction: column
+      border-bottom: 1px solid #e7e7e7
+      min-height: 8.125rem /* 130/16 */
+      padding-top: .25rem /* 4/16 */
+      padding-bottom: .9375rem /* 15/16 */
+      padding-right: .625rem /* 10/16 */
+      padding-left: .625rem /* 10/16 */
+    &-title
+      flex: 1
+      width: 100%
+      font-size: 1.125rem /* 18/16 */
+      // white-space: nowrap
+      // overflow: hidden
+      // text-overflow: ellipsis
+      font-weight: 700
+    &-info
+      text-align: justify
+      color: #5f5f5f
+      @include text-over()
+    &-times
+      display: flex
+      align-items: center
+      font-size: .75rem /* 12/16 */
+      color: #5f5f5f
+      span
+        padding-right: .625rem /* 10/16 */
+    
+  &.swiper-news-items
+    padding-right:  3.75rem /* 60/16 */
+    padding-left: 3.75rem /* 60/16 */
+    .news-item-pic
+      width: 15.6875rem /* 251/16 */
+    .news-item-info
+      @include text-over(2)
+  &.news-industry-items
+    margin-top: 3.125rem /* 50/16 */
+    .news-item
+      padding-bottom: 1.25rem /* 20/16 */
+      &:not(:last-child)
+        border-bottom: 1px solid #e7e7e7
+    .news-item-content
+      padding-top: 0
+      border: none
+    .news-item-title
+      font-size: 1.75rem /* 28/16 */
+    .news-item-pic
+      width: 15.6875rem /* 251/16 */
+      height: 11.3125rem /* 181/16 */
+    .news-item-times
+      color: #999999
+      margin-bottom: .9375rem /* 15/16 */ 
+    .news-item-more
+      color: #222222
+    .page
+      margin-top: 3.125rem /* 50/16 */
+
+$colors: #fb7922, #3a599a, #41abe1, #3a599b, #0078ff, #41abe1, #3b5e86
+// $colors: red, orange, yellow, green, blue, purple
+
+.news-aside
+  padding-top: 3.125rem /* 50/16 */
+  &-tags,&-list,&-call
+    padding-bottom: 1.25rem /* 20/16 */
+  &-title
+    position: relative
+    font-size:  1.125rem /* 18/16 */
+    border-bottom: 1px solid #e7e7e7
+    line-height: 1.625rem /* 26/16 */
+    padding-bottom: .625rem /* 10/16 */
+    padding-left: .9375rem /* 15/16 */
+    color: $mainColor
+    font-weight: 700
+    &:before
+      content: ""
+      position: absolute
+      width: .125rem /* 2/16 */
+      height: 1.25rem /* 20/16 */
+      left: 0
+      bottom: .625rem /* 10/16 */
+      background-color: $mainColor
+  &-tags__list
+    display: flex
+    flex-wrap: wrap
+
+    @for $i from 1 through length($colors)
+      a:nth-child(#{length($colors)}n+#{$i})
+        // background: lighten(nth($colors, $i), 20%)
+        background: nth($colors, $i)
+    a
+      color: #ffffff
+      margin-right: .625rem /* 10/16 */
+      margin-bottom: .625rem /* 10/16 */
+      padding: .9375rem /* 15/16 */ 1.875rem /* 30/16 */
+      text-decoration: none
+
+  &-list__link
+    padding-left: 1rem
+    list-style: none
+    font-size: .875rem /* 14/16 */
+    li
+      padding-top:  1.25rem /* 20/16 */
+      padding-bottom: .625rem /* 10/16 */
+      border-bottom: 1px solid #e7e7e7
+    a
+      text-decoration: none
+      color: #444444
+      h5
+        font-size: 1rem /* 16/16 */
+  &-call
+    p:nth-child(2)
+      margin-top: 1.25rem /* 20/16 */
+    p
+      padding-left: 1rem
+      
+.news-case
+  color: #333333
+  text-decoration: none
+  border: 1px solid #ebebeb
+  transition: all .3s ease-in-out
+  margin-bottom: .9375rem /* 15/16 */
+  &:hover
+    transform: translateY(- .625rem /* 10/16 */)
+    text-decoration: none
+    box-shadow: 1px 2px 5px #ebebeb
+
+.case-list-img
+  height: 12.625rem
+
+.padding-top2
+  padding-top: 2.25rem
+@media (max-width: 1199.98px)
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px)
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px)
+  .main-body
+    padding-top: 4.25rem
+    padding-bottom: 1.25rem /* 20/16 */
+  .news-subtitle
+    padding-bottom: .9375rem /* 15/16 */
+  .news-title
+    margin-bottom: .3125rem /* 5/16 */
+  .news-content
+    border: none
+    margin-bottom: .625rem /* 10/16 */
+  .main-header
+    position: fixed
+  .news-content
+    padding: .625rem /* 10/16 */ 0
+  .news-items
+    padding-top: .625rem /* 10/16 */
+  .news-case
+    margin-left: .625rem /* 10/16 */
+    margin-right: .625rem /* 10/16 */
+  .news-items.news-industry-items
+    margin-top: .9375rem /* 15/16 */
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px)
+  .swiper-entreprice
+    height: 15.625rem /* 250/16 */
+  .news-items
+    .news-item-content
+      padding-top: 0
+  .news-items.swiper-news-items
+    padding-right: 1.125rem /* 18/16 */
+    padding-left: 1.125rem /* 18/16 */
+    .news-item
+      a
+        flex-wrap: wrap
+    .news-item-pic
+      width: 100%
+      height: auto
+      margin-bottom: .625rem /* 10/16 */
+      padding-right: .625rem /* 10/16 */
+  .news-items.news-industry-items
+    margin-top: .625rem /* 10/16 */
+    .news-item
+      a
+        flex-wrap: wrap
+    .news-item-pic
+      width: 100%
+      height: auto
+      margin-bottom: .625rem /* 10/16 */
+      padding-right: .625rem /* 10/16 */
+    .news-item-times
+      margin-bottom: .3125rem /* 5/16 */
+    .news-item-title
+      font-size: 1.125rem /* 18/16 */
+  .news-title
+    height: 2.5rem /* 40/16 */
+    font-size: 1.375rem /* 22/16 */
+    &-num
+      font-size: 1.625rem /* 26/16 */
+    &-line
+      height: 2.125rem /* 34/16 */
+      width: .0875rem /* 1.4/16 */
+  .news-content
+    padding: 0

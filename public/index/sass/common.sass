@@ -526,13 +526,14 @@ html,body
     padding: .625rem /* 10/16 */
     font-size: 1rem
     line-height: 1.8
-    text-indent: 2em
     text-align: justify
   &-title
+    font-size: 2rem
     text-align: center
     padding-bottom: .9375rem /* 15/16 */
     border-bottom: 1px solid #eeeeee
   &-time
+    text-align: center
     font-size: .8125rem /* 13/16 */
     color: #999
     padding: .625rem /* 10/16 */
@@ -554,6 +555,7 @@ html,body
     justify-content: space-between
     align-items: center
     padding: 0 15px
+    line-height: 1.8
   &-card
     padding: 0
     h5
@@ -635,6 +637,7 @@ html,body
 // Large devices (desktops, less than 768px)
 @media (max-width: 767.98px)
   .main-header
+    background: rgba(192,192,192,.88)
     .navbar-brand
       img
         height: 2.1875rem
@@ -652,6 +655,7 @@ html,body
 // Large devices (desktops, less than 756px)
 @media (max-width: 575.98px)
   .main-header
+    background: rgba(192,192,192,.88)
     .navbar-brand
       img
         height: 2.1875rem
@@ -713,8 +717,15 @@ html,body
       margin-left: -15px
     &-content
       padding: .625rem /* 10/16 */
+      img
+        max-width: 100%
+        height: auto
     &-title
       font-size: 1.375rem /* 22/16 */
+    &-footer
+      flex-direction: column
+      align-items: flex-start
+      justify-content: flex-start
   .commom-banner
     height: 15.625rem /* 250/16 */
     background-size: cover  

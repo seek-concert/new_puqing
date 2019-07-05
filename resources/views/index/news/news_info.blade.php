@@ -4,7 +4,7 @@
 {{-- CSS --}}
 @section('css')
     <link rel="stylesheet" href="{{asset('index/css/swiper.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/news.css')}}">
+    <link rel="stylesheet" href="{{asset('index/css/news-info.css')}}">
 @endsection
 
 {{-- Content --}}
@@ -12,7 +12,7 @@
   {{-- banner --}}
   <section class="commom-banner"></section>
   {{-- 主体 --}}
-  <main class="main-body container news-info">
+  <main class="main-body container news-info padding-top2">
     <section class="row">
       <div class="main-subtitle">
         <a href="https://www.p7ing.com" title="普擎官网">首页</a>
@@ -23,19 +23,19 @@
         <div class="row">
           <article class="col-md-9 col-12 border-md-right">
             <div class="news-info-body">
-              <h1 class="news-info-title">{{$info->title}}</h1>
+              <h1 class="news-info-title">{{$infos->title}}</h1>
               <div class="news-info-time">
                 <span>发布人: 管理员</span>
-                <span>发布时间：{{date('Y-m-d H:i:s',$info->input_time)}}</span>
-                <span>浏览量： 1w+</span>
+                <span> 发布时间：{{date('Y-m-d H:i',$infos->input_time)}}</span>
+                <span> 浏览量：{{rand(12354,99999)}}</span>
               </div>
               <div class="news-info-desc">
                 <p>
-                  {{$info->description}}
+                  {{$infos->description}}
                 </p>
               </div>
               <div class="news-info-content">
-                <p>{!! htmlspecialchars_decode($info->content) !!} </p>
+                <p>{!! htmlspecialchars_decode($infos->content) !!} </p>
               </div>
 
               <blockquote class="blockquote text-right">
@@ -63,14 +63,16 @@
             <div class="news-aside-tags">
               <h4 class="news-aside-title">标签</h4>
               <div class="news-aside-tags__list">
-                <a href=""><strong>重庆网站建设</strong></a>
-                <a href=""><strong>网站开发</strong></a>
-                <a href=""><strong>网站外包</strong></a>
-                <a href=""><strong>网站制作</strong></a>
-                <a href=""><strong>网站安全</strong></a>
-                <a href=""><strong>网站维护</strong></a>
-                <a href=""><strong>微信公众号开发</strong></a>
-                <a href=""><strong>软件定制</strong></a>
+                <a href="{{url('/web')}}"><strong>重庆网站建设</strong></a>
+                <a href="{{url('/web')}}"><strong>网站开发</strong></a>
+                <a href="{{url('/web')}}"><strong>重庆网站外包</strong></a>
+                <a href="{{url('/web')}}"><strong>网站制作</strong></a>
+                <a href="{{url('/wechat')}}"><strong>微信小程序开发</strong></a>
+                <a href="{{url('/news')}}"><strong>网站安全</strong></a>
+                <a href="{{url('/web')}}"><strong>网站维护</strong></a>
+                <a href="{{url('/wechat')}}"><strong>微信公众号开发</strong></a>
+                <a href="{{url('/app')}}"><strong>软件定制</strong></a>
+                <a href="{{url('/web')}}"><strong>网站设计</strong></a>
               </div>
             </div>
             <div class="news-aside-list">
@@ -100,6 +102,7 @@
     <section class="row">
       <div class="news-title">
         <span class="news-title-name">最新案例</span>
+          <a href="{{url('/case')}}" class="float-right news-title-case-more" title="网站建设外包行业案例">查看更多<span class="iconfont">&#xeb9a;</span></a>
       </div>
       <div class="news-content">
         <div class="row">
