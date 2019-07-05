@@ -36,7 +36,7 @@ class AppController extends BaseController
         $data = [];
 
          /* [TDK] */
-        $data['title'] = $this->title;
+        $data['title'] = '重庆软件定制_开发一款软件需要多少钱_软件开发流程-普擎科技';
         $data['keywords'] = $this->keywords;
         $data['description'] = $this->description;
         return $this->show(4,'',$data);

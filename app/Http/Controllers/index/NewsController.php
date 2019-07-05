@@ -45,7 +45,7 @@ class NewsController extends BaseController
         $data = [];
         /*------详情-------*/
         $info = DB::table('news')
-            ->select('title', 'description','content','input_time')
+            ->select('id','title', 'description','content','input_time')
             ->where([
                 'id' => $id
             ])
@@ -78,7 +78,7 @@ class NewsController extends BaseController
         $data['case_lists'] =  DB::table('case')->limit(4)->orderby('input_time','desc')->get()?:[];
 
          /* [TDK] */
-        $data['title'] = $this->title;
+        $data['title'] = $info->title?:$this->title;
         $data['keywords'] = $this->keywords;
         $data['description'] = $this->description;
         return $this->show(6,'',$data);

@@ -93,7 +93,7 @@ class CaseController extends BaseController
         if($request->isMethod('post')){
             unset($data['case_list']);
             unset($data['industry_news']);
-            $data['infos']= $info = DB::table('case')
+            $data['infos']= DB::table('case')
                 ->select('id','title','description', 'content', 'url','input_time')
                 ->where([
                     'id' => $request->input('type_id')
@@ -103,7 +103,7 @@ class CaseController extends BaseController
             return response()->json($result);
         }
          /* [TDK] */
-        $data['title'] = $this->title;
+        $data['title'] = $info->title?:$this->title;
         $data['keywords'] = $this->keywords;
         $data['description'] = $this->description;
         return $this->show(5,'',$data);

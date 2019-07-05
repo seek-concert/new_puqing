@@ -35,7 +35,7 @@
                 </div>
             </div>
         </form>
-        <div class="main-contact-btn">
+        <div class="main-contact-btn" onclick="alert('提交成功')">
             <span>提交</span>
         </div>
     </div>
