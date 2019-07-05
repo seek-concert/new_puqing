@@ -26,7 +26,7 @@
                 <p class="soft-content-text border border-white rounded p-1 ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
                   按需定制&nbsp;&nbsp;快速上线&nbsp;&nbsp;售后支持&nbsp;&nbsp;满意再付款</p>
-                <a href="" class="soft-btn-link ani" swiper-animate-effect="fadeInLeft"
+                <a href="{{url('soft_creat_app')}}" class="soft-btn-link ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">查看详情</a>
               </div>
               <div class="soft-pic soft-pic-1 col-md-6 col-12 order-md-12 order-1 ani" swiper-animate-effect="fadeInRight"
@@ -47,7 +47,7 @@
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">快速上线，PC、手机、微信、三终端平台完美兼容</h2>
                 <p class="soft-content-text ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
-                <a href="" class="soft-btn-link ani" swiper-animate-effect="fadeInRight"
+                <a href="{{url('soft_creat_app')}}" class="soft-btn-link ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">查看详情</a>
               </div>
               <div class="soft-pic soft-pic-2 col-md-6 col-12 order-md-1 order-1 ani" swiper-animate-effect="fadeInLeft"
@@ -66,15 +66,15 @@
               <div class=" col-md-3 col-12 order-md-1 order-2 d-flex flex-column align-items-center">
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s" >
-                  <img src="{{asset('index/images/solu1.png')}}" alt="">
+                  <img src="{{asset('index/images/solu1.png')}}" alt="智能硬件行业软件定制">
                   <h5>智能硬件行业</h5>
-                  <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
+                  <p>智能硬件应用设计开发方案是 WiFi/4G 无线控制管理平台，通过移动终端，监控各种智能设备，并实现设备之间的互联互通，为用户提供多元的情景生活体验。</p>
                 </div>
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
-                  <img src="{{asset('index/images/solu2.png')}}" alt="">
-                  <h5>智能硬件行业</h5>
-                  <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
+                  <img src="{{asset('index/images/solu2.png')}}" alt="移动电商行业软件定制">
+                  <h5>移动电商行业</h5>
+                  <p>提供移动电商/商城APP及小程序设计开发解决方案，为企业定制个性化电子商务平台，拥有多个电商小程序、微分销商城、电商APP定制成功案例。</p>
                 </div>
               </div>
               <div class="soft-pic soft-pic-3 col-md-6 col-12 order-md-2 order-1 ani" swiper-animate-effect="fadeInUp"
@@ -82,15 +82,15 @@
               <div class="soft-pic col-md-3 col-12 order-md-3 order-3 d-flex flex-column align-items-center">
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
-                  <img src="{{asset('index/images/solu3.png')}}" alt="">
-                  <h5>智能硬件行业</h5>
-                  <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
+                  <img src="{{asset('index/images/solu3.png')}}" alt="数字金融行业软件定制">
+                  <h5>数字金融行业</h5>
+                  <p>提供网上支付、移动支付、网上银行、金融服务外包及网上贷款、网上保险、网上基金等互联网金融产品的设计开发解决方案。</p>
                 </div>
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
-                  <img src="{{asset('index/images/solu4.png')}}" alt="">
-                  <h5>智能硬件行业</h5>
-                  <p>视频直播软件开发，什么最重要？反馈感，如何进一步增强直播反馈感是一个非常重要的课题，用户看直播。。。。。。</p>
+                  <img src="{{asset('index/images/solu4.png')}}" alt="网络营销行业软件定制">
+                  <h5>网络营销行业</h5>
+                  <p>基于互联网络及社会关系网络连接企业、用户及公众，向用户及公众传递有价值的信息和服务，为实现顾客价值及企业营销目标所进行的规划、实施及运营管理活动。</p>
                 </div>
               </div>
             </div>

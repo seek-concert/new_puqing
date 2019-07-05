@@ -24,7 +24,7 @@
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">免费认证</h2>
                 <p class="wechat-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                   swiper-animate-delay="0.6s">这是一段公众号的文案这是一段公众号的文案这是一段公众号的文案这是一段公众号的文案这是一</p>
-                <a href="" class="wechat-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                <a href="{{url('/wechat_dev_public')}}" class="wechat-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                   swiper-animate-delay="0.8s">查看详情</a>
               </div>
               <div class="wechat-pic wechat-pic-1 col-md-6 col-12 order-md-12 order-1 ani"
@@ -45,7 +45,7 @@
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">移动端最热应用，快速抢占市场商机</h2>
                 <p class="wechat-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                   swiper-animate-delay="0.6s">这是一段门户网站的文案介绍这是一段门户网站的文案介绍这是一段门户网站的文案介绍</p>
-                <a href="" class="wechat-btn-link ani" swiper-animate-effect="fadeInRight"
+                <a href="{{url('/wechat_dev_small')}}" class="wechat-btn-link ani" swiper-animate-effect="fadeInRight"
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">查看详情</a>
               </div>
               <div class="wechat-pic wechat-pic-2 col-md-5 col-12 order-md-1 order-1 ani"
@@ -66,7 +66,7 @@
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">功能成熟可即刻布署</h2>
                 <p class="wechat-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                   swiper-animate-delay="0.6s">这是一段公众号的文案这是一段公众号的文案这是一段公众号的文案这是一段公众号的文案这是一</p>
-                <a href="" class="wechat-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                <a href="{{url('/wechat_site_shop_web')}}" class="wechat-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                   swiper-animate-delay="0.8s">查看详情</a>
               </div>
               <div class="wechat-pic wechat-pic-3 col-md-6 col-12 order-md-12 order-1 ani"
@@ -85,7 +85,7 @@
               swiper-animate-delay="0.2s">这是一段小小的文案介绍这是一段小小的文案介绍这是一段小小的</p>
             <div class="wechat-serve-pic ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
               swiper-animate-delay="0.2s"></div>
-            <a href="" class="wechat-btn-link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
+            <a href="{{url('/wechat_dev_service')}}" class="wechat-btn-link ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
               swiper-animate-delay="0.2s">查看详情</a>
           </div>
         </section>

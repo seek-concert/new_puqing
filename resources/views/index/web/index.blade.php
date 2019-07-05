@@ -24,7 +24,7 @@
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">B2B商城、B2B2C商城、分销商城</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.6s">这是一段商城网站的文案介绍这是一段商城网站的文案介绍这是一段商城网站的文案介绍</p>
-                                <a href="" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                                <a href="{{url('/web_site_shop_web')}}" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
                             <div class="site-pic site-pic-1 col-md-6 col-12 order-md-12 order-1 ani"
@@ -45,7 +45,7 @@
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
-                                <a href="" class="site-btn-link ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                                <a href="{{url('/web_site_company_web')}}" class="site-btn-link ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
                             <div class="site-pic site-pic-2 col-md-6 col-12 order-md-1 order-1 ani" swiper-animate-effect="fadeInLeft"
@@ -66,7 +66,7 @@
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
-                                <a href="" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                                <a href="{{url('/web_site_html5')}}" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
                             <div class="site-pic site-pic-3 col-md-6 col-12 order-md-12 order-1 ani"
@@ -87,7 +87,7 @@
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
-                                <a href="" class="site-btn-link ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                                <a href="{{url('/web_site_portal_web')}}" class="site-btn-link ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
                             <div class="site-pic site-pic-4 col-md-6 col-12 order-md-1 order-1 ani" swiper-animate-effect="fadeInLeft"
@@ -108,7 +108,7 @@
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
-                                <a href="" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                                <a href="{{url('/web_site_admin')}}" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
                             <div class="site-pic site-pic-5 col-md-7 col-12 order-md-12 order-1 ani"

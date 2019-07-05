@@ -25,12 +25,12 @@
             </div>
         </div>
     </section>
-    <!-- 微信二次开发 -->
+    <!-- 软件开发 -->
     <section class="main-wrap softapp-wrap">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="text-center">微信二次开发</h2>
+                    <h2 class="text-center">软件开发</h2>
                     <p class="text-96">
                         移动互联网导致了大量APP应用盛行，这种互联网的机遇对专做APP开发企业来说是可遇不可求。久而久之就会出现以手机APP为平台的全新的商业模式，众多企业也纷纷转型移动互联网。对比传统的营销方式，开发一款自己的企业APP就显得尤为重要。
                     </p>

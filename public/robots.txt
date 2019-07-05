@@ -1,2 +1,3 @@
-User-agent: *
+﻿User-agent:*
 Disallow:
+Sitemap:http://p7ing.com/sitemap.xml
