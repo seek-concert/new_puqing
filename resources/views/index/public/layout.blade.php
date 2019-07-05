@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>重庆网站建设_网站外包_网站开发_网站制作_微信小程序开发-重庆普擎科技</title>
-    <meta name="keywords" content="重庆网站建设,网站外包,重庆网站设计,重庆网站外包,重庆网站开发,网站制作建设公司,做建网站公司,重庆微信开发,微信公众号开发">
-    <meta name="description" content="重庆普擎科技提供网页/APP UI设计，微信小程序开发、电商网站专属定制、重庆自适应网站外包、网站建设开发制作一条龙等整合策划与视觉执行，为品牌赋予新鲜且有新意的创意与体现,来自重庆网站建设开发制作外包的普擎科技。">
+    <title>{{isset($title)?$title:'重庆网站建设_网站外包_网站开发_网站制作_微信小程序开发-重庆普擎科技'}}</title>
+    <meta name="keywords" content="{{isset($keywords)?$keywords:'重庆网站建设,网站外包,重庆网站设计,重庆网站外包,重庆网站开发,网站制作建设公司,做建网站公司,重庆微信开发,微信公众号开发'}}">
+    <meta name="description" content="{{isset($description)?$description:'重庆普擎科技提供网页/APP UI设计，微信小程序开发、电商网站专属定制、重庆自适应网站外包、网站建设开发制作一条龙等整合策划与视觉执行，为品牌赋予新鲜且有新意的创意与体现,来自重庆网站建设开发制作外包的普擎科技。'}}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="applicable-device" content="pc,mobile">
     <meta name="renderer" content="webkit">

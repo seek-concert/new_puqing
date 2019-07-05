@@ -9,9 +9,10 @@ use Illuminate\Support\Facades\DB;
 class NewsController extends BaseController
 {
     /*==========【标题、关键词、描述】===========*/
-    protected $title='';
-    protected $keywords='';
-    protected $description='';
+    protected $title = '网站建设技术文章_网站开发教程分享_网站制作技巧-普擎科技';
+    protected $keywords = '网站建设技术文章,网站开发教程分享,网站建设外包,网站制作技巧,教程分享';
+    protected $description='重庆普擎科技提供网页/APP UI设计，微信小程序开发、电商网站专属定制、重庆自适应网站外包、网站建设开发制作一条龙等整合策划与视觉执行，为品牌赋予新鲜且有新意的创意与体现,来自重庆网站建设开发制作外包的普擎科技。';
+
 
     /*=======================[构造方法]=============================*/
     public function __construct()
@@ -31,6 +32,10 @@ class NewsController extends BaseController
         /*----- [案例列表] -----*/
         $data['case_lists'] =  DB::table('case')->limit(4)->orderby('input_time','desc')->get()?:[];
 
+         /* [TDK] */
+        $data['title'] = $this->title;
+        $data['keywords'] = $this->keywords;
+        $data['description'] = $this->description;
         return $this->show(6,'',$data);
     }
 
@@ -72,6 +77,10 @@ class NewsController extends BaseController
         /*----- [案例列表] -----*/
         $data['case_lists'] =  DB::table('case')->limit(4)->orderby('input_time','desc')->get()?:[];
 
+         /* [TDK] */
+        $data['title'] = $this->title;
+        $data['keywords'] = $this->keywords;
+        $data['description'] = $this->description;
         return $this->show(6,'',$data);
     }
 
