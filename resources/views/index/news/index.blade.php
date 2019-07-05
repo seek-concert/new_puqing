@@ -69,7 +69,7 @@
             {{-- 大图下方列表内容 --}}
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <div class="news-items swiper-news-items">
+                <div class="news-items swiper-news-items" style="width: 100%">
                   @if(!empty($industry_news))
                     @foreach($industry_news as $k=>$v)
                       @if(in_array($k,[0,1,2]))
