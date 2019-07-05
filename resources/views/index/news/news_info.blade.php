@@ -23,19 +23,19 @@
         <div class="row">
           <article class="col-md-9 col-12 border-md-right">
             <div class="news-info-body">
-              <h1 class="news-info-title">{{$list->title}}</h1>
+              <h1 class="news-info-title">{{$info->title}}</h1>
               <div class="news-info-time">
                 <span>发布人: 管理员</span>
-                <span>发布时间：{{date('Y-m-d H:i:s',$list->input_time)}}</span>
+                <span>发布时间：{{date('Y-m-d H:i:s',$info->input_time)}}</span>
                 <span>浏览量： 1w+</span>
               </div>
               <div class="news-info-desc">
                 <p>
-                  {{$list->description}}
+                  {{$info->description}}
                 </p>
               </div>
               <div class="news-info-content">
-                <p>{!! htmlspecialchars_decode($list->content) !!} </p>
+                <p>{!! htmlspecialchars_decode($info->content) !!} </p>
               </div>
 
               <blockquote class="blockquote text-right">

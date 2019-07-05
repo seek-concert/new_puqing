@@ -40,17 +40,31 @@ class CaseController extends BaseController
     public function case_info($id = 0)
     {
         $data = [];
-        //详细内容
-        $list = DB::table('case')
-            ->select('title', 'content', 'url')
+        /*------详情-------*/
+        $info = DB::table('case')
+            ->select('title','description', 'content', 'url','input_time')
             ->where([
                 'id' => $id
             ])
             ->first();
-        if (empty($list)) {
+        if (empty($info)) {
             return redirect('/');
         }
-        //上下案例
+        $data['infos'] = $info;
+        /*------最近案例列表------*/
+        $case_list1 = DB::table('case')->select('id','thumbnail','title','keywords','category_id')
+            ->where([
+                ['id', '<=', $id]
+            ])
+            ->limit(4)->get();
+        $case_list2 = DB::table('case')->select('id','thumbnail','title','keywords','category_id')
+            ->where([
+                ['id', '>', $id]
+            ])
+            ->limit(4)->get();
+        $case_list =  array_merge($case_list1->toArray(),$case_list2->toArray());
+        $data['case_list'] = $case_list;
+        /*------上下案例------*/
         $previous = DB::table('case')
             ->select('id', 'title')
             ->where([
@@ -65,6 +79,11 @@ class CaseController extends BaseController
             ])
             ->orderBy('id', 'asc')
             ->first();
+        $data['previous'] = $previous;
+        $data['next'] = $next;
+
+        /*----- [最新资讯] -----*/
+        $data['industry_news'] = DB::table('news')->limit(12)->select('id','thumbnail','title','description','input_time','keywords')->whereIn('category_id',[1,2,3,4])->orderBy('input_time', 'desc')->get()?:[];
 
         return $this->show(5,'',$data);
     }

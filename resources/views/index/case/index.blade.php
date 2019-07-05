@@ -64,7 +64,7 @@
           @if(!empty($case_lists))
             @foreach ($case_lists as $value)
               <div class="col-xl-3 col-lg-4 col-md-4 col-6">
-                <a href="#" class="card news-case">
+                <a href="{{url('/case_info',['id'=>$value->id])}}" class="card news-case">
                   <img class="card-img-top" src="{{$value->thumbnail?:'index/images/news/img10.png'}}" alt="{{$value->keywords?:'重庆网站建设案例'}}">
                   <div class="card-body">
                     <h5 class="card-title text-center">{{$value->title}}</h5>

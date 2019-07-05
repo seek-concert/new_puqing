@@ -38,18 +38,18 @@ class NewsController extends BaseController
     public function news_info($id = 0)
     {
         $data = [];
-        //详细内容
-        $list = DB::table('news')
+        /*------详情-------*/
+        $info = DB::table('news')
             ->select('title', 'description','content','input_time')
             ->where([
                 'id' => $id
             ])
             ->first();
-        if (empty($list)) {
+        if (empty($info)) {
             return redirect('/');
         }
-        $data['list'] = $list;
-        //上下新闻
+        $data['info'] = $info;
+        /*------上下新闻-------*/
         $previous = DB::table('news')
             ->select('id', 'title')
             ->where([
@@ -66,7 +66,7 @@ class NewsController extends BaseController
             ->first();
         $data['previous'] = $previous;
         $data['next'] = $next;
-        //行业动态
+        /*----- [行业动态] -----*/
         $data['industry_news'] = DB::table('news')->limit(6)->select('id','thumbnail','title','description','input_time','keywords')->whereIn('category_id',[1,2,3,4])->orderBy('input_time', 'desc')->get()?:[];
 
         /*----- [案例列表] -----*/
