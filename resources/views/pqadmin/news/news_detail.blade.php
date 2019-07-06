@@ -50,7 +50,7 @@
                         <div class="g_9">
                             @if(!empty($list->thumbnail))
                                 <img src="{{$list->thumbnail}}" alt="p7ing.com" style="width: 75%;height: 50%">
-                                <input type="hidden" name="thumbnail" value="{{$list->thumbnail}}" >
+                                <input type="hidden" name="thumbnail" value="{{$list->thumbnail}}">
                             @endif
                         </div>
                     </div>
@@ -63,19 +63,35 @@
                     <div class="line_grid">
                         <div class="g_3"><span class="label">关键字</span></div>
                         <div class="g_9">
-                            <input type="text" class="simple_field atC" name="keywords" value="{{$list->keywords}}" disabled/>
+                            <input type="text" class="simple_field atC" name="keywords" value="{{$list->keywords}}"
+                                   disabled/>
+                        </div>
+                    </div>
+
+                    <div class="line_grid">
+                        <div class="g_3"><span class="label">作者<span class="must">*</span></span></div>
+                        <div class="g_9">
+                            <input class="simple_field" type="text" name="zuozhe" required/>
+                        </div>
+                    </div>
+                    <div class="line_grid">
+                        <div class="g_3"><span class="label">文章来源<span class="must">*</span></span></div>
+                        <div class="g_9">
+                            <input class="simple_field" type="text" name="laiyuan" required/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">新闻描述</span></div>
                         <div class="g_9">
-                            <input type="text" class="simple_field atC" name="description" value="{{$list->description}}" disabled/>
+                            <input type="text" class="simple_field atC" name="description"
+                                   value="{{$list->description}}" disabled/>
                         </div>
                     </div>
                     <div class="line_grid">
                         <div class="g_3"><span class="label">所属分类</span></div>
                         <div class="g_9">
-                            <input type="text" class="simple_field atC" name="category_name" value="{{$list->category_name}}" disabled/>
+                            <input type="text" class="simple_field atC" name="category_name"
+                                   value="{{$list->category_name}}" disabled/>
                         </div>
                     </div>
                     <div class="g_12">
@@ -85,7 +101,8 @@
                         <div class="widget_contents noPadding">
                             <div class="line_grid">
                                 <div class="g_12">
-                                    <textarea class="simple_field" id="editor_id" name="content" style="height:300px;" disabled >{!! $list->content !!}</textarea>
+                                    <textarea class="simple_field" id="editor_id" name="content" style="height:300px;"
+                                              disabled>{!! $list->content !!}</textarea>
                                 </div>
                             </div>
                         </div>

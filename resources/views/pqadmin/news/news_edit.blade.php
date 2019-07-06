@@ -10,7 +10,9 @@
             </div>
             <div class="g_6 contents_options">
                 <div class="simple_buttons">
-                    <a href="javascript:;" onclick="get_cache('')"><div class="bwIcon i_16_help">更新缓存</div></a>
+                    <a href="javascript:;" onclick="get_cache('')">
+                        <div class="bwIcon i_16_help">更新缓存</div>
+                    </a>
                 </div>
                 <div class="simple_buttons">
                     <div class="bwIcon i_16_settings">Settings</div>
@@ -66,7 +68,21 @@
                         <div class="line_grid">
                             <div class="g_3"><span class="label">关键字<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input class="simple_field" type="text" name="keywords" value="{{$list->keywords}}" required/>
+                                <input class="simple_field" type="text" name="keywords" value="{{$list->keywords}}"
+                                       required/>
+                            </div>
+                        </div>
+
+                        <div class="line_grid">
+                            <div class="g_3"><span class="label">作者<span class="must">*</span></span></div>
+                            <div class="g_9">
+                                <input class="simple_field" type="text" name="zuozhe" required/>
+                            </div>
+                        </div>
+                        <div class="line_grid">
+                            <div class="g_3"><span class="label">文章来源<span class="must">*</span></span></div>
+                            <div class="g_9">
+                                <input class="simple_field" type="text" name="laiyuan" required/>
                             </div>
                         </div>
                         <div class="line_grid">
@@ -79,18 +95,20 @@
                             <div class="g_3"><span class="label">所属分类<span class="must">*</span></span></div>
                             <div class="g_9">
                                 <select class="simple_form" name="category_id">
-                                    <option value="" />请选择所属分类!
+                                    <option value=""/>
+                                    请选择所属分类!
                                     @foreach ($category as $value)
-                                        <option value="{{$value->id}}" @if($list->category_id == $value->id) selected="selected" @endif />{{$value->name}}
+                                        <option value="{{$value->id}}"
+                                                @if($list->category_id == $value->id) selected="selected" @endif />{{$value->name}}
                                     @endforeach
                                 </select>
                             </div>
                         </div>
                         {{--<div class="line_grid">--}}
-                            {{--<div class="g_3"><span class="label">新闻内容<span class="must">*</span></span></div>--}}
-                            {{--<div class="g_9">--}}
-                                {{--<textarea class="simple_field" id="editor_id" name="content"></textarea>--}}
-                            {{--</div>--}}
+                        {{--<div class="g_3"><span class="label">新闻内容<span class="must">*</span></span></div>--}}
+                        {{--<div class="g_9">--}}
+                        {{--<textarea class="simple_field" id="editor_id" name="content"></textarea>--}}
+                        {{--</div>--}}
                         {{--</div>--}}
                         <div class="g_12">
                             <div class="widget_header">
@@ -99,7 +117,8 @@
                             <div class="widget_contents noPadding">
                                 <div class="line_grid">
                                     <div class="g_12">
-                                        <textarea class="simple_field" id="editor_id" name="content" style="height:300px;">{!! $list->content !!}</textarea>
+                                        <textarea class="simple_field" id="editor_id" name="content"
+                                                  style="height:300px;">{!! $list->content !!}</textarea>
                                     </div>
                                 </div>
                             </div>

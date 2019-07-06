@@ -23,15 +23,17 @@ class NewsController extends BaseController
      */
     public function index()
     {
+
         //数据查询
-        $list = DB::table('news')->get();
-        foreach ($list as $k => $v) {
-            $list[$k]->category_name = DB::table('news_category')
-                ->where([
-                    'id' => $v->category_id
-                ])
-                ->value('name');
-        }
+        $list = DB::table('news')->select('id','title','category_id')->get();
+
+//        foreach ($list as $k => $v) {
+//            $list[$k]->category_name = DB::table('news_category')
+//                ->where([
+//                    'id' => $v->category_id
+//                ])
+//                ->value('name');
+//        }
         return view('pqadmin.news.news', ['list' => $list]);
     }
 
@@ -55,6 +57,8 @@ class NewsController extends BaseController
                     'thumbnail' => $thumbnail,
                     'title' => $request->input('title', ''),
                     'keywords' => $request->input('keywords', ''),
+                    'author' => $request->input('zuozhe', ''),
+                    'source' => $request->input('laiyuan', ''),
                     'description' => $request->input('description', ''),
                     'category_id' => $request->input('category_id', 0),
                     'content' => $request->input('content', ''),
@@ -97,6 +101,8 @@ class NewsController extends BaseController
                     'thumbnail' => $thumbnail,
                     'title' => $request->input('title', ''),
                     'keywords' => $request->input('keywords', ''),
+                    'author' => $request->input('zuozhe', ''),
+                    'source' => $request->input('laiyuan', ''),
                     'description' => $request->input('description', ''),
                     'category_id' => $request->input('category_id', 0),
                     'content' => $request->input('content', ''),

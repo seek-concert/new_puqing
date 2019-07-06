@@ -66,6 +66,18 @@
                             </div>
                         </div>
                         <div class="line_grid">
+                            <div class="g_3"><span class="label">作者<span class="must">*</span></span></div>
+                            <div class="g_9">
+                                <input class="simple_field" type="text" name="zuozhe" required/>
+                            </div>
+                        </div>
+                        <div class="line_grid">
+                            <div class="g_3"><span class="label">文章来源<span class="must">*</span></span></div>
+                            <div class="g_9">
+                                <input class="simple_field" type="text" name="laiyuan" required/>
+                            </div>
+                        </div>
+                        <div class="line_grid">
                             <div class="g_3"><span class="label">新闻描述<span class="must">*</span></span></div>
                             <div class="g_9">
                                 <textarea class="simple_field" name="description"></textarea>
