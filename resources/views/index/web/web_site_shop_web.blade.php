@@ -3,9 +3,9 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/web-site-shop.css')}}">
+    <link rel="stylesheet" href="index/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="index/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index/css/web-site-shop.css">
 @endsection
 
 {{-- Content --}}
@@ -139,7 +139,7 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/lib/jquery-1.9.0.min.js')}}"></script>
-    <script src="{{asset('index/js/lib/bootstrap.min.js')}}"></script>
-    <script src="{{asset('index/js/config.js')}}"></script>
+    <script src="index/js/lib/jquery-1.9.0.min.js"></script>
+    <script src="index/js/lib/bootstrap.min.js"></script>
+    <script src="index/js/config.js"></script>
 @endsection

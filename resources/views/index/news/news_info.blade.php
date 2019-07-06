@@ -3,8 +3,8 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/swiper.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/news-info.css')}}">
+    <link rel="stylesheet" href="index/css/swiper.min.css">
+    <link rel="stylesheet" href="index/css/news-info.css">
 @endsection
 
 {{-- Content --}}
@@ -129,5 +129,5 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/lib/swiper.min.js')}}"></script>
+    <script src="index/js/lib/swiper.min.js"></script>
 @endsection

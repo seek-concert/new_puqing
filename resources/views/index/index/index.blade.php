@@ -3,9 +3,9 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/swiper.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/main.css')}}">
+    <link rel="stylesheet" href="index/css/swiper.min.css">
+    <link rel="stylesheet" href="index/css/animate.min.css">
+    <link rel="stylesheet" href="index/css/main.css">
 @endsection
 
 {{-- Content --}}
@@ -581,7 +581,7 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/lib/swiper.min.js')}}"></script>
-    <script src="{{asset('index/js/lib/swiper.animate.min.js')}}"></script>
-    <script src="{{asset('index/js/main.js')}}"></script>
+    <script src="index/js/lib/swiper.min.js"></script>
+    <script src="index/js/lib/swiper.animate.min.js"></script>
+    <script src="index/js/main.js"></script>
 @endsection

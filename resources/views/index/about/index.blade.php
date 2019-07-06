@@ -3,9 +3,9 @@
 
 {{-- CSS --}}
 @section('css')
-  <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-  <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{asset('index/css/abouts.css')}}">
+  <link rel="stylesheet" href="index/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="index/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index/css/abouts.css">
 @endsection
 
 {{-- Content --}}
@@ -165,5 +165,5 @@
 @section('js')
   <script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.8&key=3ab0c84c60c3122b58506f611315ac24">
   </script>
-  <script src="{{asset('index/js/about.js')}}"></script>
+  <script src="index/js/about.js"></script>
 @endsection

@@ -3,9 +3,9 @@
 
 {{-- CSS --}}
 @section('css')
-  <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-  <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
-  <link rel="stylesheet" href="{{asset('index/css/case.css')}}">
+  <link rel="stylesheet" href="index/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="index/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index/css/case.css">
 @endsection
 
 {{-- Content --}}
@@ -103,7 +103,7 @@
 
 {{-- js --}}
 @section('js')
-    <script src="{{asset('index/js/case.js')}}"></script>
+    <script src="index/js/case.js"></script>
     <script>
         $('.pagination').addClass('justify-content-center pt-md-5 pt-3');
         $('.pagination li').addClass('page-item');

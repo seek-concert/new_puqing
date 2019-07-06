@@ -3,7 +3,7 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="{{asset('index/css/web-site-company.css')}}">
+    <link rel="stylesheet" href="index/css/web-site-company.css">
 @endsection
 
 {{-- Content --}}

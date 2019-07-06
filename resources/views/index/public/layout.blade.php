@@ -12,8 +12,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="canonical" href="/">
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap-reboot.min.css')}}">
-    <link rel="stylesheet" href="{{asset('index/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="index/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="index/css/bootstrap.min.css">
     @yield('css')
 </head>
 
@@ -218,9 +218,9 @@
 {{-- 右边导航end --}}
 
 {{-- js --}}
-<script type="text/javascript" src="{{asset('index/js/lib/jquery-1.9.0.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('index/js/lib/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('index/js/config.js')}}"></script>
+<script type="text/javascript" src="index/js/lib/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="index/js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="index/js/config.js"></script>
 <script>
     {{-- 导航选中 --}}
     var type = '{{$type}}';
