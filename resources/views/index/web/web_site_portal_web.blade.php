@@ -28,7 +28,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="company-wrap-content">
-                    <h1>门户网站建设</h1>
+                    <div class="text-ft-h1">门户网站建设</div>
                     <p>
                         我们和客户探讨,针对客户需求,为客户设计优秀门户网站视觉效果,针对客户特殊性，进行定制型开发，完整确保客户的需求完美体现,开发过程全程与客户实时沟通进程与开发实际效果，做到随时看,随时改，让每一位客户都能将官网作为可以在互联网海洋翱翔的平台实现将公司宣称最大化，公司收益最大化
                     </p>
@@ -39,7 +39,7 @@
     <!-- 我们的优势 -->
     <section class="company-wrap company-wrap1">
         <div class="company-wrap-super container">
-            <h1>我们的优势</h1>
+            <div class="text-ft-h1">我们的优势</div>
             <h3 class="text-qblue">SUPERIORITY</h3>
             <div class="row">
                 <div class="col-12">
@@ -86,7 +86,7 @@
     <section class="container company-wrap text-center">
         <div class="row justify-content-center">
             <div class="col-md-10 col-12">
-                <h1 class="mb-md-4">我们的能力</h1>
+                <div class="text-ft-h1 mb-md-4">我们的能力</div>
                 <p class="text-muted">
                     普擎科技帮助客户策划,整理,设计,开发整套网站,涵盖UI设计,公司官网,单用户电子商城,多用户电子商城,小程序商城,服务器主机托管,网站托管,网站二次开发,网站定制,以长达3年的设计,开发经验,为您提供最优质的的服务
                 </p>

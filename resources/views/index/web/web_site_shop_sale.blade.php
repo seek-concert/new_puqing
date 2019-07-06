@@ -48,7 +48,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="shop-wrap-content">
-                    <h1>分销商城产品介绍</h1>
+                    <div class="text-ft-h1">分销商城产品介绍</div>
                     <p>
                         分销系统是专门针对PC、微信和移动端客户量身定制的掌上分销商城，是微信商城+手机版商城于一体的移动云商城分销系统，实现了多平台跨渠道统一后台的高效管理。集现有两种固定分销模式及定制开发分销系统于一身。全方位为用户提供合理，适用于您企业实际营销的解决方案.
                     </p>
@@ -62,7 +62,7 @@
         <div class="container text-center">
             <div class="row justify-content-center">
                 <div class="col-12">
-                    <h1>多终端展现 玩赚分销</h1>
+                    <div class="text-ft-h1">多终端展现 玩赚分销</div>
                     <div class="w-100">
                         <img src="{{asset('index/images/website/shopsale-img2.png')}}" alt="分销商城建设外包" class="img-fluid">
                     </div>
@@ -79,7 +79,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="shop-wrap-content">
-                    <h1>商城分销系统技术架构 ！</h1>
+                    <div class="text-ft-h1">商城分销系统技术架构 ！</div>
                     <p>
                         我们的商城平台定位于营销型、互动型、赢利型的企业电子商务系统。提供电子商务标准化、网络支付多样化、售后服务一体化等整套解决方案。将电子商务与传统商业模式紧紧相结合。让您成本更低、实施周期更短、功能更完善、性能更优越、操作更简单等特性。
                         整个平台采用大型网站的多站点分布式系统架构方式，由8个子系统构成。
@@ -94,7 +94,7 @@
         <div class="container text-white">
             <div class="row">
                 <div class="col-12 col-md-9">
-                    <h1>下线越多会员吸金越多 单号卖货越多佣金越多</h1>
+                    <div class="text-ft-h1">下线越多会员吸金越多 单号卖货越多佣金越多</div>
                     <p>
                         分销高收益，实实在在算得到，下线越多收益就越大。同等的您的商品也就卖越多！
                     </p>
@@ -119,7 +119,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="shop-wrap-content">
-                    <h1>所有商品库存与总店库存 <br> 实时同步,轻松管理千万家微店。</h1>
+                    <div class="text-ft-h1">所有商品库存与总店库存 <br> 实时同步,轻松管理千万家微店。</div>
                     <div class="d-flex flex-column text-secondary">
                         <div class="shop-wrap-todo"><label class="iconfont text-danger">&#xe603;</label>演变为成千上万个分销店铺；
                         </div>
@@ -135,7 +135,7 @@
     <section class="container shop-wrap">
         <div class="row text-center">
             <div class="col-12">
-                <h1>万客合一，数据独立迅速积累万千粉丝</h1>
+                <div class="text-ft-h1">万客合一，数据独立迅速积累万千粉丝</div>
             </div>
             <div class="col-12">
                 <div class="shop-wrap-saleimg4"></div>
@@ -149,9 +149,9 @@
         <div class="container text-center text-white">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-9">
-                    <h1><span class="text-qblue">快速</span> 开店，<span class="text-qblue">规模</span> 效益 <br>
+                    <div class="text-ft-h1"><span class="text-qblue">快速</span> 开店，<span class="text-qblue">规模</span> 效益 <br>
                         <small>分销商零投入</small>
-                    </h1>
+                    </div>
                     <div class="design">转发<span class="text-warning">10</span>万次好友x<span class="text-warning">1</span>%转化率x<span
                                 class="text-warning">100</span>元x<span class="text-warning">365</span>天= <span
                                 class="text-warning">3650</span>万
@@ -187,9 +187,9 @@
     <section class="container shop-wrap">
         <div class="row text-center">
             <div class="col-12">
-                <h1 class="text-danger">多种
+                <div class="text-ft-h1 text-danger">多种
                     <small class="text-dark">支付方式并存</small>
-                </h1>
+                </div>
                 <p>每一款商品生成独一无二的二维码，即使消费者没有关注商家的公众号，也可下单购买。对接支付宝、微信支付、财付通、信用卡、环迅支付等其他第三方支付通道，实现支付功能，也可以使用银联支付。</p>
             </div>
             <div class="col-12">
@@ -203,7 +203,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 pt-md-5">
-                    <h1 class="pl-md-5"> 自动生成二级店铺的推广 <br> 二维码以及URL地址 </h1>
+                    <div class="text-ft-h1 pl-md-5"> 自动生成二级店铺的推广 <br> 二维码以及URL地址 </div>
                     <p class="pl-md-5">系统自动给每个会员生成各自二级店铺的唯一二维码，可以嵌入到会员个人的公众号，助力于会员营销推广。</p>
                 </div>
             </div>
@@ -215,7 +215,7 @@
         <div class="container text-center text-white">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10">
-                    <h1 class="pl-md-5"> 强大的<span class="text-warning">促销模块</span>，刺激购物<br> 转化率的强力保障 </h1>
+                    <div class="text-ft-h1 pl-md-5"> 强大的<span class="text-warning">促销模块</span>，刺激购物<br> 转化率的强力保障 </div>
                     <p class="pl-md-5">多样化的促销功能，满足日常促销活动和大型特卖，灵活简易的的设置轻松搞定。</p>
                     <div class="w-100"><img src="{{asset('index/images/website/shopsale-img7.png')}}" alt="分销商城促销"
                                             class="img-fluid"></div>
@@ -228,7 +228,7 @@
     <section class="container shop-wrap text-center">
         <div class="row justify-content-center">
             <div class="col-10">
-                <h1 class="mb-md-4">全网分销子店8大特有功能</h1>
+                <div class="text-ft-h1 mb-md-4">全网分销子店8大特有功能</div>
             </div>
             <div class="w-100"></div>
             <div class="col-12 mt-md-5">

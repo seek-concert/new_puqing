@@ -41,7 +41,7 @@
       aria-labelledby="pills-company-tab">
       <div class="main-body container">
         <div class="about-title">
-          <h1>公司简介</h1>
+          <div class="text-ft-h1">公司简介</div>
           <div class="about-title-line"></div>
           <h5>company culture</h5>
         </div>
@@ -61,7 +61,7 @@
     <div class="tab-pane fade about-team" id="pills-team" role="tabpanel" aria-labelledby="pills-team-tab">
       <div class="main-body container">
         <div class="about-title">
-          <h1>团队介绍</h1>
+          <div class="text-ft-h1">团队介绍</div>
           <div class="about-title-line"></div>
           <h5>company culture</h5>
         </div>
@@ -97,7 +97,7 @@
     <div class="tab-pane fade about-contact" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
       <div class="main-body container">
         <div class="about-title">
-          <h1>联系我们</h1>
+          <div class="text-ft-h1">联系我们</div>
           <div class="about-title-line"></div>
           <h5>company culture</h5>
         </div>
@@ -135,7 +135,7 @@
     <div class="tab-pane fade about-pay" id="pills-pay" role="tabpanel" aria-labelledby="pills-pay-tab">
       <div class="main-body container">
         <div class="about-title">
-          <h1>付款方式</h1>
+          <div class="text-ft-h1">付款方式</div>
           <div class="about-title-line"></div>
           <h5>company culture</h5>
         </div>

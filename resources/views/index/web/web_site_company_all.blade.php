@@ -49,7 +49,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="company-wrap-content">
-                    <h1>什么是<span class="text-danger">响应式网站？</span></h1>
+                    <div class="text-ft-h1">什么是<span class="text-danger">响应式网站？</span></div>
                     <p>
                         所谓的响应式网站设计（自适应网站设计），用最通俗的语言来讲，就是通过一个唯一的网址，唯一的一份网站内容，唯一的一份网站代码，通过CSS3媒体查询方式，可以在多种浏览器设备上进行一致的浏览。响应式站点设计的目的是期望网页设计和网页编码能够对用户的操作行为和环境进行合理的响应，而这种响应应建立在用户的浏览器屏幕大小、操作平台等。
                     </p>
@@ -63,7 +63,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6 offset-md-6 text-white">
-                    <h1>哪些网站适合响应式设计</h1>
+                    <div class="text-ft-h1">哪些网站适合响应式设计</div>
                     <ol class="mt-5">
                         <li class="pt-2"> 移动App开发者的公司网站和单独的App网页；</li>
                         <li class="pt-2"> 希望充分利用互联网的初创型公司网站；</li>
@@ -87,7 +87,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="company-wrap-content">
-                    <h1>响应式网站 <br> <span class="text-qblue">互联网建站新潮流</span></h1>
+                    <div class="text-ft-h1">响应式网站 <br> <span class="text-qblue">互联网建站新潮流</span></div>
                     <p>
                         当新的移动设备以潮水般的速度涌进我们生活的时候，网站建设向手机网站建设倾斜，拥有一个可以适应多种屏幕分辨率的网站建设就显得尤为重要了。据ComScore在2012年的调查发现，2009年全世界仅有8亿部移动互联网用户，而到2015，将有19亿移动互联网用户，而相比较而言，桌面互联网用户从2009到2015年只会增加2亿左右，增幅远远低于移动互联网的普及度。
                     </p>
@@ -101,7 +101,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 text-white text-center">
-                    <h1>响应式网站的优点</h1>
+                    <div class="text-ft-h1">响应式网站的优点</div>
                     <p>
                         响应式网站考虑了不同的终端下不同分辨率下的显示效果，如果移动设备浏览传统网站，由于没有对移动设备进行过优化处理，所有体验效果相对会比较差，响应式网站设计，根据不同分辨率都会出现的显示效果都进行了现对调整，大大提高了用户浏览的体验效果。
                     </p>
@@ -123,7 +123,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="company-wrap-content">
-                    <h1>响应式网站是<span class="text-qblue">大势所趋</span></h1>
+                    <div class="text-ft-h1">响应式网站是<span class="text-qblue">大势所趋</span></div>
                     <div class="w-100 py-3"><img src="{{asset('index/images/website/all-img4.jpg')}}" alt="响应式网站建设"></div>
                     <p>
                         未来几年内不断发展的移动设备、电脑设备、平板设备还将极速发展，若是没有响应式Web设计谁知道我们谁会知道究竟还要开发多少个不同的页面。响应式网站在国外已经非常流行，随着HTML5、CSS3

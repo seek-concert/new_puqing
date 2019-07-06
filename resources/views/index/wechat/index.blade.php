@@ -18,8 +18,8 @@
           <div class="container main-view">
             <div class="row wrap-row">
               <div class="wechat-content col-md-6 col-12 order-md-1 order-12">
-                <h1 class="wechat-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                  swiper-animate-delay="0.2s">公众号</h1>
+                <div class="text-ft-h1 wechat-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                  swiper-animate-delay="0.2s">公众号</div>
                 <h2 class="wechat-content-subtitle wechat-content-subtitle-1 ani" swiper-animate-effect="fadeInLeft"
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">免费认证</h2>
                 <p class="wechat-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
@@ -39,8 +39,8 @@
           <div class="container main-view">
             <div class="row wrap-row">
               <div class="wechat-content col-md-7 col-12 order-md-12 order-12">
-                <h1 class="wechat-content-title wechat-content-title-2 ani" swiper-animate-effect="fadeInRight"
-                  swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">微信小程序 专属定制开发</h1>
+                <div class="text-ft-h1 wechat-content-title wechat-content-title-2 ani" swiper-animate-effect="fadeInRight"
+                  swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">微信小程序 专属定制开发</div>
                 <h2 class="wechat-content-subtitle wechat-content-subtitle-2 ani" swiper-animate-effect="fadeInRight"
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">移动端最热应用，快速抢占市场商机</h2>
                 <p class="wechat-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -60,8 +60,8 @@
           <div class="container main-view">
             <div class="row wrap-row">
               <div class="wechat-content col-md-6 col-12 order-md-1 order-12">
-                <h1 class="wechat-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                  swiper-animate-delay="0.2s">微商城</h1>
+                <div class="text-ft-h1 wechat-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                  swiper-animate-delay="0.2s">微商城</div>
                 <h2 class="wechat-content-subtitle wechat-content-subtitle-3 ani" swiper-animate-effect="fadeInLeft"
                   swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">功能成熟可即刻布署</h2>
                 <p class="wechat-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
@@ -79,8 +79,8 @@
       <div class="swiper-slide">
         <section class="wechat-wrap wechat-wrap-4">
           <div class="container main-view wechat-serve">
-            <h1 class="wechat-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-              swiper-animate-delay="0.2s">微服务</h1>
+            <div class="text-ft-h1 wechat-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+              swiper-animate-delay="0.2s">微服务</div>
             <p class="wechat-info ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
               swiper-animate-delay="0.2s">这是一段小小的文案介绍这是一段小小的文案介绍这是一段小小的</p>
             <div class="wechat-serve-pic ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"

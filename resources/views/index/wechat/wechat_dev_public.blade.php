@@ -10,7 +10,7 @@
 @section('content')
     <!-- banner -->
     <section class="nopublic-banner d-flex flex-column  align-items-center text-center">
-        <h1 class="px-4 py-2 border">微信公众平台开发</h1>
+        <div class="text-ft-h1 px-4 py-2 border">微信公众平台开发</div>
     </section>
 
     <section class="main-wrap">

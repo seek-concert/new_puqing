@@ -49,7 +49,7 @@
                 <div class="company-wrap-saleimg1"></div>
             </div>
             <div class="col-12 col-md-5">
-                <h1>企业营销型网站建设</h1>
+                <div class="text-ft-h1">企业营销型网站建设</div>
                 <p>普擎科技专家团队以多年的实操经验总结</p>
                 <div class="row text-center mb-2">
                     <img src="{{asset('index/images/website/sale-img.jpg')}}" alt="网站建设外包" class="col">
@@ -71,7 +71,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h1>什么是SEO服务？</h1>
+                    <div class="text-ft-h1">什么是SEO服务？</div>
                     <p class="text-danger">普擎科技专家团队以多年的实操经验总结</p>
                     <p>
                         SEO，就是搜索引擎优化；通过对您网站的内部调整，以及网站内外的持续优化，使您的潜在客户在百度等搜索引擎搜索相应关键字时，您的网站显示在搜索引擎的靠前位置，从而提高网站访问量，促进企业在线销售扩大品牌知名度和影响力，提高行业地位！
@@ -89,7 +89,7 @@
                 <div class="company-wrap-saleimg2"></div>
             </div>
             <div class="col-12 col-md-5">
-                <h1>实现效果</h1>
+                <div class="text-ft-h1">实现效果</div>
                 <p>网站是企业的形象窗口，虚拟展厅，与企业形象匹配的良好视觉设计，彰显企业形象。</p>
                 <div class="mb-2"><img src="{{asset('index/images/website/sale-img3.jpg')}}" alt="视觉网站建设"></div>
                 <div class="d-flex flex-column text-secondary">
@@ -108,7 +108,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h1>网站优化内容</h1>
+                    <div class="text-ft-h1">网站优化内容</div>
                     <p>全方位的优化内容，助您更胜一筹</p>
                     <div class="d-flex flex-column text-white">
                         <div class="wrap-sale-item"><label class="iconfont">&#xe603;</label>性能优化</div>
@@ -125,7 +125,7 @@
     <section class="container company-wrap text-center">
         <div class="row justify-content-center">
             <div class="col-10">
-                <h1 class="mb-md-4">我们的优化标准</h1>
+                <div class="text-ft-h1 mb-md-4">我们的优化标准</div>
                 <p class="text-muted">
                     以营销效果为导向的网站才能更好的为企业创造更大的利益，最大化地把访客转化为顾客，帮助你留住客户，真正实现好的网络营销效果！
                 </p>

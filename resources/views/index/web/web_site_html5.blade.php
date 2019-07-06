@@ -24,7 +24,7 @@
     <section class="container html5-wrap">
         <div class="row">
             <div class="col-12 justify-content-center">
-                <h1 class="text-center">一、Html5手机站开发概述</h1>
+                <div class="text-ft-h1 text-center">一、Html5手机站开发概述</div>
                 <p>
                     Html5app开发就是HTML5开发语言制作的移动手机网站。移动站点顾名思义，就是指一切用移动终端访问的网络站点（通常指网站），像通常用的手机、PAD（平板电脑）等都属于移动终端。传统常会称呼移动站点为wap网站即手机网页站。
                 </p>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-12 col-md-7 order-md-0 order-12">
                     <div class="html5-wrap-content">
-                        <h1>二、Html5手机站开发趋势</h1>
+                        <div class="text-ft-h1">二、Html5手机站开发趋势</div>
                         <h6>1、移动优先</h6>
                         <p>
                             从如今层出不穷的移动应用就知道，在这个智能手机和将平板电脑大爆炸的时代，移动优先已成趋势，不管是开发什么，都以移动为主。许多游戏开发商也将在移动Web应用中扮演中重要角色，移动Web应用优先的趋势将会持续到移动设备统治信息处理领域。
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-12 col-md-7">
                     <div class="html5-wrap-content">
-                        <h1>三、企业为何开发Html5手机站</h1>
+                        <div class="text-ft-h1">三、企业为何开发Html5手机站</div>
                         <p>
                             未来，基于HTML5的Web
                             App将成为手机上的主流应用形式。HTML5可以直接在网页上进行修改和调试的大优势将会受到更多APP开发人员的青睐，HTML5也会成为移动互联网未来开发APP的主要技术语言。因此，APP应用软件开发商现在就需要多研究以及关注HTML5技术，只要先于竞争对手一步研究HTML5
@@ -106,7 +106,7 @@
                 </div>
                 <div class="col-12 col-md-7 order-md-0 order-12">
                     <div class="html5-wrap-content">
-                        <h1>四、Html5开发优势</h1>
+                        <div class="text-ft-h1">四、Html5开发优势</div>
                         <h6>1、手机网站移动体验好</h6>
                         <p>
                             当用户使用手机浏览器访问您的网站时，给他呈现的并非您的PC网站，而是自动检测使用设备后显示的html手机站，网站更符合移动端操作习惯，用起来更流畅。
@@ -132,7 +132,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="html5-wrap-content">
-                        <h1>五、哪些浏览器能够运行html5</h1>
+                        <div class="text-ft-h1">五、哪些浏览器能够运行html5</div>
                         <h6>1、Mozilla Firefox 浏览器</h6>
                         <p>Mozilla基金会与开源社区共同开发的一种免费开源的web浏览器，时间在占有率仅次于IE， 优点：最符合web标准规范和高程序执行效率，可用于多种操作系统，包括PC Windows、Linux、Mac OS
                             X。</p>
@@ -155,7 +155,7 @@
         <div class="container text-center text-white">
             <div class="row">
                 <div class="col-12">
-                    <h1>六、HTML5开发盈利模式</h1>
+                    <div class="text-ft-h1">六、HTML5开发盈利模式</div>
                     <p>
                         在过去5年，手机应用为欧洲的经济贡献了100亿以上的收益。对于游戏开发者，利润是相当重要的。对于大部分简单且容易玩的流行游戏，无论是HTML5还是本地应用，那种程度的用户体验都是很容易达到的。因此，决定使用哪个平台归根到底取决于开发想让游戏如何赢利。
                     </p>
@@ -176,7 +176,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-12">
-                    <h1>七、普擎科技HTML5开发能够带来什么</h1>
+                    <div class="text-ft-h1">七、普擎科技HTML5开发能够带来什么</div>
                     <p>重庆HTML5 app开发公司普擎科技开发团队带来的Web
                         App通过手机客户端软件的形式来展现给最终客户。能够让企业的客户在手机上安装以后，随时随地看到企业的信息，如产品展示，公司简介，位置信息等，并可以直接通过手机联系到企业，而无须手机联网传输数据。</p>
                     <p>UI设计：符合苹果官方要求，美观大方。</p>

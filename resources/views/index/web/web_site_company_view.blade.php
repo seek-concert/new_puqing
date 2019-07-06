@@ -49,7 +49,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="webview-wrap-content text-right">
-                    <h1>个性化网站建设</h1>
+                    <div class="text-ft-h1">个性化网站建设</div>
                     <p>
                         顶尖的创意团队为您量身定制个性化企业网站建设，用最前沿的思维制作用户体验的高端网站，正是普擎的优势所在
                     </p>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="webview-wrap-content">
-                        <h1>关于个性化网站定制</h1>
+                        <div class="text-ft-h1">关于个性化网站定制</div>
                         <p> 您需要我们给您打造一个有文化、有价值的企业网站 普擎科技，为您量身定制您的赚钱企业网站</p>
                         <ul class="webview-wrap2-list">
                             <li>不知道怎么利用网站赚钱？ </li>
@@ -130,7 +130,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="webview-wrap-content text-right">
-                    <h1>您需要这样一个个性化企业网站</h1>
+                    <div class="text-ft-h1">您需要这样一个个性化企业网站</div>
                     <p>您需要我们给您打造一个有文化、有价值的企业网站</p>
                     <ul class="webview-wrap1-list">
                         <li>您需要一个可以展示您公司形象的企业网站！</li>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="webview-wrap-content">
-                        <h1>网站太过简单，没什么实际功能？</h1>
+                        <div class="text-ft-h1">网站太过简单，没什么实际功能？</div>
                         <p>只能看不能用的不叫营销型网站</p>
                         <div class="webview-wrap3-text">
                             <p>您的网站设计看得过去，不过没有预期想要的功能，实际应用不大，只能看不能用。</p>
@@ -171,7 +171,7 @@
     <section class="container webview-wrap text-center">
         <div class="row justify-content-center">
             <div class="col-10">
-                <h1 class="mb-md-4">视觉形象展示官网设计制作流程</h1>
+                <div class="text-ft-h1 mb-md-4">视觉形象展示官网设计制作流程</div>
             </div>
             <div class="w-100"></div>
             <div class="col-12 mt-md-5">

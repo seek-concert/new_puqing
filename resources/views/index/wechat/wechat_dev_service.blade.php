@@ -28,7 +28,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="service-wrap-content">
-                    <h1>微信网站 轻松打造</h1>
+                    <div class="text-ft-h1">微信网站 轻松打造</div>
                     <p>通过微信公众号或服务号与手机网站进行对接，轻松打造和手机网站一样的微信营销网站，数据和手机网站同步，轻松实现微信营销。</p>
                     <img class="mt-5" src="{{asset('index/images/wechatdev/service/ser-img1_1.jpg')}}" alt="微信网站建设">
                 </div>
@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="service-wrap-content text-center text-white">
-                        <h1>为什么需要建微信网站?</h1>
+                        <div class="text-ft-h1">为什么需要建微信网站?</div>
                         <p>中国手机网民规模已突破9亿，微信毫无疑问已是用户青睐的移动社交平台NO.1</p>
                         <p>四分之一微信用户每天打开微信的平均次数超过30次</p>
                         <p>74%微信用户重点关注企业和媒体公众号</p>
@@ -60,7 +60,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="service-wrap-content text-center">
-                        <h1>微信营销 无“微”不至</h1>
+                        <div class="text-ft-h1">微信营销 无“微”不至</div>
                         <p>微信网站将为您的客户带来从售前到售后的全流程服务，让企业与客户的关系更加紧密</p>
                         <img src="{{asset('index/images/wechatdev/service/ser-img2.png')}}" alt="微信网站营销"
                              class="mt-5 img-fluid">
@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="service-wrap-content text-center text-white">
-                        <h1>8大解决方案，直击行业痛点</h1>
+                        <div class="text-ft-h1">8大解决方案，直击行业痛点</div>
                         <p>解决不同行业深度需求，落地多行业“互联网+”成熟方案</p>
                         <img src="{{asset('index/images/wechatdev/service/ser-img3.png')}}" alt="微信网站解决方案" class="img-fluid">
                     </div>
@@ -90,7 +90,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
                     <div class="service-wrap-content text-center">
-                        <h1>最牛的营销互动功能</h1>
+                        <div class="text-ft-h1">最牛的营销互动功能</div>
                         <p>每个人都有自己的光荣时刻，每个产品也有自己的辉煌瞬间，但所有的成就都属于过去在这个不断创新的世界，普擎科技和您一起，书写新的篇章</p>
                     </div>
                 </div>

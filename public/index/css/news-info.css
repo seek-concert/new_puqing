@@ -9,6 +9,8 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 
 .swiper-slide { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
+.text-ft-h1 { font-size: 2.5rem; }
+
 /* 颜色值 */
 .text-96 { color: #969696; }
 
@@ -118,7 +120,7 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
 .news-info-content { padding: 0.625rem; font-size: 1rem; line-height: 1.8; text-align: justify; }
 .news-info-title { font-size: 2rem; text-align: center; padding-bottom: 0.9375rem; border-bottom: 1px solid #eeeeee; }
 .news-info-time { text-align: center; font-size: 0.8125rem; color: #999; padding: 0.625rem; }
-.news-info-time span { padding-top: 0.3125rem; padding-bottom: 0.3125rem; margin-left: 0.625rem;}
+.news-info-time span { padding-top: 0.3125rem; padding-bottom: 0.3125rem; }
 .news-info-desc { padding: 0.625rem; text-align: center; }
 .news-info-desc p { text-align: left; text-indent: 2em; font-size: 0.875rem; color: #666666; margin: 0; padding-top: 0.625rem; }
 .news-info-footer { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; padding: 0 15px; line-height: 1.8; }

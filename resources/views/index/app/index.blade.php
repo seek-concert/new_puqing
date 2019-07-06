@@ -19,8 +19,8 @@
           <div class="container main-view">
             <div class="row wrap-row">
               <div class="soft-content col-md-6 col-12 order-md-1 order-12">
-                <h1 class="soft-content-title ani" swiper-animate-effect="fadeInLeft"
-                swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">原生APP</h1>
+                <div class="text-ft-h1 soft-content-title ani" swiper-animate-effect="fadeInLeft"
+                swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">原生APP</div>
                 <h2 class="soft-content-subtitle soft-content-subtitle-1 ani" swiper-animate-effect="fadeInLeft"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">专业高端定制式开发服务</h2>
                 <p class="soft-content-text border border-white rounded p-1 ani" swiper-animate-effect="fadeInLeft"
@@ -41,8 +41,8 @@
           <div class="container main-view">
             <div class="row wrap-row">
               <div class="soft-content col-md-6 col-12 order-md-12 order-12">
-                <h1 class="soft-content-title ani" swiper-animate-effect="fadeInRight"
-                swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">WEB APP</h1>
+                <div class="text-ft-h1 soft-content-title ani" swiper-animate-effect="fadeInRight"
+                swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">WEB APP</div>
                 <h2 class="soft-content-subtitle soft-content-subtitle-2 ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">快速上线，PC、手机、微信、三终端平台完美兼容</h2>
                 <p class="soft-content-text ani" swiper-animate-effect="fadeInRight"
@@ -60,8 +60,8 @@
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-3">
           <div class="container main-view">
-            <h1 class="soft-title ani" swiper-animate-effect="fadeInDown"
-            swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">解决方案</h1>
+            <div class="text-ft-h1 soft-title ani" swiper-animate-effect="fadeInDown"
+            swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">解决方案</div>
             <div class="soft-soluwrap row wrap-row">
               <div class=" col-md-3 col-12 order-md-1 order-2 d-flex flex-column align-items-center">
                 <div class="soft-soluwrap-item ani" swiper-animate-effect="fadeInLeft"
@@ -101,14 +101,14 @@
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-4">
           <div class="container main-view">
-            <h1 class="soft-title text-white ani" swiper-animate-effect="fadeInDown"
-            swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">项目流程</h1>
+            <div class="text-ft-h1 soft-title text-white ani" swiper-animate-effect="fadeInDown"
+            swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">项目流程</div>
             <div class="soft-items row wrap-row">
               <div class="col-xl-2 col-lg-4 col-md-6 col-6 ani" swiper-animate-effect="fadeInUp"
               swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
                 <div class="soft-items-box">
                   <img src="{{asset('index/images/softcreat/item-1.png')}}" alt="普擎科技专注网站建设外包服务">
-                  <h1>01</h1>
+                  <div class="text-ft-h1">01</div>
                   <h2>用户访谈</h2>
                   <p>需求分析</p>
                   <p>需求评审</p>
@@ -119,7 +119,7 @@
               swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">
                 <div class="soft-items-box">
                   <img src="{{asset('index/images/softcreat/item-2.png')}}" alt="普擎科技专注网站建设外包服务">
-                  <h1>02</h1>
+                  <div class="text-ft-h1">02</div>
                   <h2>产品原型</h2>
                   <p>提供方案</p>
                   <p>原型设计</p>
@@ -130,7 +130,7 @@
               swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">
                 <div class="soft-items-box">
                   <img src="{{asset('index/images/softcreat/item-3.png')}}" alt="普擎科技专注网站建设外包服务">
-                  <h1>03</h1>
+                  <div class="text-ft-h1">03</div>
                   <h2>界面设计</h2>
                   <p>页面风格</p>
                   <p>创意展示</p>
@@ -140,7 +140,7 @@
               swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">
                 <div class="soft-items-box">
                   <img src="{{asset('index/images/softcreat/item-4.png')}}" alt="普擎科技专注网站建设外包服务">
-                  <h1>04</h1>
+                  <div class="text-ft-h1">04</div>
                   <h2>前端开发</h2>
                   <p>页面制作</p>
                   <p>浏览器兼容</p>
@@ -152,7 +152,7 @@
               swiper-animate-duration="0.5s" swiper-animate-delay="0.5s">
                 <div class="soft-items-box">
                   <img src="{{asset('index/images/softcreat/item-5.png')}}" alt="普擎科技专注网站建设外包服务">
-                  <h1>05</h1>
+                  <div class="text-ft-h1">05</div>
                   <h2>后端开发</h2>
                   <p>功能分解</p>
                   <p>开发编码</p>
@@ -163,7 +163,7 @@
               swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">
                 <div class="soft-items-box">
                   <img src="{{asset('index/images/softcreat/item-6.png')}}" alt="普擎科技专注网站建设外包服务">
-                  <h1>06</h1>
+                  <div class="text-ft-h1">06</div>
                   <h2>测试报告</h2>
                   <p>运营推广</p>
                   <p>用户体验测试</p>

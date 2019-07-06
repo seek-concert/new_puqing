@@ -10,7 +10,7 @@
 @section('content')
     <!-- banner -->
     <section class="small-banner d-flex flex-column justify-content-center align-items-center text-center">
-        <h1 class="mb-5 px-4 py-2 border">微信小程序开发</h1>
+        <div class="text-ft-h1 mb-5 px-4 py-2 border">微信小程序开发</div>
         <h5>专业微信小程序开发团队，为您提供小程序定制开发服务</h5>
     </section>
 

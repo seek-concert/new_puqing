@@ -35,8 +35,8 @@
             {{--    开发业务--}}
             <section class="bus-wrap main-view">
                 <div class="main-section">
-                    <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                        swiper-animate-delay="0.2s">DEVELOP BUSINESS</h1>
+                    <div class="text-ft-h1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                        swiper-animate-delay="0.2s">DEVELOP BUSINESS</div>
                     <div class="main-section-line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
                          swiper-animate-delay="0.2s"><span></span></div>
                     <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -167,8 +167,8 @@
             <section class="case-wrap">
                 <div class="main-view">
                     <div class="main-section">
-                        <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                            swiper-animate-delay="0.2s">SUCCESSFUL CASE</h1>
+                        <div class="text-ft-h1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.2s">SUCCESSFUL CASE</div>
                         <div class="main-section-line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -205,8 +205,8 @@
             <section class="solu-wrap">
                 <div class="main-view">
                     <div class="main-section">
-                        <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                            swiper-animate-delay="0.2s">THE SOLUTION</h1>
+                        <div class="text-ft-h1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.2s">THE SOLUTION</div>
                         <div class="main-section-line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -265,8 +265,8 @@
             <section class="news-wrap">
                 <div class="main-view">
                     <div class="main-section">
-                        <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                            swiper-animate-delay="0.2s">LATEST NEWS</h1>
+                        <div class="text-ft-h1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.2s">LATEST NEWS</div>
                         <div class="main-section-line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -480,8 +480,8 @@
             <section class="about-wrap">
                 <div class="main-view">
                     <div class="main-section">
-                        <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                            swiper-animate-delay="0.2s">ABOUT US</h1>
+                        <div class="text-ft-h1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.2s">ABOUT US</div>
                         <div class="main-section-line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -531,8 +531,8 @@
             <section class="part-wrap">
                 <div class="main-view">
                     <div class="main-section">
-                        <h1 class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                            swiper-animate-delay="0.2s">PARTNERS</h1>
+                        <div class="text-ft-h1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                            swiper-animate-delay="0.2s">PARTNERS</div>
                         <div class="main-section-line ani" swiper-animate-effect="zoomIn" swiper-animate-duration="0.5s"
                              swiper-animate-delay="0.2s"><span></span></div>
                         <p class="main-section-title" class="ani" swiper-animate-effect="fadeInRight"

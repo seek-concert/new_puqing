@@ -18,8 +18,8 @@
                     <div class="container main-view">
                         <div class="row wrap-row">
                             <div class="site-content col-md-6 col-12 order-md-1 order-12">
-                                <h1 class="site-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                                    swiper-animate-delay="0.2s">商城网站</h1>
+                                <div class="text-ft-h1 site-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                                    swiper-animate-delay="0.2s">商城网站</div>
                                 <h2 class="site-content-subtitle site-content-subtitle-1 ani" swiper-animate-effect="fadeInLeft"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">B2B商城、B2B2C商城、分销商城</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
@@ -39,8 +39,8 @@
                     <div class="container main-view">
                         <div class="row wrap-row">
                             <div class="site-content col-md-6 col-12 order-md-12 order-12">
-                                <h1 class="site-content-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
-                                    swiper-animate-delay="0.2s">企业官网</h1>
+                                <div class="text-ft-h1 site-content-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                                    swiper-animate-delay="0.2s">企业官网</div>
                                 <h2 class="site-content-subtitle site-content-subtitle-2 ani" swiper-animate-effect="fadeInRight"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -60,8 +60,8 @@
                     <div class="container main-view">
                         <div class="row wrap-row">
                             <div class="site-content col-md-6 col-12 order-md-1 order-12">
-                                <h1 class="site-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                                    swiper-animate-delay="0.2s">手机网站</h1>
+                                <div class="text-ft-h1 site-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                                    swiper-animate-delay="0.2s">手机网站</div>
                                 <h2 class="site-content-subtitle site-content-subtitle-3 ani" swiper-animate-effect="fadeInLeft"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
@@ -81,8 +81,8 @@
                     <div class="container main-view">
                         <div class="row wrap-row">
                             <div class="site-content col-md-6 col-12 order-md-12 order-12">
-                                <h1 class="site-content-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
-                                    swiper-animate-delay="0.2s">门户网站</h1>
+                                <div class="text-ft-h1 site-content-title ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
+                                    swiper-animate-delay="0.2s">门户网站</div>
                                 <h2 class="site-content-subtitle site-content-subtitle-4 ani" swiper-animate-effect="fadeInRight"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
@@ -102,8 +102,8 @@
                     <div class="container main-view">
                         <div class="row wrap-row">
                             <div class="site-content col-md-5 col-12 order-md-1 order-12">
-                                <h1 class="site-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                                    swiper-animate-delay="0.2s">后台管理系统</h1>
+                                <div class="text-ft-h1 site-content-title ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
+                                    swiper-animate-delay="0.2s">后台管理系统</div>
                                 <h2 class="site-content-subtitle site-content-subtitle-5 ani" swiper-animate-effect="fadeInLeft"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"

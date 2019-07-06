@@ -48,7 +48,7 @@
         <!-- 根据点击的ID ajax 内容加载 -->
         <div class="case-info-body__right">
           <div class="news-info-body">
-            <h1 class="news-info-title">{{$infos->title}}</h1>
+            <div class="text-ft-h1 news-info-title">{{$infos->title}}</div>
             <div class="news-info-time">
               <span>发布人: 管理员</span>
               <span> 发布时间：{{date('Y-m-d H:i',$infos->input_time)}}</span>

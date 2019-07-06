@@ -48,7 +48,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="shop-wrap-content">
-                    <h1 class="text-qblue">B2B2C解决方案优势</h1>
+                    <div class="text-ft-h1 text-qblue">B2B2C解决方案优势</div>
                     <p>
                         B2B2C解决方案是指适合大规模、企业型网络运营商进行多元化电子商务服务支持的电子商务平台解决方案。整个解决方案中，不仅包含传统电子商务平台的建设部分，还扩展包含了ERP（CRM）、ERP（RFID会员卡号）、ERP（OMS）等多元化的电子商务辅助管理系统，真正帮助电商平台运营商打通供应商、平台商、分销商、消费者链条化商业管道，获得电子商务平台的纵深式持续化发展。
                     </p>
@@ -62,7 +62,7 @@
         <div class="container text-white">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h1>B2B2C是网上商城的多商户平台</h1>
+                    <div class="text-ft-h1">B2B2C是网上商城的多商户平台</div>
                     <div class="row no-gutters py-3">
                         <div class="col">
                             <div class="border border-ligh rounded mx-1 p-2 text-center">
@@ -104,7 +104,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="shop-wrap-content">
-                    <h1 class="text-qblue">B2B2C模式适用的客户</h1>
+                    <div class="text-ft-h1 text-qblue">B2B2C模式适用的客户</div>
                     <div class="d-flex flex-column text-secondary">
                         <div class="shop-wrap-todo"><label class="iconfont text-qblue">&#xe603;</label>具有线下货源、物流、仓储或相关资源的大型企业客户。
                         </div>
@@ -128,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h1>B2B2C平台模式 <br> 与线下的购物中心类似</h1>
+                    <div class="text-ft-h1">B2B2C平台模式 <br> 与线下的购物中心类似</div>
                     <p>
                         购物中心给品牌商、零售商提供营业场所，本质上做的是商业物业租赁。
                         B2B2C平台在网络空间中营造了一个虚拟购物中心，供商家进行经营活动。
@@ -143,7 +143,7 @@
         <div class="container text-center">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
-                    <h1>B2B2C业务概述</h1>
+                    <div class="text-ft-h1">B2B2C业务概述</div>
                     <p>
                         平台职能：商家招募及有效管控 / 为消费者提供可靠的优质产品及服务 / 为商家提供开展电子商务所需服务
                         远景及规划：打造专业平台，稳步提升利润 / 充分利用线下运营经验，制定可行的发展计划 / 建立行业内更高的品牌形象
@@ -166,7 +166,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="shop-wrap-content">
-                    <h1>B2B2C平台为 <br> 商家和消费者提供价值</h1>
+                    <div class="text-ft-h1">B2B2C平台为 <br> 商家和消费者提供价值</div>
                     <p>
                         客户资源/展示空间/IT资源/支付方式/物流/仓储/数据统计/等基础服务
                         一站式购物体验/优质产品保障
@@ -181,7 +181,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-12">
-                    <h1>订单支付及结算</h1>
+                    <div class="text-ft-h1">订单支付及结算</div>
                     <p>为提高消费者购物体验以及方便运营商获取交易抽水，平台提供了统一支付入口及统一结算体系</p>
                 </div>
             </div>
@@ -196,7 +196,7 @@
             </div>
             <div class="col-12 col-md-6 order-md-0 order-12">
                 <div class="shop-wrap-content">
-                    <h1>物流及仓储</h1>
+                    <div class="text-ft-h1">物流及仓储</div>
                     <p>
                         通过订单处理模块以及对接第三方WMS系统实现供应商共同参与的订单分派及发货流程
                     </p>
