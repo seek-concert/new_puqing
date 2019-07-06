@@ -542,28 +542,28 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="0.2s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="0.2s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part1.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="0.4s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="0.4s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part2.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="0.6s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="0.6s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part3.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="0.8s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="0.8s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part4.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="1s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="1s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part5.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="1.2s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="1.2s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part6.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="1.4s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="1.4s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part7.jpg')}}" width="100%" alt="Cooperation"></a></div>
                             <div class="col-sm-3 col-6 pb-3 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="0.5s"
-                                 swiper-animate-delay="1.6s"><a href="http://www.lanceyi.com" target="_blank"><img
+                                 swiper-animate-delay="1.6s"><a href="javascript:void(0);" target="_blank"><img
                                             src="{{asset('index/images/part8.jpg')}}" width="100%" alt="Cooperation"></a></div>
                         </div>
                     </div>

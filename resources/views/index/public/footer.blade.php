@@ -82,7 +82,7 @@
                     <a href="{{url('/app')}}" title="重庆软件定制">重庆软件定制</a>
                 </div>
             </div>
-            <p class="footer-text">重庆普擎科技官网©2019 重庆市普擎科技有限公司 版权所有 | <a href="http://beian.miit.gov.cn" title="重庆普擎科技网站备案号">渝ICP备19004069号</a></p>
+            <p class="footer-text">重庆普擎科技官网©2019 重庆市普擎科技有限公司 版权所有 | <a href="http://beian.miit.gov.cn" rel="nofollow"  title="重庆普擎科技网站备案号">渝ICP备19004069号</a></p>
         </div>
     </div>
 </footer>
