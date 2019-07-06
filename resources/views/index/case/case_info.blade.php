@@ -29,7 +29,7 @@
                 @foreach ($case_list as $v)
                   <div class="swiper-slide">
                     <div class="card case-info-card @if(($infos->id)==($v->id)) active @endif" data-id="{{$v->id}}">
-                      <img class="card-img-top" src="{{$v->thumbnail}}" alt="">
+                      <img class="card-img-top" src="{{$v->thumbnail}}" alt="普擎科技专注网站建设外包服务">
                       <div class="card-img-orverlay">
                         <h5 class="card-title">{{$v->title}}</h5>
                       </div>

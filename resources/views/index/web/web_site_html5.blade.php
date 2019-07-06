@@ -164,7 +164,7 @@
                         Market的新版GooglePlay也是如此），尽管应用商店的数量越来越多，其支持的支付渠道也越来越多，比如电信账单支付。如果支付过程顺畅的话（酷蜂科技注：比如“一键支付”），选项有限也没关系，但消费者喜欢灵活省时的方法，输入信用卡号或登录帐号可能会让消费者放弃支付。国内消费者更喜欢使用灵活的网银在线支付、支付宝网页支付、微信扫码支付等简单快捷的支付方式。
                     </p>
                     <div class="w-100 pt-3">
-                        <img src="{{asset('index/images/website/html5-img5.jpg')}}" alt="" class="img-fluid">
+                        <img src="{{asset('index/images/website/html5-img5.jpg')}}" alt="HTML5开发盈利模式" class="img-fluid">
                     </div>
                 </div>
             </div>

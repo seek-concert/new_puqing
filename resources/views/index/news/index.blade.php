@@ -52,7 +52,7 @@
                 @if(in_array($k,[1,2,3]))
                   <div class="news-item">
                     <a href="{{url('news_info',['id'=>$v->id])}}">
-                      <img src="{{$v->thumbnail?:'index/images/news/img3.png'}}" alt="" class="news-item-pic">
+                      <img src="{{$v->thumbnail?:'index/images/news/img3.png'}}" alt="普擎科技专注网站建设外包服务" class="news-item-pic">
                       <div class="news-item-content">
                         <h5 class="news-item-title">{{$v->title}}</h5>
                         <P class="news-item-info">{{$v->description}}</P>

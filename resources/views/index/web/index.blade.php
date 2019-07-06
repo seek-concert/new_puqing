@@ -129,31 +129,31 @@
         <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(0)">
             <span>商城网站</span>
             <div class="dual dual-left-img">
-                <img src="{{asset('index/images/website/Bag.png')}}" alt="">
+                <img src="{{asset('index/images/website/Bag.png')}}" alt="普擎科技专注网站建设外包服务">
             </div>
         </a>
         <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(1)">
             <span>企业官网</span>
             <div class="dual dual-left-img">
-                <img src="{{asset('index/images/website/Laptop.png')}}" alt="">
+                <img src="{{asset('index/images/website/Laptop.png')}}" alt="普擎科技专注网站建设外包服务">
             </div>
         </a>
         <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(2)">
             <span>手机网站</span>
             <div class="dual dual-left-img">
-                <img src="{{asset('index/images/website/mobilephole.png')}}" alt="">
+                <img src="{{asset('index/images/website/mobilephole.png')}}" alt="普擎科技专注网站建设外包服务">
             </div>
         </a>
         <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(3)">
             <span>门户网站</span>
             <div class="dual dual-left-img">
-                <img src="{{asset('index/images/website/Home.png')}}" alt="">
+                <img src="{{asset('index/images/website/Home.png')}}" alt="普擎科技专注网站建设外包服务">
             </div>
         </a>
         <a href="javaScript:;" class="dual dual-left-item" onclick="goToSwiperPage(4)">
             <span>后台管理系统</span>
             <div class="dual dual-left-img">
-                <img src="{{asset('index/images/website/Monitor.png')}}" alt="">
+                <img src="{{asset('index/images/website/Monitor.png')}}" alt="普擎科技专注网站建设外包服务">
             </div>
         </a>
     </div>

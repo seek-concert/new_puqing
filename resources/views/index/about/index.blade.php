@@ -68,25 +68,25 @@
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12">
             <div class="about-team-item">
-              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img1.png')}}" alt=""></div>
+              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img1.png')}}" alt="普擎科技专注网站建设外包服务"></div>
               <h5>开发工程师</h5>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <div class="about-team-item">
-              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img2.png')}}" alt=""></div>
+              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img2.png')}}" alt="普擎科技专注网站建设外包服务"></div>
               <h5>UI设计师</h5>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <div class="about-team-item">
-              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img3.png')}}" alt=""></div>
+              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img3.png')}}" alt="普擎科技专注网站建设外包服务"></div>
               <h5>运维工程师</h5>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
             <div class="about-team-item">
-              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img4.png')}}" alt=""></div>
+              <div class="about-team-pic"><img src="{{asset('index/images/about/about-img4.png')}}" alt="普擎科技专注网站建设外包服务"></div>
               <h5>SEO优化工程师</h5>
             </div>
           </div>
@@ -142,7 +142,7 @@
         <div class="row justify-content-center">
           <div class="col-12 col-md-11 col-lg-11 col-xl-9">
             <div class="about-pay-box row">
-              <div class="col-lg-4 col-md-12 col-12 about-pay-pic"><img src="{{asset('index/images/about/icbc.png')}}" alt=""></div>
+              <div class="col-lg-4 col-md-12 col-12 about-pay-pic"><img src="{{asset('index/images/about/icbc.png')}}" alt="普擎科技专注网站建设外包服务"></div>
               <div class="col-lg-8 col-md-12 col-12">
                 <div class="about-pay-text"><span class="label">公司名称</span>：<span>重庆市普擎科技有限公司</span></div>
                 <div class="about-pay-text"><span class="label">开 户 行</span>：<span>渝北龙溪支行</span></div>
