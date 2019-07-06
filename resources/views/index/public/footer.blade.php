@@ -72,14 +72,15 @@
             <div class="footer-link">
                 <h5>友情链接</h5>
                 <div class="link-list">
-                    <a href="https://www.p7ing.com" title="重庆普擎科技">重庆普擎科技</a>
-                    <a href="{{url('/web')}}" title="重庆网站设计">重庆网站设计</a>
-                    <a href="{{url('/web')}}" title="重庆网站建设">重庆网站建设</a>
-                    <a href="{{url('/web')}}" title="重庆网站外包">重庆网站外包</a>
-                    <a href="{{url('/web')}}" title="重庆网站开发">重庆网站开发</a>
-                    <a href="{{url('/web')}}" title="重庆网站制作">重庆网站制作</a>
-                    <a href="{{url('/wechat')}}" title="重庆微信开发">重庆微信开发</a>
-                    <a href="{{url('/app')}}" title="重庆软件定制">重庆软件定制</a>
+                    <a href="https://www.p7ing.com" target="_blank" rel="nofollow" title="重庆普擎科技">重庆普擎科技</a>
+                    <a href="http://www.lanceyi.com" target="_blank" title="重庆网页制作">重庆网页制作</a>
+                    <a href="https://www.p7ing.com/news_info/9081" target="_blank" title="重庆网站设计">重庆网站设计</a>
+                    <a href="https://www.p7ing.com/news_info/9082" target="_blank" title="重庆网站建设">重庆网站建设</a>
+                    <a href="https://www.p7ing.com/news_info/9083" target="_blank" title="重庆网站外包">重庆网站外包</a>
+                    <a href="https://www.p7ing.com/news_info/9084" target="_blank" title="重庆网站开发">重庆网站开发</a>
+                    <a href="https://www.p7ing.com/news_info/9086" target="_blank" title="重庆网站制作">重庆网站制作</a>
+                    <a href="https://www.p7ing.com/news_info/9087" target="_blank" title="重庆微信开发">重庆微信开发</a>
+                    <a href="https://www.p7ing.com/news_info/9088" target="_blank" title="重庆软件定制">重庆软件定制</a>
                 </div>
             </div>
             <p class="footer-text">重庆普擎科技官网©2019 重庆市普擎科技有限公司 版权所有 | <a href="http://beian.miit.gov.cn" rel="nofollow"  title="重庆普擎科技网站备案号">渝ICP备19004069号</a></p>
