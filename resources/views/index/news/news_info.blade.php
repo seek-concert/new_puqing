@@ -34,7 +34,7 @@
                                     @endif
                                 </span>&nbsp;&nbsp;&nbsp;
                                 <span> 来源：
-                                    @if(!empty($infos->author))
+                                    @if(!empty($infos->source))
                                         {{$infos->source}}
                                     @else
                                         网络
@@ -43,7 +43,7 @@
                             </div>
                             <div class="news-info-desc">
                                 <p>
-                                    {{$infos->description}}
+                                    <!-- {{$infos->description}} -->
                                 </p>
                             </div>
                             <div class="news-info-content">
