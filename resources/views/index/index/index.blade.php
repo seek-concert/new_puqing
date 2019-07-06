@@ -3,8 +3,7 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="index/css/swiper.min.css">
-    <link rel="stylesheet" href="index/css/animate.min.css">
+    <link rel="stylesheet" href="index/css/index_style.css">
     <link rel="stylesheet" href="index/css/main.css">
 @endsection
 
@@ -581,7 +580,5 @@
 
 {{-- js --}}
 @section('js')
-    <script src="index/js/lib/swiper.min.js"></script>
-    <script src="index/js/lib/swiper.animate.min.js"></script>
-    <script src="index/js/main.js"></script>
+    <script src="index/js/index.js"></script>
 @endsection
