@@ -3,8 +3,8 @@
 
 {{-- CSS --}}
 @section('css')
-  <link rel="stylesheet" href="index/css/swiper.min.css">
-  <link rel="stylesheet" href="index/css/case.css">
+  <link rel="stylesheet" href="/index/css/swiper.min.css">
+  <link rel="stylesheet" href="/index/css/case.css">
 @endsection
 
 {{-- Content --}}
@@ -106,7 +106,7 @@
 
 {{-- js --}}
 @section('js')
-  <script src="index/js/lib/swiper.min.js"></script>
-  <script src="index/js/lib/swiper.animate.min.js"></script>
-    <script src="index/js/case-info.js"></script>
+  <script src="/index/js/lib/swiper.min.js"></script>
+  <script src="/index/js/lib/swiper.animate.min.js"></script>
+    <script src="/index/js/case-info.js"></script>
 @endsection

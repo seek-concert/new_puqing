@@ -3,8 +3,8 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="index/css/index_style.css">
-    <link rel="stylesheet" href="index/css/main.css">
+    <link rel="stylesheet" href="/index/css/index_style.css">
+    <link rel="stylesheet" href="/index/css/main.css">
 @endsection
 
 {{-- Content --}}
@@ -580,5 +580,5 @@
 
 {{-- js --}}
 @section('js')
-    <script src="index/js/index.js"></script>
+    <script src="/index/js/index.js"></script>
 @endsection

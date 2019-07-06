@@ -3,7 +3,7 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="index/css/web-site-company-view.css">
+    <link rel="stylesheet" href="/index/css/web-site-company-view.css">
 @endsection
 
 {{-- Content --}}

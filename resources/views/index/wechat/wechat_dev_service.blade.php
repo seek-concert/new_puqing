@@ -3,7 +3,7 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="index/css/wechat-dev-service.css">
+    <link rel="stylesheet" href="/index/css/wechat-dev-service.css">
 @endsection
 
 {{-- Content --}}

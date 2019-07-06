@@ -3,8 +3,8 @@
 
 {{-- CSS --}}
 @section('css')
-    <link rel="stylesheet" href="index/css/swiper.min.css">
-    <link rel="stylesheet" href="index/css/news.css">
+    <link rel="stylesheet" href="/index/css/swiper.min.css">
+    <link rel="stylesheet" href="/index/css/news.css">
 @endsection
 
 {{-- Content --}}
@@ -260,8 +260,8 @@
 
 {{-- js --}}
 @section('js')
-    <script src="index/js/lib/swiper.min.js"></script>
-    <script src="index/js/news.js"></script>
+    <script src="/index/js/lib/swiper.min.js"></script>
+    <script src="/index/js/news.js"></script>
     <script>
       $('.pagination').addClass('justify-content-center pt-md-5 pt-3');
       $('.pagination li').addClass('page-item');
