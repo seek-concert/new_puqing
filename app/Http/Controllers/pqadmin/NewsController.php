@@ -25,15 +25,10 @@ class NewsController extends BaseController
     {
 
         //数据查询
-        $list = DB::table('news')->select('id','title','category_id')->get();
-
-//        foreach ($list as $k => $v) {
-//            $list[$k]->category_name = DB::table('news_category')
-//                ->where([
-//                    'id' => $v->category_id
-//                ])
-//                ->value('name');
-//        }
+        $list = DB::table('news as n')
+            ->join('news_category as nc','category_id','=','nc.id')
+            ->select('n.id', 'n.title','n.input_time','nc.name as category_name')
+            ->get();
         return view('pqadmin.news.news', ['list' => $list]);
     }
 

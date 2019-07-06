@@ -58,7 +58,7 @@
                         <tr>
                             <th>ID</th>
                             <th>新闻标题</th>
-{{--                            <th>所属分类</th>--}}
+                            <th>所属分类</th>
                             <th>操作</th>
                         </tr>
                         </thead>
@@ -67,7 +67,7 @@
                             <tr>
                                 <td>{{$value->id}}</td>
                                 <td>{{$value->title}}</td>
-{{--                                <td>{{$value->category_name}}</td>--}}
+                                <td>{{$value->category_name}}</td>
                                 <td>
                                     <a href="{{url('pqadmin/news_detail',[$value->id])}}">
                                         <div class="simple_buttons" id="customer_detail" original-title="查看新闻详细信息">
