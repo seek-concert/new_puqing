@@ -163,7 +163,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
+        Chenhua\Kindeditor\KindeditorServiceProvider::class,
         /*
          * Package Service Providers...
          */
