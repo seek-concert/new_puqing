@@ -23,7 +23,7 @@
                                 <h2 class="site-content-subtitle site-content-subtitle-1 ani" swiper-animate-effect="fadeInLeft"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">B2B商城、B2B2C商城、分销商城</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                                   swiper-animate-delay="0.6s">这是一段商城网站的文案介绍这是一段商城网站的文案介绍这是一段商城网站的文案介绍</p>
+                                   swiper-animate-delay="0.6s">用很合适的展示方式、展示效果、站点框架，把客户及其用户很关心的问题突出表现；并以简洁明朗的设计风格，清晰展现公司水平实力，确保一秒抓住目标用户眼球，给用户留下良好的第一印象。</p>
                                 <a href="{{url('/web_site_shop_web')}}" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
@@ -44,7 +44,7 @@
                                 <h2 class="site-content-subtitle site-content-subtitle-2 ani" swiper-animate-effect="fadeInRight"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
-                                   swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
+                                   swiper-animate-delay="0.6s">很合适的展示方式、展示效果、站点框架，把客户及其用户很关心的问题突出表现；并以简洁明朗的设计风格，清晰展现公司水平实力，确保一秒抓住目标用户眼球，给用户留下良好的第一印象</p>
                                 <a href="{{url('/web_site_company_web')}}" class="site-btn-link ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
@@ -65,7 +65,7 @@
                                 <h2 class="site-content-subtitle site-content-subtitle-3 ani" swiper-animate-effect="fadeInLeft"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                                   swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
+                                   swiper-animate-delay="0.6s">移动终端的普及, 手机上网越来受到关注, 手机网站具有让消费者随时、随地、随身访问的优势和方便快捷的不可取代的特点，像京东，淘宝等大型网站已经建立了手机网站。</p>
                                 <a href="{{url('/web_site_html5')}}" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
@@ -86,7 +86,7 @@
                                 <h2 class="site-content-subtitle site-content-subtitle-4 ani" swiper-animate-effect="fadeInRight"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
-                                   swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
+                                   swiper-animate-delay="0.6s">行业门户网站是专门针对某一个行业而构建的大型网站，是某个行业的产品、供应、销售供应链以及周边相关行业的企业、产品、商机、咨询类信息等的棸合平台。普擎科技打造的行业门户网站包含企业会员。</p>
                                 <a href="{{url('/web_site_portal_web')}}" class="site-btn-link ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
@@ -107,7 +107,7 @@
                                 <h2 class="site-content-subtitle site-content-subtitle-5 ani" swiper-animate-effect="fadeInLeft"
                                     swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">全球最大的建站平台</h2>
                                 <p class="site-content-text ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
-                                   swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
+                                   swiper-animate-delay="0.6s">以管理者视角进行全局项目进度管控和高效项目集管理，有效评估及安排项目资源，为中高层项目管理人员提供决策支持。</p>
                                 <a href="{{url('/web_site_admin')}}" class="site-btn-link ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="0.5s"
                                    swiper-animate-delay="0.8s">查看详情</a>
                             </div>
