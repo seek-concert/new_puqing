@@ -45,7 +45,7 @@ class NewsController extends BaseController
         $data = [];
         /*------详情-------*/
         $info = DB::table('news')
-            ->select('id','title', 'description','content','input_time')
+            ->select('id','title','author','source','description','content','input_time')
             ->where([
                 'id' => $id
             ])

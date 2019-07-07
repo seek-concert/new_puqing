@@ -9,14 +9,14 @@
                             <a href="{{url('/app')}}" title="网站建设解决方案">更多+</a>
                         </div>
                         <div class="footer-list">
-                            <a href="{{url('/web')}}" title="企业网站建设解决方案">企业网站建设解决方案</a>
-                            <a href="{{url('/web')}}" title="移动电商行业解决方案">移动电商行业解决方案</a>
-                            <a href="{{url('/web')}}" title="数字金融行业解决方案">数字金融行业解决方案</a>
-                            <a href="{{url('/web')}}" title="网络营销行业解决方案">网络营销行业解决方案</a>
-                            <a href="{{url('/web')}}" title="智能硬件行业解决方案">智能硬件行业解决方案</a>
-                            <a href="{{url('/web')}}" title="医疗行业解决方案">医疗行业解决方案</a>
-                            <a href="{{url('/web')}}" title="教学行业解决方案">教学行业解决方案</a>
-                            <a href="{{url('/web')}}" title="建筑装饰行业解决方案">建筑装饰行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8000" target="_blank"  title="企业网站建设解决方案">企业网站建设解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8001" target="_blank"  title="移动电商行业解决方案">移动电商行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8002" target="_blank"  title="数字金融行业解决方案">数字金融行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8003" target="_blank"  title="网络营销行业解决方案">网络营销行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8004" target="_blank"  title="智能硬件行业解决方案">智能硬件行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8005" target="_blank"  title="医疗行业解决方案">医疗行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8006" target="_blank"  title="教学行业解决方案">教学行业解决方案</a>
+                            <a href="https://www.p7ing.com/news_info/8007" target="_blank"  title="建筑装饰行业解决方案">建筑装饰行业解决方案</a>
                         </div>
                     </div>
                 </div>
