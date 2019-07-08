@@ -35,7 +35,7 @@
           </div>
         </section>
       </div>
-        {{-- WEB APP --}}
+        {{--   --}}
       <div class="swiper-slide">
         <section class="soft-wrap soft-wrap-2">
           <div class="container main-view">
@@ -44,9 +44,9 @@
                 <div class="text-ft-h1 soft-content-title ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.2s">WEB APP</div>
                 <h2 class="soft-content-subtitle soft-content-subtitle-2 ani" swiper-animate-effect="fadeInRight"
-                swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">快速上线，PC、手机、微信、三终端平台完美兼容</h2>
+                swiper-animate-duration="0.5s" swiper-animate-delay="0.4s">快速上线，Android、IOS端平台完美兼容</h2>
                 <p class="soft-content-text ani" swiper-animate-effect="fadeInRight"
-                swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">我们和客户探讨,针对客户需求,为客户设计优秀企业官网视觉效果,针对客户特殊性，进行定制型开发。。。</p>
+                swiper-animate-duration="0.5s" swiper-animate-delay="0.6s">自主研发、100%源码控制、 APP主动适配；网站零开发、零修改</p>
                 <a href="{{url('soft_creat_app')}}" class="soft-btn-link ani" swiper-animate-effect="fadeInRight"
                 swiper-animate-duration="0.5s" swiper-animate-delay="0.8s">查看详情</a>
               </div>

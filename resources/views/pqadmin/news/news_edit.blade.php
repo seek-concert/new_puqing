@@ -76,13 +76,13 @@
                         <div class="line_grid">
                             <div class="g_3"><span class="label">作者<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input class="simple_field" type="text" name="zuozhe" required/>
+                                <input class="simple_field" type="text" name="zuozhe" value="{{$list->author}}" required/>
                             </div>
                         </div>
                         <div class="line_grid">
                             <div class="g_3"><span class="label">文章来源<span class="must">*</span></span></div>
                             <div class="g_9">
-                                <input class="simple_field" type="text" name="laiyuan" required/>
+                                <input class="simple_field" type="text" name="laiyuan" value="{{$list->source}}" required/>
                             </div>
                         </div>
                         <div class="line_grid">
