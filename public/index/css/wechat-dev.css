@@ -178,16 +178,16 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
   .commom-navs-content__icon { margin-bottom: 0.25rem; }
   .commom-navs-content__title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; font-size: 0.75rem; } }
 .wechat-wrap { position: relative; height: 100%; }
-.wechat-wrap-1 { width: 100%; background: url("../images/wechatdev/wechat-bg1.png") no-repeat center center; background-size: cover; }
-.wechat-wrap-2 { width: 100%; background: url("../images/wechatdev/wechat-bg2.png") no-repeat center center; background-size: cover; background: #ffffff; }
+.wechat-wrap-1 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/wechatdev/wechat-bg1.png") no-repeat center center; background-size: cover; }
+.wechat-wrap-2 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/wechatdev/wechat-bg2.png") no-repeat center center; background-size: cover; background: #ffffff; }
 .wechat-wrap-2 .wechat-content { color: #333333; text-align: left; padding-right: 8.4375rem; }
 .wechat-wrap-2 .wechat-btn-link { color: #333333; border-color: #010101; }
 .wechat-wrap-2 .wechat-btn-link:hover { color: #333333; }
-.wechat-wrap-3 { width: 100%; background: url("../images/wechatdev/wechat-bg3.png") no-repeat center center; background-size: cover; }
+.wechat-wrap-3 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/wechatdev/wechat-bg3.png") no-repeat center center; background-size: cover; }
 .wechat-wrap-3 .wechat-content { color: #161616; }
 .wechat-wrap-3 .wechat-btn-link { color: #333333; border-color: #010101; }
 .wechat-wrap-3 .wechat-btn-link:hover { color: #333333; }
-.wechat-wrap-4 { width: 100%; background: url("../images/wechatdev/wechat-bg4.png") no-repeat center center; background-size: cover; }
+.wechat-wrap-4 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/wechatdev/wechat-bg4.png") no-repeat center center; background-size: cover; }
 .wechat-wrap .wechat-serve { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -ms-flex-line-pack: center; align-content: center; text-align: center; color: #ffffff; padding-bottom: 3.125rem; padding-top: 6.25rem; }
 .wechat-wrap .wechat-serve .wechat-btn-link { margin: 0 auto; border-color: #34a6d2; color: #34a6d2; }
 .wechat-wrap .wechat-title { text-align: center; }
