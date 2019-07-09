@@ -103,7 +103,7 @@ class CaseController extends BaseController
             return response()->json($result);
         }
          /* [TDK] */
-        $data['title'] = $info->title?:$this->title;
+        $data['title'] = $info->title?$info->title.'-重庆网站建设|普擎科技':$this->title;
         $data['keywords'] = $this->keywords;
         $data['description'] = $this->description;
         return $this->show(5,'',$data);

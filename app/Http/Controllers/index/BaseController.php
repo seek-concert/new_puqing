@@ -43,8 +43,6 @@ class BaseController extends Controller
            $temp_url=$this->getTemplatePath();
         }
         $data['type'] = $type;
-        $data['title'] = $this->title;
-        $data['keywords'] = $this->keywords;
         $data['description'] = $this->description;
         return view($temp_url,$data);
     }
