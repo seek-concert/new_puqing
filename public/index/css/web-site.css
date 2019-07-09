@@ -178,13 +178,13 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
   .commom-navs-content__icon { margin-bottom: 0.25rem; }
   .commom-navs-content__title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; font-size: 0.75rem; } }
 .site-wrap { position: relative; height: 100%; }
-.site-wrap-1 { width: 100%; background: url("../images/website/web-bg1.png") no-repeat center center; background-size: cover; }
-.site-wrap-2 { width: 100%; background: url("../images/website/web-bg2.png") no-repeat center center; background-size: cover; text-align: right; }
+.site-wrap-1 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/website/web-bg1.png") no-repeat center center; background-size: cover; }
+.site-wrap-2 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/website/web-bg2.png") no-repeat center center; background-size: cover; text-align: right; }
 .site-wrap-2 .site-content { text-align: left; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; padding-right: 8.4375rem; }
-.site-wrap-3 { width: 100%; background: url("../images/website/web-bg3.png") no-repeat center center; background-size: cover; }
-.site-wrap-4 { width: 100%; background: url("../images/website/web-bg4.png") no-repeat center center; background-size: cover; text-align: right; }
+.site-wrap-3 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/website/web-bg3.png") no-repeat center center; background-size: cover; }
+.site-wrap-4 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/website/web-bg4.png") no-repeat center center; background-size: cover; text-align: right; }
 .site-wrap-4 .site-content { text-align: left; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; padding-right: 8.4375rem; }
-.site-wrap-5 { width: 100%; background: url("../images/website/web-bg5.png") no-repeat center center; background-size: cover; }
+.site-wrap-5 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/website/web-bg5.png") no-repeat center center; background-size: cover; }
 .site-wrap-5 .site-content { color: #010101; }
 .site-wrap-5 .site-content-text { color: #b1b1b3; }
 .site-wrap-5 .site-btn-link { border-color: #010101; color: #010101; }

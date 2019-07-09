@@ -43,7 +43,7 @@
         <div class="about-title">
           <div class="text-ft-h1">公司简介</div>
           <div class="about-title-line"></div>
-          <h5>company culture</h5>
+          <h5>Company Profile</h5>
         </div>
         <div class="row">
           <div class="col-md-6 col-12 about-company-bg"></div>
@@ -63,7 +63,7 @@
         <div class="about-title">
           <div class="text-ft-h1">团队介绍</div>
           <div class="about-title-line"></div>
-          <h5>company culture</h5>
+          <h5>Team Introduction</h5>
         </div>
         <div class="row">
           <div class="col-lg-3 col-md-6 col-12">
@@ -99,7 +99,7 @@
         <div class="about-title">
           <div class="text-ft-h1">联系我们</div>
           <div class="about-title-line"></div>
-          <h5>company culture</h5>
+          <h5>Contact Us</h5>
         </div>
         <div class="row">
           <div class="col-md-6 col-12 about-contact-map" id="container"></div>
@@ -137,7 +137,7 @@
         <div class="about-title">
           <div class="text-ft-h1">付款方式</div>
           <div class="about-title-line"></div>
-          <h5>company culture</h5>
+          <h5>Pay</h5>
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-md-11 col-lg-11 col-xl-9">

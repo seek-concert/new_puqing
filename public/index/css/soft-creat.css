@@ -179,13 +179,13 @@ html, body { position: relative; height: 100%; font-size: 0.9375rem; outline: no
   .commom-navs-content__title { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; font-size: 0.75rem; } }
 .soft-wrap { position: relative; height: 100%; }
 .soft-wrap .main-view { padding-top: 6.25rem; }
-.soft-wrap-1 { width: 100%; background: url("../images/softcreat/soft-bg1.png") no-repeat center center; background-size: cover; }
-.soft-wrap-2 { width: 100%; background: url("../images/softcreat/soft-bg2.png") no-repeat center center; background-size: cover; background: #ffffff; }
+.soft-wrap-1 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/softcreat/soft-bg1.png") no-repeat center center; background-size: cover; }
+.soft-wrap-2 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/softcreat/soft-bg2.png") no-repeat center center; background-size: cover; background: #ffffff; }
 .soft-wrap-2 .soft-content { color: #333333; text-align: left; padding-right: 8.4375rem; }
 .soft-wrap-2 .soft-btn-link { color: #333333; border-color: #010101; }
 .soft-wrap-2 .soft-btn-link:hover { color: #333333; }
-.soft-wrap-3 { width: 100%; background: url("../images/softcreat/soft-bg3.png") no-repeat center center; background-size: cover; background: #d7ebfb; }
-.soft-wrap-4 { width: 100%; background: url("../images/softcreat/soft-bg4.png") no-repeat center center; background-size: cover; }
+.soft-wrap-3 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/softcreat/soft-bg3.png") no-repeat center center; background-size: cover; background: #d7ebfb; }
+.soft-wrap-4 { width: 100%; background: url("https://puqing.oss-cn-shenzhen.aliyuncs.com/p7ing_img/softcreat/soft-bg4.png") no-repeat center center; background-size: cover; }
 .soft-wrap .soft-title { padding: 1.25rem 0; text-align: center; }
 .soft-wrap .soft-soluwrap { padding-bottom: 6.25rem; }
 .soft-wrap .soft-soluwrap-item { text-align: center; padding: 1.875rem 0; }
