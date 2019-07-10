@@ -84,4 +84,49 @@ class NewsController extends BaseController
         return $this->show(6,'',$data);
     }
 
+    /*=======================[old 新闻资讯详情]=============================*/
+    public function news_show($id = 0)
+    {
+        $data = [];
+        /*------详情-------*/
+        $info = DB::table('news')
+            ->select('id','title','author','source','description','content','input_time')
+            ->where([
+                'id' => $id
+            ])
+            ->first();
+        if (empty($info)) {
+            return redirect('/');
+        }
+        $data['infos'] = $info;
+        /*------上下新闻-------*/
+        $previous = DB::table('news')
+            ->select('id', 'title')
+            ->where([
+                ['id', '<', $id]
+            ])
+            ->orderBy('id', 'desc')
+            ->first();
+        $next = DB::table('news')
+            ->select('id', 'title')
+            ->where([
+                ['id', '>', $id]
+            ])
+            ->orderBy('id', 'asc')
+            ->first();
+        $data['previous'] = $previous;
+        $data['next'] = $next;
+        /*----- [行业动态] -----*/
+        $data['industry_news'] = DB::table('news')->limit(6)->select('id','thumbnail','title','description','input_time','keywords')->whereIn('category_id',[1,2,3,4])->orderBy('input_time', 'desc')->get()?:[];
+
+        /*----- [案例列表] -----*/
+        $data['case_lists'] =  DB::table('case')->limit(4)->orderby('input_time','desc')->get()?:[];
+
+        /* [TDK] */
+        $data['title'] = $info->title?$info->title.'-重庆网站建设|普擎科技':$this->title;
+        $data['keywords'] = $this->keywords;
+        $data['description'] = $this->description;
+        return $this->show(6,'index/news/news_info',$data);
+    }
+
 }

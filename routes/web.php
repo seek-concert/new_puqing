@@ -64,6 +64,7 @@ Route::namespace('index')->group(function () {
     Route::any('/news', 'NewsController@index');
     /*------ [新闻资讯详情] -----*/
     Route::any('/news_info/{id}', 'NewsController@news_info');
+    Route::any('/news_show/{id}', 'NewsController@news_show');//old
 
     /*=======================[关于普擎]=============================*/
     /*------ [首页] -----*/
