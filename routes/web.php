@@ -58,6 +58,7 @@ Route::namespace('index')->group(function () {
     Route::any('/case', 'CaseController@index');
     /*------ [成功案例详情] -----*/
     Route::any('/case_info/{id}', 'CaseController@case_info');
+    Route::any('/case_show/{id}', 'CaseController@case_show');//old
 
     /*=======================[新闻资讯]=============================*/
     /*------ [首页] -----*/
