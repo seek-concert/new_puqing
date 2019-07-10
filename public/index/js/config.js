@@ -6,18 +6,18 @@
  */
 var Conf = {
   // 文字闪烁
-  flicker() {
+  flicker: function () {
     $('.hot').css('color', '#fF0000');
-    setTimeout(() => $('.hot').css('color', '#dc3545'), 200)
-    setTimeout(() => $('.hot').css('color', '#fF0000'), 500)
+    setTimeout(function() { $('.hot').css('color', '#dc3545')}, 200);
+    setTimeout(function() { $('.hot').css('color', '#fF0000')}, 500);
   },
   // 获取地址栏
-  getQueryString(name) {
+  getQueryString: function (name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return unescape(r[2]); return null;
   },
-  init() {
+  init: function () {
     $("#sTop").click(function () {
       $('html,body').animate({ scrollTop: 0 }, 500);
     });

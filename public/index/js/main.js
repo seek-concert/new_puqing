@@ -1,6 +1,6 @@
 //滚动检测
-let t1 = 0;
-let timer = null; // 定时器
+var t1 = 0;
+var timer = null; // 定时器
 window.isScrollEnd = function (t2) {
     if (t1 == t2) {
         $(".main-header").css({
@@ -55,7 +55,7 @@ $(function () {
 
     $('#industry-trends-tab').click(function (e) {
         e.preventDefault();
-        setTimeout(() => {
+        setTimeout(function () {
             var swiperIndustry = new Swiper('.swiper-container-industry', {
                 spaceBetween: 10,
                 pagination: {
