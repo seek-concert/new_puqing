@@ -45,7 +45,7 @@ class NewsController extends BaseController
         $data = [];
         /*------详情-------*/
         $info = DB::table('news')
-            ->select('id','title','author','source','description','content','input_time')
+            ->select('id','title','author','source','keywords','description','content','input_time')
             ->where([
                 'id' => $id
             ])
@@ -79,7 +79,7 @@ class NewsController extends BaseController
 
          /* [TDK] */
         $data['title'] = $info->title?$info->title.'-重庆网站建设|普擎科技':$this->title;
-        $data['keywords'] = $this->keywords;
+        $data['keywords'] = $info->keywords?:$this->keywords;
         $data['description'] = $this->description;
         return $this->show(6,'',$data);
     }
@@ -90,7 +90,7 @@ class NewsController extends BaseController
         $data = [];
         /*------详情-------*/
         $info = DB::table('news')
-            ->select('id','title','author','source','description','content','input_time')
+            ->select('id','title','author','source','description','keywords','content','input_time')
             ->where([
                 'id' => $id
             ])
@@ -124,7 +124,7 @@ class NewsController extends BaseController
 
         /* [TDK] */
         $data['title'] = $info->title?$info->title.'-重庆网站建设|普擎科技':$this->title;
-        $data['keywords'] = $this->keywords;
+        $data['keywords'] = $info->keywords?:$this->keywords;
         $data['description'] = $this->description;
         return $this->show(6,'index/news/news_info',$data);
     }
