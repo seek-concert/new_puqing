@@ -1,6 +1,17 @@
 @extends('pqadmin.public')
 @section('content')
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <style>
+        tbody{ border-bottom: 1px #bbb5b5 solid !important;}
+        .pagination{text-align: center;height: 30px}
+        .pagination li{
+            text-align: center;
+            float: left;
+            list-style-type:none;
+            margin-left: 10px;
+        }
+        .dtBottom{display: none}
+    </style>
     <div class="contents">
         <div class="grid_wrapper">
             <div class="g_6 contents_header">
@@ -85,8 +96,10 @@
                                 </td>
                             </tr>
                         @endforeach
+
                         </tbody>
                     </table>
+                    {{ $list->links() }}
                 </div>
             </div>
 

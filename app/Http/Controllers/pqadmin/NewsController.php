@@ -28,7 +28,7 @@ class NewsController extends BaseController
         $list = DB::table('news as n')
             ->join('news_category as nc','category_id','=','nc.id')
             ->select('n.id', 'n.title','n.input_time','nc.name as category_name')
-            ->get();
+            ->paginate(10);
         return view('pqadmin.news.news', ['list' => $list]);
     }
 
