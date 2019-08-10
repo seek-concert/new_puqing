@@ -50,7 +50,7 @@ class NewsController extends BaseController
             $list = DB::table('news')
                 ->insert([
                     'thumbnail' => $thumbnail,
-                    'title' => $request->input('title', ''),
+                    'title' => '[重庆网站建设公司]'.$request->input('title', ''),
                     'keywords' => $request->input('keywords', ''),
                     'author' => $request->input('zuozhe', ''),
                     'source' => $request->input('laiyuan', ''),
